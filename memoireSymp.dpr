@@ -1,9 +1,12 @@
 program memoireSymp;
 
+{$R *.dres}
+
 uses
   System.StartUpCopy,
   FMX.Forms,
-  PageLogin in 'PageLogin.pas' {Form1};
+  PageLogin in 'PageLogin.pas' {Form1},
+  FrFormElement in 'FrFormElement.pas' {Frame1: TFrame};
 
 {$R *.res}
 

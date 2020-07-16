@@ -1,0 +1,122 @@
+object Frame1: TFrame1
+  Size.Width = 300.000000000000000000
+  Size.Height = 81.000000000000000000
+  Size.PlatformDefault = False
+  object userContainer: TLayout
+    Size.Width = 300.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Line1: TLine
+      LineType = Diagonal
+      Position.Y = 57.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFF03E3E
+      Stroke.Thickness = 2.000000000000000000
+    end
+    object Label2: TLabel
+      StyledSettings = [Family, Size, Style]
+      Position.X = 20.000000000000000000
+      Position.Y = 60.000000000000000000
+      TextSettings.FontColor = xFFF1C40F
+      Text = '* Indentifiant erron'#233
+      TabOrder = 1
+    end
+    object userName: TLabel
+      StyledSettings = [Style]
+      Position.X = 28.000000000000000000
+      Position.Y = 35.000000000000000000
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.FontColor = claWhite
+      Text = 'Utilisateur'
+      TabOrder = 2
+      object animUserName: TFloatAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Position.Y'
+        StartValue = 35.000000000000000000
+        StopValue = 16.000000000000000000
+      end
+      object inversAnimUserName: TFloatAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Position.Y'
+        StartValue = 16.000000000000000000
+        StopValue = 35.000000000000000000
+      end
+      object animColorUserName: TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'TextSettings.FontColor'
+        StartValue = claWhite
+        StopValue = xFFF03E3E
+      end
+      object inversAnimColorUserName: TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'TextSettings.FontColor'
+        StartValue = xFFF03E3E
+        StopValue = claWhite
+      end
+    end
+    object LineOne: TLine
+      LineType = Diagonal
+      Position.Y = 57.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claWhite
+      Stroke.Thickness = 2.000000000000000000
+      object animLineOne: TFloatAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Opacity'
+        StartValue = 1.000000000000000000
+        StopValue = 0.000000000000000000
+      end
+      object inversAnimLineOne: TFloatAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Opacity'
+        StartValue = 0.000000000000000000
+        StopValue = 1.000000000000000000
+      end
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 4
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 13.000000000000000000
+      TextSettings.FontColor = claWhite
+      Position.X = 24.000000000000000000
+      Position.Y = 33.000000000000000000
+      Size.Width = 270.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Style]
+      OnEnter = Edit1Enter
+      OnExit = Edit1Exit
+    end
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+          Width = 15
+          Height = 15
+          PNG = {
+            89504E470D0A1A0A0000000D494844520000000F0000000F08060000003BD695
+            4A000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            00D949444154384F8D53DB0DC2300C6CAC0ED00DE80819A123B0018CC006CCC2
+            066C0023C0048C40F96E93702752A949F32052555BF69DCF76D234D171CE0DC6
+            98DB344D6FD88E7FFA308F716EE05B6BCF04E40EE2A72C01AABC4A60AFA6DB10
+            00D497804B0CD5770B588A7D54826BF0F80F9152EA93CC5B269C93CFF81A18C8
+            16914BA93AE2D76C9C43AB54EF8BAD8140C72BF384430C0C6403C81D6AC87B04
+            BD89DCE1775496DAB1F657B0BA6A9FF72341F6BE8A4824E0B21C14FB6BDBB63C
+            88C494E6791E155F0B59D82F7B02D1F6EE7A30013047CE04DFF30B820D7FB2E1
+            75C0830000000049454E44AE426082}
+        end>
+      Position.X = 1.000000000000000000
+      Position.Y = 35.000000000000000000
+      Size.Width = 15.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end
