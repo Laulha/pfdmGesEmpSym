@@ -19,6 +19,10 @@ type
     FrPassword: TFrame1;
     chboxImg: TImage;
     Label2: TLabel;
+    Label3: TLabel;
+    Rectangle1: TRectangle;
+    Label4: TLabel;
+    Label5: TLabel;
   private
     { Déclarations privées }
   public
