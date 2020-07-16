@@ -1,0 +1,5 @@
+bground RCDATA "asset\\login\\bgLogin2.png"
+chbox RCDATA "asset\\login\\checkbox.png"
+logo RCDATA "asset\\login\\LogoSymp.png"
+mdp RCDATA "asset\\login\\password.png"
+user RCDATA "asset\\login\\utilisateur.png"
