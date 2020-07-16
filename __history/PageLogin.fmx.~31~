@@ -1,4 +1,4 @@
-﻿object Form1: TForm1
+object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
@@ -8,7 +8,7 @@
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
-  object bgcLogin: TImage
+  object bcImg: TImage
     MultiResBitmap = <
       item
         Width = 800
@@ -17700,13 +17700,13 @@
     Size.Width = 300.000000000000000000
     Size.Height = 500.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 1
+    TabOrder = 0
     object headerCenterElement: TLayout
       Size.Width = 300.000000000000000000
       Size.Height = 120.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
-      object imgLogo: TImage
+      object Image2: TImage
         MultiResBitmap = <
           item
             Width = 83
@@ -17903,7 +17903,87 @@
       Size.Height = 81.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 2
-      object imgUser: TImage
+      object Line1: TLine
+        LineType = Diagonal
+        Position.Y = 57.000000000000000000
+        Size.Width = 300.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFF03E3E
+        Stroke.Thickness = 2.000000000000000000
+      end
+      object Label2: TLabel
+        StyledSettings = [Family, Size, Style]
+        Position.X = 20.000000000000000000
+        Position.Y = 60.000000000000000000
+        TextSettings.FontColor = xFFF1C40F
+        Text = '* Indentifiant erron'#233
+        TabOrder = 1
+      end
+      object userName: TLabel
+        StyledSettings = [Style]
+        Position.X = 28.000000000000000000
+        Position.Y = 35.000000000000000000
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Utilisateur'
+        TabOrder = 2
+        object animUserName: TFloatAnimation
+          Duration = 0.200000002980232200
+          OnFinish = animUserNameFinish
+          PropertyName = 'Position.Y'
+          StartValue = 35.000000000000000000
+          StopValue = 16.000000000000000000
+        end
+        object inversAnimUserName: TFloatAnimation
+          Duration = 0.200000002980232200
+          OnFinish = inversAnimUserNameFinish
+          PropertyName = 'Position.Y'
+          StartValue = 16.000000000000000000
+          StopValue = 35.000000000000000000
+        end
+      end
+      object LineOne: TLine
+        LineType = Diagonal
+        Position.Y = 57.000000000000000000
+        Size.Width = 300.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        Stroke.Thickness = 2.000000000000000000
+        object animLineOne: TFloatAnimation
+          Duration = 0.200000002980232200
+          OnFinish = animLineOneFinish
+          PropertyName = 'Opacity'
+          StartValue = 1.000000000000000000
+          StopValue = 0.000000000000000000
+        end
+        object inversAnimLineOne: TFloatAnimation
+          Duration = 0.200000002980232200
+          OnFinish = inversAnimLineOneFinish
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 1.000000000000000000
+        end
+      end
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        StyleLookup = 'transparentedit'
+        TabOrder = 4
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.FontColor = claWhite
+        Position.X = 25.000000000000000000
+        Position.Y = 33.000000000000000000
+        Size.Width = 270.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Style]
+        OnEnter = Edit1Enter
+        OnExit = Edit1Exit
+      end
+      object Image1: TImage
         MultiResBitmap = <
           item
             Width = 15
@@ -17920,49 +18000,21 @@
               0B7CE09DE06C518E59630202F411B8D71743A4564F36A4630F0000000049454E
               44AE426082}
           end>
-        Position.X = 2.000000000000000000
+        Position.X = 1.000000000000000000
         Position.Y = 35.000000000000000000
         Size.Width = 15.000000000000000000
         Size.Height = 15.000000000000000000
         Size.PlatformDefault = False
       end
-      object Line1: TLine
-        LineType = Diagonal
-        Position.Y = 57.000000000000000000
-        Size.Width = 297.000000000000000000
-        Size.Height = 1.000000000000000000
-        Size.PlatformDefault = False
-        Stroke.Color = claWhite
-        Stroke.Thickness = 2.000000000000000000
-      end
-      object Label2: TLabel
-        StyledSettings = [Family, Size, Style]
-        Position.X = 21.000000000000000000
-        Position.Y = 60.000000000000000000
-        TextSettings.FontColor = xFFF1C40F
-        Text = '* Indentifiant erron'#233
-        TabOrder = 2
-      end
-      object ÿ: TLabel
-        StyledSettings = [Style]
-        Position.X = 28.000000000000000000
-        Position.Y = 35.000000000000000000
-        TextSettings.Font.Family = 'Roboto'
-        TextSettings.Font.Size = 13.000000000000000000
-        TextSettings.FontColor = claWhite
-        Text = 'Utilisateur'
-        TabOrder = 4
-      end
-      object Label3: TLabel
-        StyledSettings = [Style]
-        Position.X = 28.000000000000000000
-        Position.Y = 15.000000000000000000
-        TextSettings.Font.Family = 'Roboto'
-        TextSettings.Font.Size = 13.000000000000000000
-        TextSettings.FontColor = claWhite
-        Text = 'Utilisateur'
-        TabOrder = 3
-      end
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      Position.X = 16.000000000000000000
+      Position.Y = 360.000000000000000000
+      Size.Width = 273.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
     end
   end
 end

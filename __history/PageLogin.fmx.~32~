@@ -17898,7 +17898,7 @@ object Form1: TForm1
       TabOrder = 1
     end
     object userContainer: TLayout
-      Position.Y = 174.000000000000000000
+      Position.Y = 176.000000000000000000
       Size.Width = 300.000000000000000000
       Size.Height = 81.000000000000000000
       Size.PlatformDefault = False
@@ -17943,19 +17943,11 @@ object Form1: TForm1
           StartValue = 16.000000000000000000
           StopValue = 35.000000000000000000
         end
-        object animColorUserName: TColorAnimation
+        object animeColorUserName: TColorAnimation
           Duration = 0.200000002980232200
-          OnFinish = animColorUserNameFinish
           PropertyName = 'TextSettings.FontColor'
           StartValue = claWhite
           StopValue = xFFF03E3E
-        end
-        object inversAnimColorUserName: TColorAnimation
-          Duration = 0.200000002980232200
-          OnFinish = inversAnimColorUserNameFinish
-          PropertyName = 'TextSettings.FontColor'
-          StartValue = xFFF03E3E
-          StopValue = claWhite
         end
       end
       object LineOne: TLine
@@ -17988,7 +17980,7 @@ object Form1: TForm1
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 13.000000000000000000
         TextSettings.FontColor = claWhite
-        Position.X = 24.000000000000000000
+        Position.X = 25.000000000000000000
         Position.Y = 33.000000000000000000
         Size.Width = 270.000000000000000000
         Size.Height = 22.000000000000000000
@@ -18024,8 +18016,11 @@ object Form1: TForm1
     object Edit2: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
       TabOrder = 3
-      Position.X = 112.000000000000000000
-      Position.Y = 344.000000000000000000
+      Position.X = 16.000000000000000000
+      Position.Y = 360.000000000000000000
+      Size.Width = 273.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
     end
   end
 end

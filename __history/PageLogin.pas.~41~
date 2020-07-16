@@ -24,11 +24,10 @@ type
     Image2: TImage;
     animLineOne: TFloatAnimation;
     inversAnimLineOne: TFloatAnimation;
+    Edit2: TEdit;
     animUserName: TFloatAnimation;
     inversAnimUserName: TFloatAnimation;
     animColorUserName: TColorAnimation;
-    inversAnimColorUserName: TColorAnimation;
-    Edit2: TEdit;
     procedure animLineOneFinish(Sender: TObject);
     procedure Edit1Enter(Sender: TObject);
     procedure inversAnimLineOneFinish(Sender: TObject);
@@ -36,7 +35,6 @@ type
     procedure animUserNameFinish(Sender: TObject);
     procedure inversAnimUserNameFinish(Sender: TObject);
     procedure animColorUserNameFinish(Sender: TObject);
-    procedure inversAnimColorUserNameFinish(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -62,32 +60,20 @@ end;
 
 procedure TForm1.Edit1Enter(Sender: TObject);
 begin
-if Edit1.Text = '' then
-begin
-  animLineOne.Enabled := True;
-  animUserName.Enabled := True;
-  animColorUserName.Enabled := True;
-end;
+animLineOne.Enabled := True;
+animUserName.Enabled := True;
+animColorUserName.Enabled := True;
 end;
 
 procedure TForm1.Edit1Exit(Sender: TObject);
 begin
-if Edit1.Text = '' then
-begin
 inversAnimLineOne.Enabled := True;
 inversAnimUserName.Enabled := True;
-inversAnimColorUserName.Enabled := True;
-end;
 end;
 
 procedure TForm1.animUserNameFinish(Sender: TObject);
 begin
 animUserName.Enabled := False;
-end;
-
-procedure TForm1.inversAnimColorUserNameFinish(Sender: TObject);
-begin
-inversAnimColorUserName.Enabled := False;
 end;
 
 procedure TForm1.inversAnimLineOneFinish(Sender: TObject);

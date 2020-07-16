@@ -28,7 +28,6 @@ type
     inversAnimUserName: TFloatAnimation;
     animColorUserName: TColorAnimation;
     inversAnimColorUserName: TColorAnimation;
-    Edit2: TEdit;
     procedure animLineOneFinish(Sender: TObject);
     procedure Edit1Enter(Sender: TObject);
     procedure inversAnimLineOneFinish(Sender: TObject);

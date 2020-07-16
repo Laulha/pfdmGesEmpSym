@@ -24,11 +24,11 @@ type
     Image2: TImage;
     animLineOne: TFloatAnimation;
     inversAnimLineOne: TFloatAnimation;
+    Edit2: TEdit;
     animUserName: TFloatAnimation;
     inversAnimUserName: TFloatAnimation;
     animColorUserName: TColorAnimation;
     inversAnimColorUserName: TColorAnimation;
-    Edit2: TEdit;
     procedure animLineOneFinish(Sender: TObject);
     procedure Edit1Enter(Sender: TObject);
     procedure inversAnimLineOneFinish(Sender: TObject);

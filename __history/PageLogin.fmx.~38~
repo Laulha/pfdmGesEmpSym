@@ -17902,7 +17902,7 @@ object Form1: TForm1
       Size.Width = 300.000000000000000000
       Size.Height = 81.000000000000000000
       Size.PlatformDefault = False
-      TabOrder = 2
+      TabOrder = 3
       object Line1: TLine
         LineType = Diagonal
         Position.Y = 57.000000000000000000
@@ -18023,9 +18023,133 @@ object Form1: TForm1
     end
     object Edit2: TEdit
       Touch.InteractiveGestures = [LongTap, DoubleTap]
-      TabOrder = 3
+      TabOrder = 4
       Position.X = 112.000000000000000000
       Position.Y = 344.000000000000000000
+    end
+    object mdpContainer: TLayout
+      Position.Y = 254.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 81.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object Line2: TLine
+        LineType = Diagonal
+        Position.Y = 57.000000000000000000
+        Size.Width = 300.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFF03E3E
+        Stroke.Thickness = 2.000000000000000000
+      end
+      object Label3: TLabel
+        StyledSettings = [Family, Size, Style]
+        Position.X = 20.000000000000000000
+        Position.Y = 60.000000000000000000
+        TextSettings.FontColor = xFFF1C40F
+        Text = '* Indentifiant erron'#233
+        TabOrder = 1
+      end
+      object motdepasse: TLabel
+        StyledSettings = [Style]
+        Position.X = 28.000000000000000000
+        Position.Y = 35.000000000000000000
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.FontColor = claWhite
+        Text = 'Mot de passe'
+        TabOrder = 2
+        object FloatAnimation1: TFloatAnimation
+          Duration = 0.200000002980232200
+          OnFinish = animUserNameFinish
+          PropertyName = 'Position.Y'
+          StartValue = 35.000000000000000000
+          StopValue = 16.000000000000000000
+        end
+        object FloatAnimation2: TFloatAnimation
+          Duration = 0.200000002980232200
+          OnFinish = inversAnimUserNameFinish
+          PropertyName = 'Position.Y'
+          StartValue = 16.000000000000000000
+          StopValue = 35.000000000000000000
+        end
+        object ColorAnimation1: TColorAnimation
+          Duration = 0.200000002980232200
+          OnFinish = animColorUserNameFinish
+          PropertyName = 'TextSettings.FontColor'
+          StartValue = claWhite
+          StopValue = xFFF03E3E
+        end
+        object ColorAnimation2: TColorAnimation
+          Duration = 0.200000002980232200
+          OnFinish = inversAnimColorUserNameFinish
+          PropertyName = 'TextSettings.FontColor'
+          StartValue = xFFF03E3E
+          StopValue = claWhite
+        end
+      end
+      object Line3: TLine
+        LineType = Diagonal
+        Position.Y = 57.000000000000000000
+        Size.Width = 300.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        Stroke.Thickness = 2.000000000000000000
+        object FloatAnimation3: TFloatAnimation
+          Duration = 0.200000002980232200
+          OnFinish = animLineOneFinish
+          PropertyName = 'Opacity'
+          StartValue = 1.000000000000000000
+          StopValue = 0.000000000000000000
+        end
+        object FloatAnimation4: TFloatAnimation
+          Duration = 0.200000002980232200
+          OnFinish = inversAnimLineOneFinish
+          PropertyName = 'Opacity'
+          StartValue = 0.000000000000000000
+          StopValue = 1.000000000000000000
+        end
+      end
+      object Edit3: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        StyleLookup = 'transparentedit'
+        TabOrder = 4
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.FontColor = claWhite
+        Position.X = 24.000000000000000000
+        Position.Y = 33.000000000000000000
+        Size.Width = 270.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Style]
+        OnEnter = Edit1Enter
+        OnExit = Edit1Exit
+      end
+      object Image3: TImage
+        MultiResBitmap = <
+          item
+            Width = 15
+            Height = 15
+            PNG = {
+              89504E470D0A1A0A0000000D494844520000000F0000000F08060000003BD695
+              4A000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+              00CC49444154384F8D538111C2200C2C4CD00D64848ED011DCA08EE006CEE206
+              6EA023D4091CA17500C0FF13EEDA08C1DCE52097FF4F08D075C2628CA3F7FE0E
+              5FB08F5C19637B92D85D1C42B8905033E4CF5501547869E4D44DFF230092D388
+              3987EA874CB6EA391AC92D79FD47C818F32EE2F2846BED33BF25CAB6AF8DEAB7
+              6A9E436B5477AA3804067965497094C45DDB20F20E07F82C800FC43D3B2BDD31
+              ABF109362DE1BE22401F9B8C02008F65323C9FB5561F44614A20AF86BF852A3C
+              13DC41886BD14840823E03F7FC00BA7879D63A10FF9B0000000049454E44AE42
+              6082}
+          end>
+        Position.X = 1.000000000000000000
+        Position.Y = 35.000000000000000000
+        Size.Width = 15.000000000000000000
+        Size.Height = 15.000000000000000000
+        Size.PlatformDefault = False
+      end
     end
   end
 end

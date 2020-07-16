@@ -17898,7 +17898,7 @@ object Form1: TForm1
       TabOrder = 1
     end
     object userContainer: TLayout
-      Position.Y = 174.000000000000000000
+      Position.Y = 192.000000000000000000
       Size.Width = 300.000000000000000000
       Size.Height = 81.000000000000000000
       Size.PlatformDefault = False
@@ -18020,12 +18020,6 @@ object Form1: TForm1
         Size.Height = 15.000000000000000000
         Size.PlatformDefault = False
       end
-    end
-    object Edit2: TEdit
-      Touch.InteractiveGestures = [LongTap, DoubleTap]
-      TabOrder = 3
-      Position.X = 112.000000000000000000
-      Position.Y = 344.000000000000000000
     end
   end
 end
