@@ -36,6 +36,14 @@ type
 
 var
   Form1: TForm1;
+  {
+  On déclare "res" et "img" ici et non dans procédure qui l'utilise
+  (ChargerImageRessouces) pour qu'elles soient déclaré de façon globale
+  pour résoudre le warning qui disais que les variables ne sont pas
+  initialisé. Le problème est que les variables locales ne sont pas
+  par défaut initialisé chose qui n'est pas le cas pour les variables
+  globales
+  }
   res : TResourceStream;
   img : TBitmap;
 
