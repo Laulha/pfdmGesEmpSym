@@ -216,6 +216,46 @@
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>user</ResourceId>
         </RcItem>
+        <RcItem Include="asset\headerProgramme\banniere.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>banniere</ResourceId>
+        </RcItem>
+        <RcItem Include="asset\headerProgramme\btnResize.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>btnResize</ResourceId>
+        </RcItem>
+        <RcItem Include="asset\headerProgramme\calendarG.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>calendarG</ResourceId>
+        </RcItem>
+        <RcItem Include="asset\headerProgramme\empl1.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>empl1</ResourceId>
+        </RcItem>
+        <RcItem Include="asset\headerProgramme\empl2.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>empl2</ResourceId>
+        </RcItem>
+        <RcItem Include="asset\headerProgramme\empl3.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>empl3</ResourceId>
+        </RcItem>
+        <RcItem Include="asset\headerProgramme\flecheBas.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>flecheBas</ResourceId>
+        </RcItem>
+        <RcItem Include="asset\headerProgramme\logo_SS.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>logo_SS</ResourceId>
+        </RcItem>
+        <RcItem Include="asset\headerProgramme\loupe.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>loupe</ResourceId>
+        </RcItem>
+        <RcItem Include="asset\headerProgramme\notification.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>notif</ResourceId>
+        </RcItem>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -238,14 +278,15 @@
                 </Source>
             </Delphi.Personality>
             <Deployment Version="3">
-                <DeployFile LocalName="$(BDS)\Redist\osx32\libcgunwind.1.0.dylib" Class="DependencyModule">
-                    <Platform Name="OSX32">
+                <DeployFile LocalName="asset\headerProgramme\calendarG.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Win32\Debug\memoireSymp.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
-                        <RemoteName>memoireSymp.exe</RemoteName>
+                        <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -261,13 +302,19 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\login\bgLogin2.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\headerProgramme\logo_SS.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="asset\login\password.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="asset\headerProgramme\empl2.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -280,6 +327,59 @@
                 </DeployFile>
                 <DeployFile LocalName="$(BDS)\Redist\iossimulator\libpcre.dylib" Class="DependencyModule">
                     <Platform Name="iOSSimulator">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="asset\headerProgramme\flecheBas.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="asset\headerProgramme\loupe.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="$(BDS)\Redist\osx32\libcgunwind.1.0.dylib" Class="DependencyModule">
+                    <Platform Name="OSX32">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Win32\Debug\memoireSymp.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>memoireSymp.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="asset\headerProgramme\banniere.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="asset\headerProgramme\notification.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="asset\login\bgLogin2.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="asset\headerProgramme\empl1.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="asset\headerProgramme\btnResize.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
