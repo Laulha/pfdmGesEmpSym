@@ -1,0 +1,47 @@
+unit varGlobale;
+
+interface
+
+uses System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+FMX.Graphics, FMX.Objects;
+
+// Dans cette fonction on passe le conteneur de l'image
+// et le nom de l'image à charger depuis les ressouces
+procedure ChargerImageRessources (image: TImage; nom : string);
+
+var
+ {
+  On déclare "res" et "img" ici et non dans procédure qui l'utilise
+  (ChargerImageRessouces) pour qu'elles soient déclaré de façon globale
+  pour résoudre le warning qui disais que les variables ne sont pas
+  initialisé. Le problème est que les variables locales ne sont pas
+  par défaut initialisé chose qui n'est pas le cas pour les variables
+  globales
+  }
+  res : TResourceStream;
+  img : TBitmap;
+
+implementation
+
+procedure ChargerImageRessources (image: TImage; nom : string);
+
+
+begin
+    try
+    // On charge notre "image" qui n'est pas encore une image mais un simple flux
+      res := TResourceStream.Create(HInstance, nom, RT_RCDATA);
+      try
+      // On cree une image pour convertir notre flux (stream) en image
+        img := TBitmap.Create;
+        img.LoadFromStream(res);
+        // Une fois notre ressource convertie en image, on l'injecte dans notre TImage
+        image.MultiResBitmap.Items[0].Bitmap.LoadFromStream(res);
+      finally
+        img.Free;
+      end;
+    finally
+      res.Free;
+    end;
+end;
+
+end.

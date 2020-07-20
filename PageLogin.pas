@@ -6,7 +6,7 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
   FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts, FMX.Objects, FMX.Edit,
-  FMX.Ani, FrFormElement;
+  FMX.Ani, FrFormElement, varGlobale;
 
 type
   TForm1 = class(TForm)
@@ -36,41 +36,13 @@ type
 
 var
   Form1: TForm1;
-  {
-  On déclare "res" et "img" ici et non dans procédure qui l'utilise
-  (ChargerImageRessouces) pour qu'elles soient déclaré de façon globale
-  pour résoudre le warning qui disais que les variables ne sont pas
-  initialisé. Le problème est que les variables locales ne sont pas
-  par défaut initialisé chose qui n'est pas le cas pour les variables
-  globales
-  }
-  res : TResourceStream;
-  img : TBitmap;
+
 
 implementation
 
 {$R *.fmx}
 
-procedure ChargerImageRessources (image: TImage; nom : string);
 
-
-begin
-    try
-    // On charge notre "image" qui n'est pas encore une image mais un simple flux
-      res := TResourceStream.Create(HInstance, nom, RT_RCDATA);
-      try
-      // On cree une image pour convertir notre flux (stream) en image
-        img := TBitmap.Create;
-        img.LoadFromStream(res);
-        // Une fois notre ressource convertie en image, on l'injecte dans notre TImage
-        image.MultiResBitmap.Items[0].Bitmap.LoadFromStream(res);
-      finally
-        img.Free;
-      end;
-    finally
-      res.Free;
-    end;
-end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
