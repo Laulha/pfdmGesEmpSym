@@ -23,6 +23,15 @@ type
     Label1: TLabel;
     notif: TImage;
     admin: TImage;
+    nav: TLayout;
+    navItems: TLayout;
+    candidats: TLabel;
+    employe: TLabel;
+    conge: TLabel;
+    absence: TLabel;
+    evaluation: TLabel;
+    tache: TLabel;
+    fichePointage: TLabel;
   private
     { Déclarations privées }
   public

@@ -262,6 +262,10 @@
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>notif</ResourceId>
         </RcItem>
+        <RcItem Include="asset\headerProgramme\fillebien.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>admin</ResourceId>
+        </RcItem>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -343,6 +347,12 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="asset\headerProgramme\loupe.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="asset\headerProgramme\fillebien.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
