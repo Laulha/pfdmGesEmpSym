@@ -32,15 +32,6 @@ type
     evaluation: TLabel;
     tache: TLabel;
     fichePointage: TLabel;
-    ShadowEffect1: TShadowEffect;
-    containTask: TLayout;
-    Rectangle2: TRectangle;
-    Rectangle3: TRectangle;
-    Rectangle4: TRectangle;
-    Rectangle5: TRectangle;
-    Circle1: TCircle;
-    Rectangle6: TRectangle;
-    ShadowEffect2: TShadowEffect;
   private
     { Déclarations privées }
   public
