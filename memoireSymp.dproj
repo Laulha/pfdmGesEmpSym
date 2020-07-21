@@ -196,6 +196,12 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
+        <DCCReference Include="varGlobale.pas"/>
+        <DCCReference Include="FrHeaderApp.pas">
+            <Form>headerApp</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <RcItem Include="asset\login\bgLogin2.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>bground</ResourceId>
@@ -256,6 +262,10 @@
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>notif</ResourceId>
         </RcItem>
+        <RcItem Include="asset\headerProgramme\fillebien.png">
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>admin</ResourceId>
+        </RcItem>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -284,7 +294,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\login\utilisateur.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -342,6 +352,12 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="asset\headerProgramme\fillebien.png" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="$(BDS)\Redist\osx32\libcgunwind.1.0.dylib" Class="DependencyModule">
                     <Platform Name="OSX32">
                         <Overwrite>true</Overwrite>
@@ -383,7 +399,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\login\utilisateur.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
