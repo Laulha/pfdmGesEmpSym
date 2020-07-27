@@ -5,7 +5,8 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Effects, FMX.Layouts;
+  FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Effects, FMX.Layouts,
+  FrNavElement, FMX.Ani;
 
 type
   TPprincipale = class(TForm)
@@ -26,6 +27,14 @@ type
     Label3: TLabel;
     Label1: TLabel;
     Label4: TLabel;
+    navItems: TLayout;
+    elementNav1: TelementNav;
+    elementNav2: TelementNav;
+    elementNav3: TelementNav;
+    elementNav4: TelementNav;
+    elementNav5: TelementNav;
+    elementNav6: TelementNav;
+    elementNav7: TelementNav;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
   private
