@@ -1,15 +1,18 @@
 object elementNav: TelementNav
-  Size.Width = 336.000000000000000000
-  Size.Height = 118.000000000000000000
+  Size.Width = 100.000000000000000000
+  Size.Height = 35.000000000000000000
   Size.PlatformDefault = False
-  object Rectangle1: TRectangle
+  object elementNagivation: TRectangle
+    Align = Client
     Fill.Color = claWhite
-    Position.X = 56.000000000000000000
-    Position.Y = 32.000000000000000000
     Size.Width = 100.000000000000000000
-    Size.Height = 34.000000000000000000
+    Size.Height = 35.000000000000000000
     Size.PlatformDefault = False
     Stroke.Thickness = 0.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnMouseEnter = elementNagivationMouseEnter
+    OnMouseLeave = elementNagivationMouseLeave
     object first: TLabel
       Align = Center
       StyledSettings = []
@@ -43,10 +46,33 @@ object elementNav: TelementNav
       end
       object opakInvers: TFloatAnimation
         Duration = 0.200000002980232200
+        OnFinish = opakInversFinish
         PropertyName = 'Opacity'
         StartValue = 0.000000000000000000
         StopValue = 1.000000000000000000
       end
+    end
+    object colorIn: TColorAnimation
+      Duration = 0.200000002980232200
+      OnFinish = colorInFinish
+      PropertyName = 'Fill.Color'
+      StartValue = claWhite
+      StopValue = xFFC63939
+    end
+    object colorOut: TColorAnimation
+      Duration = 0.200000002980232200
+      OnFinish = colorOutFinish
+      PropertyName = 'Fill.Color'
+      StartValue = xFFC63939
+      StopValue = claWhite
+    end
+    object ombre: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.300000011920929000
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+      Enabled = False
     end
   end
 end

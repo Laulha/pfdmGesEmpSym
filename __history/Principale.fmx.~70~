@@ -660,9 +660,9 @@ object Pprincipale: TPprincipale
           Size.Width = 865.000000000000000000
           Size.Height = 34.000000000000000000
           Size.PlatformDefault = False
+          Visible = False
           TabOrder = 0
           inline elementNav1: TelementNav
-            Cursor = crHandPoint
             Position.X = 25.000000000000000000
             Position.Y = -6.000000000000000000
             Size.Width = 100.000000000000000000
@@ -678,7 +678,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav2: TelementNav
-            Cursor = crHandPoint
             Position.X = 137.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 100.000000000000000000
@@ -696,7 +695,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav3: TelementNav
-            Cursor = crHandPoint
             Position.X = 249.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 100.000000000000000000
@@ -716,7 +714,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav4: TelementNav
-            Cursor = crHandPoint
             Position.X = 361.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 100.000000000000000000
@@ -734,7 +731,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav5: TelementNav
-            Cursor = crHandPoint
             Position.X = 472.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 110.000000000000000000
@@ -755,7 +751,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav6: TelementNav
-            Cursor = crHandPoint
             Position.X = 594.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 100.000000000000000000
@@ -775,7 +770,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav7: TelementNav
-            Cursor = crHandPoint
             Position.X = 705.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 145.000000000000000000
@@ -906,17 +900,14 @@ object Pprincipale: TPprincipale
   end
   object menu: TRectangle
     Anchors = [akTop]
-    Cursor = crHandPoint
     Fill.Color = xFF424B5E
     Position.X = 488.000000000000000000
     Position.Y = 80.000000000000000000
     Size.Width = 105.000000000000000000
     Size.Height = 35.000000000000000000
     Size.PlatformDefault = False
-    Visible = False
     XRadius = 3.000000000000000000
     YRadius = 3.000000000000000000
-    OnClick = menuClick
     object Line1: TLine
       LineType = Diagonal
       Position.X = 7.000000000000000000
@@ -969,8 +960,7 @@ object Pprincipale: TPprincipale
     Size.Width = 250.000000000000000000
     Size.Height = 344.000000000000000000
     Size.PlatformDefault = False
-    Visible = False
-    TabOrder = 7
+    TabOrder = 8
     object Rectangle1: TRectangle
       Align = Client
       Fill.Color = xFF424B5E
@@ -996,7 +986,6 @@ object Pprincipale: TPprincipale
       FlowDirection = LeftToRight
       VerticalGap = 10.000000000000000000
       inline elementNav8: TelementNav
-        Cursor = crHandPoint
         Position.X = 10.000000000000000000
         Position.Y = 10.000000000000000000
         Size.Width = 215.000000000000000000
@@ -1026,7 +1015,6 @@ object Pprincipale: TPprincipale
         FlowDirection = LeftToRight
       end
       inline elementNav9: TelementNav
-        Cursor = crHandPoint
         Position.X = 10.000000000000000000
         Position.Y = 55.000000000000000000
         Size.Width = 215.000000000000000000
@@ -1058,7 +1046,6 @@ object Pprincipale: TPprincipale
         FlowDirection = LeftToRight
       end
       inline elementNav10: TelementNav
-        Cursor = crHandPoint
         Position.X = 10.000000000000000000
         Position.Y = 100.000000000000000000
         Size.Width = 215.000000000000000000
@@ -1090,7 +1077,6 @@ object Pprincipale: TPprincipale
         FlowDirection = LeftToRight
       end
       inline elementNav11: TelementNav
-        Cursor = crHandPoint
         Position.X = 10.000000000000000000
         Position.Y = 145.000000000000000000
         Size.Width = 215.000000000000000000
@@ -1122,7 +1108,6 @@ object Pprincipale: TPprincipale
         FlowDirection = LeftToRight
       end
       inline elementNav12: TelementNav
-        Cursor = crHandPoint
         Position.X = 10.000000000000000000
         Position.Y = 190.000000000000000000
         Size.Width = 215.000000000000000000
@@ -1154,7 +1139,6 @@ object Pprincipale: TPprincipale
         FlowDirection = LeftToRight
       end
       inline elementNav13: TelementNav
-        Cursor = crHandPoint
         Position.X = 10.000000000000000000
         Position.Y = 235.000000000000000000
         Size.Width = 215.000000000000000000
@@ -1186,7 +1170,6 @@ object Pprincipale: TPprincipale
         FlowDirection = LeftToRight
       end
       inline elementNav14: TelementNav
-        Cursor = crHandPoint
         Position.X = 10.000000000000000000
         Position.Y = 280.000000000000000000
         Size.Width = 215.000000000000000000

@@ -27,9 +27,38 @@ type
     Label3: TLabel;
     Label1: TLabel;
     Label4: TLabel;
+    navItems: TLayout;
+    elementNav1: TelementNav;
+    elementNav2: TelementNav;
+    elementNav3: TelementNav;
+    elementNav4: TelementNav;
+    elementNav5: TelementNav;
+    elementNav6: TelementNav;
+    elementNav7: TelementNav;
+    menu: TRectangle;
+    Line1: TLine;
+    Line2: TLine;
+    Line3: TLine;
+    Label5: TLabel;
+    menuContainer: TLayout;
+    Rectangle1: TRectangle;
+    menuResize: TFlowLayout;
+    elementNav8: TelementNav;
+    FlowLayoutBreak1: TFlowLayoutBreak;
+    elementNav9: TelementNav;
+    FlowLayoutBreak2: TFlowLayoutBreak;
+    elementNav10: TelementNav;
+    FlowLayoutBreak3: TFlowLayoutBreak;
+    elementNav11: TelementNav;
+    FlowLayoutBreak4: TFlowLayoutBreak;
+    elementNav12: TelementNav;
+    FlowLayoutBreak5: TFlowLayoutBreak;
+    elementNav13: TelementNav;
+    FlowLayoutBreak6: TFlowLayoutBreak;
+    elementNav14: TelementNav;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
-    procedure opakkFinish(Sender: TObject);
+    procedure menuClick(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -117,6 +146,21 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
       task.Visible := True;
     end;
 
+  // Gestion du menu
+  if Pprincipale.Width < 802 then
+    begin
+      navItems.Visible := False;
+      menu.Visible := True;
+    end
+  else
+    begin
+      navItems.Visible := True;
+      menu.Visible := False;
+      menuContainer.Visible := False;
+    end;
+
+
+
   // Gestion de la barre de recherche
   if Pprincipale.Width < 702 then
     begin
@@ -151,9 +195,9 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
 
 end;
 
-procedure TPprincipale.opakkFinish(Sender: TObject);
+procedure TPprincipale.menuClick(Sender: TObject);
 begin
-opakk.Enabled := False;
+  menuContainer.Visible := True;
 end;
 
 end.

@@ -27,13 +27,38 @@ type
     Label3: TLabel;
     Label1: TLabel;
     Label4: TLabel;
+    navItems: TLayout;
+    elementNav1: TelementNav;
+    elementNav2: TelementNav;
+    elementNav3: TelementNav;
+    elementNav4: TelementNav;
+    elementNav5: TelementNav;
+    elementNav6: TelementNav;
+    elementNav7: TelementNav;
+    menu: TRectangle;
+    Line1: TLine;
+    Line2: TLine;
+    Line3: TLine;
     Label5: TLabel;
-    Button1: TButton;
-    Label6: TLabel;
-    opakk: TFloatAnimation;
+    menuContainer: TLayout;
+    Rectangle1: TRectangle;
+    menuResize: TFlowLayout;
+    elementNav8: TelementNav;
+    FlowLayoutBreak1: TFlowLayoutBreak;
+    elementNav9: TelementNav;
+    FlowLayoutBreak2: TFlowLayoutBreak;
+    elementNav10: TelementNav;
+    FlowLayoutBreak3: TFlowLayoutBreak;
+    elementNav11: TelementNav;
+    FlowLayoutBreak4: TFlowLayoutBreak;
+    elementNav12: TelementNav;
+    FlowLayoutBreak5: TFlowLayoutBreak;
+    elementNav13: TelementNav;
+    FlowLayoutBreak6: TFlowLayoutBreak;
+    elementNav14: TelementNav;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
-    procedure opakkFinish(Sender: TObject);
+    procedure menuClick(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -44,6 +69,7 @@ var
   Pprincipale: TPprincipale;
   gardeFou : Integer;
   tailleEcran : Real;
+  toggleMenu : Boolean;
 
 implementation
 
@@ -52,6 +78,7 @@ implementation
 procedure TPprincipale.FormCreate(Sender: TObject);
 begin
   tailleEcran := 604;
+  toggleMenu := True;
 end;
 
 procedure TPprincipale.FormResize(Sender: TObject);
@@ -121,6 +148,22 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
       task.Visible := True;
     end;
 
+  // Gestion du menu
+  if Pprincipale.Width < 802 then
+    begin
+      navItems.Visible := False;
+      menu.Visible := True;
+    end
+  else
+    begin
+      navItems.Visible := True;
+      menu.Visible := False;
+      menuContainer.Visible := False;
+      toggleMenu := True;
+    end;
+
+
+
   // Gestion de la barre de recherche
   if Pprincipale.Width < 702 then
     begin
@@ -155,9 +198,28 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
 
 end;
 
-procedure TPprincipale.opakkFinish(Sender: TObject);
+// Pour gérer l'apparition du menu verticale
+procedure TPprincipale.menuClick(Sender: TObject);
 begin
-opakk.Enabled := False;
+  if toggleMenu then
+    begin
+      menuContainer.Visible := True;
+      menuContainer.Position.X := menu.Position.X - 80;
+    end
+  else
+    begin
+      menuContainer.Visible := False;
+    end;
+
+  if toggleMenu = True then
+    begin
+      toggleMenu := False;
+    end
+  else
+    begin
+      toggleMenu := True;
+    end;
+
 end;
 
 end.

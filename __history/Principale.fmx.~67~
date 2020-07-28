@@ -15,7 +15,7 @@ object Pprincipale: TPprincipale
     Size.Width = 1100.000000000000000000
     Size.Height = 115.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 0
+    TabOrder = 1
     object bg: TRectangle
       Anchors = [akLeft, akTop, akRight]
       Fill.Color = claWhite
@@ -648,7 +648,6 @@ object Pprincipale: TPprincipale
       end
       object nav: TLayout
         Anchors = [akLeft, akTop, akRight]
-        Position.X = 8.000000000000000000
         Position.Y = 80.000000000000000000
         Size.Width = 1100.000000000000000000
         Size.Height = 35.000000000000000000
@@ -662,7 +661,6 @@ object Pprincipale: TPprincipale
           Size.PlatformDefault = False
           TabOrder = 0
           inline elementNav1: TelementNav
-            Cursor = crHandPoint
             Position.X = 25.000000000000000000
             Position.Y = -6.000000000000000000
             Size.Width = 100.000000000000000000
@@ -678,7 +676,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav2: TelementNav
-            Cursor = crHandPoint
             Position.X = 137.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 100.000000000000000000
@@ -696,7 +693,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav3: TelementNav
-            Cursor = crHandPoint
             Position.X = 249.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 100.000000000000000000
@@ -716,7 +712,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav4: TelementNav
-            Cursor = crHandPoint
             Position.X = 361.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 100.000000000000000000
@@ -734,7 +729,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav5: TelementNav
-            Cursor = crHandPoint
             Position.X = 472.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 110.000000000000000000
@@ -755,7 +749,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav6: TelementNav
-            Cursor = crHandPoint
             Position.X = 594.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 100.000000000000000000
@@ -775,7 +768,6 @@ object Pprincipale: TPprincipale
             end
           end
           inline elementNav7: TelementNav
-            Cursor = crHandPoint
             Position.X = 705.000000000000000000
             Position.Y = -5.000000000000000000
             Size.Width = 145.000000000000000000
@@ -805,7 +797,7 @@ object Pprincipale: TPprincipale
     Size.Width = 1100.000000000000000000
     Size.Height = 100.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 1
+    TabOrder = 2
     object containTask: TLayout
       Align = Center
       Size.Width = 782.000000000000000000
@@ -878,7 +870,7 @@ object Pprincipale: TPprincipale
     Size.Width = 782.000000000000000000
     Size.Height = 446.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 2
+    TabOrder = 3
     object Label3: TLabel
       Position.X = 32.000000000000000000
       Position.Y = 24.000000000000000000
@@ -890,325 +882,240 @@ object Pprincipale: TPprincipale
     Position.X = 384.000000000000000000
     Position.Y = 272.000000000000000000
     Text = 'Label2'
-    TabOrder = 3
+    TabOrder = 4
   end
   object Label1: TLabel
-    Position.X = 24.000000000000000000
-    Position.Y = 256.000000000000000000
+    Position.X = 16.000000000000000000
+    Position.Y = 192.000000000000000000
     Text = 'Label1'
-    TabOrder = 4
+    TabOrder = 5
   end
   object Label4: TLabel
     Position.X = 8.000000000000000000
     Position.Y = 296.000000000000000000
     Text = 'Label4'
-    TabOrder = 5
+    TabOrder = 6
   end
-  object menu: TRectangle
-    Anchors = [akTop]
-    Cursor = crHandPoint
-    Fill.Color = xFF424B5E
-    Position.X = 488.000000000000000000
-    Position.Y = 80.000000000000000000
-    Size.Width = 105.000000000000000000
-    Size.Height = 35.000000000000000000
+  object menuResize: TFlowLayout
+    Padding.Left = 10.000000000000000000
+    Padding.Top = 10.000000000000000000
+    Padding.Right = 5.000000000000000000
+    Position.X = 424.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 345.000000000000000000
     Size.PlatformDefault = False
-    Visible = False
-    XRadius = 3.000000000000000000
-    YRadius = 3.000000000000000000
-    OnClick = menuClick
-    object Line1: TLine
-      LineType = Diagonal
-      Position.X = 7.000000000000000000
+    TabOrder = 8
+    Justify = Left
+    JustifyLastLine = Left
+    FlowDirection = LeftToRight
+    VerticalGap = 10.000000000000000000
+    inline elementNav8: TelementNav
+      Position.X = 10.000000000000000000
       Position.Y = 10.000000000000000000
-      Size.Width = 20.000000000000000000
-      Size.Height = 1.000000000000000000
+      Size.Width = 215.000000000000000000
+      Size.Height = 35.000000000000000000
       Size.PlatformDefault = False
-      Stroke.Color = claWhite
-      Stroke.Thickness = 2.000000000000000000
+      inherited elementNagivation: TRectangle
+        Padding.Left = 5.000000000000000000
+        Size.Width = 215.000000000000000000
+        inherited first: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+        inherited seconde: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
     end
-    object Line2: TLine
-      LineType = Diagonal
-      Position.X = 7.000000000000000000
-      Position.Y = 16.000000000000000000
-      Size.Width = 20.000000000000000000
-      Size.Height = 1.000000000000000000
-      Size.PlatformDefault = False
-      Stroke.Color = claWhite
-      Stroke.Thickness = 2.000000000000000000
-    end
-    object Line3: TLine
-      LineType = Diagonal
-      Position.X = 7.000000000000000000
-      Position.Y = 22.000000000000000000
-      Size.Width = 20.000000000000000000
-      Size.Height = 1.000000000000000000
-      Size.PlatformDefault = False
-      Stroke.Color = claWhite
-      Stroke.Thickness = 2.000000000000000000
-    end
-    object Label5: TLabel
-      StyledSettings = []
-      Position.X = 37.000000000000000000
-      Position.Y = 8.000000000000000000
-      Size.Width = 57.000000000000000000
-      Size.Height = 17.000000000000000000
-      Size.PlatformDefault = False
-      TextSettings.Font.Family = 'Rockwell'
-      TextSettings.Font.Size = 14.000000000000000000
-      TextSettings.Font.StyleExt = {00070000000000000004000000}
-      TextSettings.FontColor = claWhite
-      Text = 'MENU'
-      TabOrder = 3
-    end
-  end
-  object menuContainer: TLayout
-    Anchors = [akTop]
-    Position.X = 408.000000000000000000
-    Position.Y = 121.000000000000000000
-    Size.Width = 250.000000000000000000
-    Size.Height = 344.000000000000000000
-    Size.PlatformDefault = False
-    Visible = False
-    TabOrder = 7
-    object Rectangle1: TRectangle
-      Align = Client
-      Fill.Color = xFF424B5E
-      Size.Width = 250.000000000000000000
-      Size.Height = 344.000000000000000000
-      Size.PlatformDefault = False
-      Stroke.Thickness = 0.000000000000000000
-      XRadius = 5.000000000000000000
-      YRadius = 5.000000000000000000
-    end
-    object menuResize: TFlowLayout
-      Padding.Left = 10.000000000000000000
-      Padding.Top = 10.000000000000000000
-      Padding.Right = 5.000000000000000000
-      Position.X = 8.000000000000000000
-      Position.Y = 7.000000000000000000
-      Size.Width = 233.000000000000000000
-      Size.Height = 329.000000000000000000
-      Size.PlatformDefault = False
-      TabOrder = 0
+    object FlowLayoutBreak1: TFlowLayoutBreak
+      ChangesRules = False
       Justify = Left
       JustifyLastLine = Left
       FlowDirection = LeftToRight
-      VerticalGap = 10.000000000000000000
-      inline elementNav8: TelementNav
-        Cursor = crHandPoint
-        Position.X = 10.000000000000000000
-        Position.Y = 10.000000000000000000
+    end
+    inline elementNav9: TelementNav
+      Position.X = 10.000000000000000000
+      Position.Y = 55.000000000000000000
+      Size.Width = 215.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      inherited elementNagivation: TRectangle
+        Padding.Left = 5.000000000000000000
         Size.Width = 215.000000000000000000
-        Size.Height = 35.000000000000000000
-        Size.PlatformDefault = False
-        inherited elementNagivation: TRectangle
-          Padding.Left = 5.000000000000000000
-          Size.Width = 215.000000000000000000
-          inherited first: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-          end
-          inherited seconde: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-          end
+        inherited first: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Candidats'
+        end
+        inherited seconde: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Candidats'
         end
       end
-      object FlowLayoutBreak1: TFlowLayoutBreak
-        ChangesRules = False
-        Justify = Left
-        JustifyLastLine = Left
-        FlowDirection = LeftToRight
-      end
-      inline elementNav9: TelementNav
-        Cursor = crHandPoint
-        Position.X = 10.000000000000000000
-        Position.Y = 55.000000000000000000
+    end
+    object FlowLayoutBreak2: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    inline elementNav10: TelementNav
+      Position.X = 10.000000000000000000
+      Position.Y = 100.000000000000000000
+      Size.Width = 215.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      inherited elementNagivation: TRectangle
+        Padding.Left = 5.000000000000000000
         Size.Width = 215.000000000000000000
-        Size.Height = 35.000000000000000000
-        Size.PlatformDefault = False
-        inherited elementNagivation: TRectangle
-          Padding.Left = 5.000000000000000000
-          Size.Width = 215.000000000000000000
-          inherited first: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'Candidats'
-          end
-          inherited seconde: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'Candidats'
-          end
+        inherited first: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Cong'#233's'
+        end
+        inherited seconde: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Cong'#233's'
         end
       end
-      object FlowLayoutBreak2: TFlowLayoutBreak
-        ChangesRules = False
-        Justify = Left
-        JustifyLastLine = Left
-        FlowDirection = LeftToRight
-      end
-      inline elementNav10: TelementNav
-        Cursor = crHandPoint
-        Position.X = 10.000000000000000000
-        Position.Y = 100.000000000000000000
+    end
+    object FlowLayoutBreak3: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    inline elementNav11: TelementNav
+      Position.X = 10.000000000000000000
+      Position.Y = 145.000000000000000000
+      Size.Width = 215.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      inherited elementNagivation: TRectangle
+        Padding.Left = 5.000000000000000000
         Size.Width = 215.000000000000000000
-        Size.Height = 35.000000000000000000
-        Size.PlatformDefault = False
-        inherited elementNagivation: TRectangle
-          Padding.Left = 5.000000000000000000
-          Size.Width = 215.000000000000000000
-          inherited first: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'Cong'#233's'
-          end
-          inherited seconde: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'Cong'#233's'
-          end
+        inherited first: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Absences'
+        end
+        inherited seconde: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Absences'
         end
       end
-      object FlowLayoutBreak3: TFlowLayoutBreak
-        ChangesRules = False
-        Justify = Left
-        JustifyLastLine = Left
-        FlowDirection = LeftToRight
-      end
-      inline elementNav11: TelementNav
-        Cursor = crHandPoint
-        Position.X = 10.000000000000000000
-        Position.Y = 145.000000000000000000
+    end
+    object FlowLayoutBreak4: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    inline elementNav12: TelementNav
+      Position.X = 10.000000000000000000
+      Position.Y = 190.000000000000000000
+      Size.Width = 215.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      inherited elementNagivation: TRectangle
+        Padding.Left = 5.000000000000000000
         Size.Width = 215.000000000000000000
-        Size.Height = 35.000000000000000000
-        Size.PlatformDefault = False
-        inherited elementNagivation: TRectangle
-          Padding.Left = 5.000000000000000000
-          Size.Width = 215.000000000000000000
-          inherited first: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'Absences'
-          end
-          inherited seconde: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'Absences'
-          end
+        inherited first: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Evaluations'
+        end
+        inherited seconde: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Evaluations'
         end
       end
-      object FlowLayoutBreak4: TFlowLayoutBreak
-        ChangesRules = False
-        Justify = Left
-        JustifyLastLine = Left
-        FlowDirection = LeftToRight
-      end
-      inline elementNav12: TelementNav
-        Cursor = crHandPoint
-        Position.X = 10.000000000000000000
-        Position.Y = 190.000000000000000000
+    end
+    object FlowLayoutBreak5: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    inline elementNav13: TelementNav
+      Position.X = 10.000000000000000000
+      Position.Y = 235.000000000000000000
+      Size.Width = 215.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      inherited elementNagivation: TRectangle
+        Padding.Left = 5.000000000000000000
         Size.Width = 215.000000000000000000
-        Size.Height = 35.000000000000000000
-        Size.PlatformDefault = False
-        inherited elementNagivation: TRectangle
-          Padding.Left = 5.000000000000000000
-          Size.Width = 215.000000000000000000
-          inherited first: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'Evaluations'
-          end
-          inherited seconde: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'Evaluations'
-          end
+        inherited first: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'T'#226'ches'
+        end
+        inherited seconde: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'T'#226'ches'
         end
       end
-      object FlowLayoutBreak5: TFlowLayoutBreak
-        ChangesRules = False
-        Justify = Left
-        JustifyLastLine = Left
-        FlowDirection = LeftToRight
-      end
-      inline elementNav13: TelementNav
-        Cursor = crHandPoint
-        Position.X = 10.000000000000000000
-        Position.Y = 235.000000000000000000
+    end
+    object FlowLayoutBreak6: TFlowLayoutBreak
+      ChangesRules = False
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+    end
+    inline elementNav14: TelementNav
+      Position.X = 10.000000000000000000
+      Position.Y = 280.000000000000000000
+      Size.Width = 215.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      inherited elementNagivation: TRectangle
+        Padding.Left = 5.000000000000000000
         Size.Width = 215.000000000000000000
-        Size.Height = 35.000000000000000000
-        Size.PlatformDefault = False
-        inherited elementNagivation: TRectangle
-          Padding.Left = 5.000000000000000000
-          Size.Width = 215.000000000000000000
-          inherited first: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'T'#226'ches'
-          end
-          inherited seconde: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'T'#226'ches'
-          end
+        inherited first: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Fiche de Pointage'
         end
-      end
-      object FlowLayoutBreak6: TFlowLayoutBreak
-        ChangesRules = False
-        Justify = Left
-        JustifyLastLine = Left
-        FlowDirection = LeftToRight
-      end
-      inline elementNav14: TelementNav
-        Cursor = crHandPoint
-        Position.X = 10.000000000000000000
-        Position.Y = 280.000000000000000000
-        Size.Width = 215.000000000000000000
-        Size.Height = 35.000000000000000000
-        Size.PlatformDefault = False
-        inherited elementNagivation: TRectangle
-          Padding.Left = 5.000000000000000000
-          Size.Width = 215.000000000000000000
-          inherited first: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'Fiche de Pointage'
-          end
-          inherited seconde: TLabel
-            Align = VertCenter
-            Position.X = 5.000000000000000000
-            Size.Width = 210.000000000000000000
-            TextSettings.Font.StyleExt = {00070000000000000004000000}
-            Text = 'Fiche de Pointage'
-          end
+        inherited seconde: TLabel
+          Align = VertCenter
+          Position.X = 5.000000000000000000
+          Size.Width = 210.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Fiche de Pointage'
         end
       end
     end
