@@ -10,7 +10,8 @@ uses
   varGlobale in 'varGlobale.pas',
   FrHeaderApp in 'FrHeaderApp.pas' {headerApp: TFrame},
   Principale in 'Principale.pas' {Pprincipale},
-  FrNavElement in 'FrNavElement.pas' {elementNav: TFrame};
+  FrNavElement in 'FrNavElement.pas' {elementNav: TFrame},
+  FrEmployeTopElement in 'FrEmployeTopElement.pas' {employeTopElemnt: TFrame};
 
 {$R *.res}
 

@@ -56,9 +56,18 @@ type
     elementNav13: TelementNav;
     FlowLayoutBreak6: TFlowLayoutBreak;
     elementNav14: TelementNav;
+    topElement: TRectangle;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    containeTopElement: TLayout;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);
+    procedure Label7Click(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -195,6 +204,11 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
       tailleEcran := 604;
     end;
 
+
+end;
+
+procedure TPprincipale.Label7Click(Sender: TObject);
+begin
 
 end;
 
