@@ -11,7 +11,12 @@ uses
   FrHeaderApp in 'FrHeaderApp.pas' {headerApp: TFrame},
   Principale in 'Principale.pas' {Pprincipale},
   FrNavElement in 'FrNavElement.pas' {elementNav: TFrame},
-  FrEmployeTopElement in 'FrEmployeTopElement.pas' {employeTopElemnt: TFrame};
+  FrEmployeTopElement in 'FrEmployeTopElement.pas' {employeTopElemnt: TFrame},
+  FrEmploye in 'FrEmploye.pas' {employe: TFrame},
+  FrEmployeMaquette in 'FrEmployeMaquette.pas' {employeMaquette: TFrame},
+  FrEmployeClick in 'FrEmployeClick.pas' {employeClick: TFrame},
+  FrEmployeClickInformation in 'FrEmployeClickInformation.pas' {employeClickInformation: TFrame},
+  FrEmployeClickInformationElement in 'FrEmployeClickInformationElement.pas' {employeClickInformationElement: TFrame};
 
 {$R *.res}
 
