@@ -1,0 +1,34 @@
+unit FrNavElement;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Effects, FMX.Ani, FMX.Controls.Presentation, FMX.Objects;
+
+type
+  TelementNav = class(TFrame)
+    procedure lbColorOverInFinish(Sender: TObject);
+    procedure lbColorOverOutFinish(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+procedure TelementNav.lbColorOverInFinish(Sender: TObject);
+begin
+lbColorOverIn.Enabled := False;
+end;
+
+procedure TelementNav.lbColorOverOutFinish(Sender: TObject);
+begin
+lbColorOverOut.Enabled := False;
+end;
+
+end.

@@ -1,0 +1,53 @@
+object elementNav: TelementNav
+  Size.Width = 336.000000000000000000
+  Size.Height = 118.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Fill.Color = claWhite
+    Position.X = 56.000000000000000000
+    Position.Y = 32.000000000000000000
+    Size.Width = 100.000000000000000000
+    Size.Height = 34.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    object first: TLabel
+      Align = Center
+      StyledSettings = []
+      Size.Width = 73.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Rockwell'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claWhite
+      Text = 'Employ'#233's'
+      TabOrder = 0
+    end
+    object seconde: TLabel
+      Align = Center
+      StyledSettings = [FontColor]
+      Size.Width = 73.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Rockwell'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      Text = 'Employ'#233's'
+      TabOrder = 1
+      object opak: TFloatAnimation
+        Duration = 0.200000002980232200
+        OnFinish = opakFinish
+        PropertyName = 'Opacity'
+        StartValue = 1.000000000000000000
+        StopValue = 0.000000000000000000
+      end
+      object opakInvers: TFloatAnimation
+        Duration = 0.200000002980232200
+        OnFinish = opakInversFinish
+        PropertyName = 'Opacity'
+        StartValue = 0.000000000000000000
+        StopValue = 1.000000000000000000
+      end
+    end
+  end
+end

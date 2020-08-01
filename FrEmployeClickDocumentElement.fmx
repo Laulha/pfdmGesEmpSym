@@ -1,0 +1,57 @@
+object employeClickDocumentElement: TemployeClickDocumentElement
+  Size.Width = 145.000000000000000000
+  Size.Height = 27.000000000000000000
+  Size.PlatformDefault = False
+  object Circle1: TCircle
+    Fill.Color = xFF8D9195
+    Size.Width = 26.000000000000000000
+    Size.Height = 26.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+          Width = 15
+          Height = 16
+          PNG = {
+            89504E470D0A1A0A0000000D494844520000000F000000100806000000C95625
+            04000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            00CB49444154384F9D92810D82301045C1091CC1117003367004711347C00974
+            05271027900D6403BA81FE477A8634963634F929BDEBFBBD1E2D8BA2784B4BC3
+            297992FA7F9B3E09983C07546B61400C8EA141CEC93B41B534CE0D4A2D809963
+            23EC0946BFFDA993A3956E12CD5A4CAF812FE6987367DB4BC3B8EF2075047360
+            80AB7700648DF6C4520D037CCD0C605AE9910363BE956E1EE01B8D390D73BEE4
+            46F3D31B50F63452659F839259F3D25A6B58674EC14C9C5F03709006A992EE52
+            035C47400B9B31A5A25E7224BF862130B548B774F50000000049454E44AE4260
+            82}
+        end>
+      Position.X = 7.000000000000000000
+      Position.Y = 5.000000000000000000
+      Size.Width = 15.000000000000000000
+      Size.Height = 15.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Rectangle1: TRectangle
+    Position.X = 33.000000000000000000
+    Position.Y = 4.000000000000000000
+    Size.Width = 110.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    object Label1: TLabel
+      StyledSettings = [Style, FontColor]
+      Position.X = 2.000000000000000000
+      Position.Y = -1.000000000000000000
+      Size.Width = 102.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.Size = 10.000000000000000000
+      Text = 'Autorisation d'#39'absence'
+      TabOrder = 0
+    end
+  end
+end

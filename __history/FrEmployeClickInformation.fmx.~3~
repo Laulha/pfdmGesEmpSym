@@ -1,0 +1,18 @@
+object employeClickInformation: TemployeClickInformation
+  Size.Width = 286.000000000000000000
+  Size.Height = 217.000000000000000000
+  Size.PlatformDefault = False
+  object FlowLayout1: TFlowLayout
+    Padding.Left = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Size.Width = 286.000000000000000000
+    Size.Height = 217.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Justify = Left
+    JustifyLastLine = Left
+    FlowDirection = LeftToRight
+    HorizontalGap = 5.000000000000000000
+    VerticalGap = 5.000000000000000000
+  end
+end

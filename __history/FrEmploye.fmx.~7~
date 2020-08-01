@@ -1,0 +1,287 @@
+object employe: Temploye
+  Align = Top
+  Size.Width = 782.000000000000000000
+  Size.Height = 213.000000000000000000
+  Size.PlatformDefault = False
+  object topListeEmploye: TRectangle
+    Fill.Color = claWhite
+    Position.Y = 2.000000000000000000
+    Size.Width = 782.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 7.000000000000000000
+    YRadius = 7.000000000000000000
+    object Label12: TLabel
+      StyledSettings = []
+      Position.X = 16.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      TextSettings.FontColor = xFF4E4E50
+      Text = 'Liste des employ'#233's'
+      TabOrder = 0
+    end
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+          Width = 37
+          Height = 19
+          PNG = {
+            89504E470D0A1A0A0000000D494844520000002500000013080600000017BDC4
+            B3000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            01AC49444154484BCD96BF8E824010C667B595E44A5F809E0740F45A1F80F638
+            7BA0160BB58117B0F6EE5A636D7B18EDB5F701B4B4B035DC7E1BB9C2F067EE82
+            C44974C9F231F36376268CA09B6D369B9E10629C248921D79774BFA635BE5EAF
+            5FDD6EF713F104FEB6DBED582E939A008AC24C4CD39C8AF57AED349BCD8F2700
+            5208F2A45E85CCD2B7BCEEDD43ED763B5AAD566C56DFF7A9D56AB1F505C21850
+            49960050C3E190A2282A0C743C1E69B158D06C36AB0AEA9C0B05120443506421
+            CF1CC7A1C160409665559125E5A351E4C9B66D929D48F3F93C53867DC0540954
+            0A0581E77994555F691691A5AAAD30536930D415200E8783DA4AEB08C08F3016
+            14BA6A341A2930581886AA01344DCB65BA5C2EBFFA54846EC67E99B1A0E0E41E
+            A0ACFD711F00E86064162F723A9D581DCA862A7BBBACFBA8B77EBF4FAEEB9261
+            18AA4B39F6502800743A1D5A2E970A8E6B7F86C251E0588AEA891B3C4F07A833
+            D7096A220802F52BAB29AECF2C1DA0F61C078068B7DB0A48D775CE23FFD5C4E2
+            3647E1A3FC1426E7AAF7862CC4588E0BD367200207063D35E4C16E73D59BBCEC
+            D5092841CEF2FBBA07101284D83F7026AF11ED0360090000000049454E44AE42
+            6082}
+        end>
+      Position.X = 728.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 37.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object titreListeEmploye: TRectangle
+    Position.Y = 37.000000000000000000
+    Size.Width = 782.000000000000000000
+    Size.Height = 28.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    object Label13: TLabel
+      StyledSettings = []
+      Position.X = 29.000000000000000000
+      Position.Y = 6.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      TextSettings.FontColor = xFF4E4E50
+      Text = 'Avatar'
+      TabOrder = 0
+    end
+    object Label14: TLabel
+      StyledSettings = []
+      Position.X = 201.000000000000000000
+      Position.Y = 6.000000000000000000
+      Size.Width = 112.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      TextSettings.FontColor = xFF4E4E50
+      Text = 'Nom et pr'#233'nom'
+      TabOrder = 1
+    end
+    object Label16: TLabel
+      StyledSettings = []
+      Position.X = 338.000000000000000000
+      Position.Y = 7.000000000000000000
+      Size.Width = 70.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      TextSettings.FontColor = xFF4E4E50
+      Text = 'Poste'
+      TabOrder = 2
+    end
+    object Label17: TLabel
+      StyledSettings = []
+      Position.X = 490.000000000000000000
+      Position.Y = 6.000000000000000000
+      Size.Width = 134.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      TextSettings.FontColor = xFF4E4E50
+      Text = 'Performances'
+      TabOrder = 3
+    end
+    object Label15: TLabel
+      StyledSettings = []
+      Position.X = 109.000000000000000000
+      Position.Y = 6.000000000000000000
+      Size.Width = 80.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      TextSettings.FontColor = xFF4E4E50
+      Text = 'Identifiant'
+      TabOrder = 4
+    end
+  end
+  object VertScrollBox1: TVertScrollBox
+    Position.Y = 64.000000000000000000
+    Size.Width = 782.000000000000000000
+    Size.Height = 145.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 766.000000000000000000
+    Viewport.Height = 145.000000000000000000
+    object FlowLayout1: TFlowLayout
+      Size.Width = 782.000000000000000000
+      Size.Height = 200.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Justify = Left
+      JustifyLastLine = Left
+      FlowDirection = LeftToRight
+      VerticalGap = 2.000000000000000000
+      inline employeMaquette1: TemployeMaquette
+        Size.Width = 782.000000000000000000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        inherited elementEmploye: TRectangle
+          inherited nomEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited posteEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited identifiant: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+        end
+      end
+      object FlowLayoutBreak1: TFlowLayoutBreak
+        ChangesRules = False
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+      end
+      inline employeMaquette2: TemployeMaquette
+        Position.Y = 49.000000000000000000
+        Size.Width = 9.000000000000000000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        inherited elementEmploye: TRectangle
+          inherited nomEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited posteEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited identifiant: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+        end
+      end
+      object FlowLayoutBreak2: TFlowLayoutBreak
+        ChangesRules = False
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+      end
+      inline employeMaquette3: TemployeMaquette
+        Position.Y = 98.000000000000000000
+        Size.Width = 782.000000000000000000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        inherited elementEmploye: TRectangle
+          inherited nomEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited posteEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited identifiant: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+        end
+      end
+      object FlowLayoutBreak3: TFlowLayoutBreak
+        ChangesRules = False
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+      end
+      inline employeMaquette4: TemployeMaquette
+        Position.Y = 147.000000000000000000
+        Size.Width = 782.000000000000000000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        inherited elementEmploye: TRectangle
+          inherited nomEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited posteEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited identifiant: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+        end
+      end
+      object FlowLayoutBreak4: TFlowLayoutBreak
+        ChangesRules = False
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+      end
+      inline employeMaquette5: TemployeMaquette
+        Position.Y = 196.000000000000000000
+        Size.Width = 782.000000000000000000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        inherited elementEmploye: TRectangle
+          inherited nomEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited posteEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited identifiant: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+        end
+      end
+      object FlowLayoutBreak5: TFlowLayoutBreak
+        ChangesRules = False
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+      end
+      inline employeMaquette6: TemployeMaquette
+        Position.Y = 245.000000000000000000
+        Size.Width = 782.000000000000000000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        inherited elementEmploye: TRectangle
+          inherited nomEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited posteEmploye: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+          inherited identifiant: TLabel
+            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          end
+        end
+      end
+    end
+  end
+end

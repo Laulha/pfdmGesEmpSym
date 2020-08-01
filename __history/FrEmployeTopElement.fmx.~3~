@@ -1,0 +1,30 @@
+object employeTopElemnt: TemployeTopElemnt
+  Align = Client
+  Size.Width = 553.000000000000000000
+  Size.Height = 72.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle8: TRectangle
+    Fill.Color = xFFC63939
+    Position.X = 378.000000000000000000
+    Position.Y = 6.000000000000000000
+    Size.Width = 168.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+    object Label12: TLabel
+      Align = Center
+      StyledSettings = []
+      Size.Width = 103.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      TextSettings.FontColor = claWhite
+      Text = 'Ajouter Employ'#233
+      TabOrder = 0
+    end
+  end
+end
