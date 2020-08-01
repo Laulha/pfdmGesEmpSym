@@ -33,6 +33,7 @@ type
     employeMaquette11: TemployeMaquette;
     employeMaquette12: TemployeMaquette;
     clickSurElement: TLayout;
+    employeClick1: TemployeClick;
   private
     { Déclarations privées }
   public

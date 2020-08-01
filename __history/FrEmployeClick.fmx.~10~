@@ -3212,12 +3212,6 @@ object employeClick: TemployeClick
         TabOrder = 0
         Viewport.Width = 300.000000000000000000
         Viewport.Height = 220.000000000000000000
-        inline employeClickDocument1: TemployeClickDocument
-          Align = Top
-          Size.Width = 300.000000000000000000
-          Size.Height = 140.000000000000000000
-          Size.PlatformDefault = False
-        end
       end
     end
     object Label4: TLabel

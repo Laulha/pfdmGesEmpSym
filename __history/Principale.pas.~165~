@@ -6,7 +6,7 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
   FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Effects, FMX.Layouts,
-  FrNavElement, FMX.Ani, FrEmploye;
+  FrNavElement, FMX.Ani, FrEmploye, FrEmployeTopElement, FrEmployeClick;
 
 type
   TPprincipale = class(TForm)
@@ -64,6 +64,8 @@ type
     Label8: TLabel;
     Label9: TLabel;
     containeTopElement: TLayout;
+    employe1: Temploye;
+    employeTopElemnt1: TemployeTopElemnt;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);

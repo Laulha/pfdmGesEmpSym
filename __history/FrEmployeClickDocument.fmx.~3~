@@ -1,0 +1,5 @@
+object employeClickDocument: TemployeClickDocument
+  Size.Width = 286.000000000000000000
+  Size.Height = 220.000000000000000000
+  Size.PlatformDefault = False
+end

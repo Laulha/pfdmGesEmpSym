@@ -64,7 +64,6 @@ type
     Label8: TLabel;
     Label9: TLabel;
     containeTopElement: TLayout;
-    employe1: Temploye;
     employeTopElemnt1: TemployeTopElemnt;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
