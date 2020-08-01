@@ -1,0 +1,73 @@
+object employeClickInformation: TemployeClickInformation
+  Align = Top
+  Size.Width = 286.000000000000000000
+  Size.Height = 220.000000000000000000
+  Size.PlatformDefault = False
+  object FlowLayout1: TFlowLayout
+    Padding.Left = 10.000000000000000000
+    Padding.Right = 10.000000000000000000
+    Size.Width = 286.000000000000000000
+    Size.Height = 220.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Justify = Left
+    JustifyLastLine = Left
+    FlowDirection = LeftToRight
+    HorizontalGap = 5.000000000000000000
+    VerticalGap = 5.000000000000000000
+    inline employeClickInformationElement1: TemployeClickInformationElement
+      Position.X = 10.000000000000000000
+      Size.Width = 128.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickInformationElement2: TemployeClickInformationElement
+      Position.X = 143.000000000000000000
+      Size.Width = 128.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickInformationElement3: TemployeClickInformationElement
+      Position.X = 10.000000000000000000
+      Position.Y = 55.000000000000000000
+      Size.Width = 128.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickInformationElement4: TemployeClickInformationElement
+      Position.X = 143.000000000000000000
+      Position.Y = 55.000000000000000000
+      Size.Width = 128.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickInformationElement5: TemployeClickInformationElement
+      Position.X = 10.000000000000000000
+      Position.Y = 110.000000000000000000
+      Size.Width = 128.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickInformationElement6: TemployeClickInformationElement
+      Position.X = 143.000000000000000000
+      Position.Y = 110.000000000000000000
+      Size.Width = 128.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickInformationElement7: TemployeClickInformationElement
+      Position.X = 10.000000000000000000
+      Position.Y = 165.000000000000000000
+      Size.Width = 128.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickInformationElement8: TemployeClickInformationElement
+      Position.X = 143.000000000000000000
+      Position.Y = 165.000000000000000000
+      Size.Width = 128.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

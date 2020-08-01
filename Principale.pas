@@ -6,7 +6,7 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
   FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Effects, FMX.Layouts,
-  FrNavElement, FMX.Ani;
+  FrNavElement, FMX.Ani, FrEmploye, FrEmployeTopElement, FrEmployeClick;
 
 type
   TPprincipale = class(TForm)
@@ -56,9 +56,19 @@ type
     elementNav13: TelementNav;
     FlowLayoutBreak6: TFlowLayoutBreak;
     elementNav14: TelementNav;
+    topElement: TRectangle;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    containeTopElement: TLayout;
+    employeTopElemnt1: TemployeTopElemnt;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);
+    procedure Label7Click(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -195,6 +205,11 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
       tailleEcran := 604;
     end;
 
+
+end;
+
+procedure TPprincipale.Label7Click(Sender: TObject);
+begin
 
 end;
 

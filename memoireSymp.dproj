@@ -213,6 +213,46 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
+        <DCCReference Include="FrEmployeTopElement.pas">
+            <Form>employeTopElemnt</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrEmploye.pas">
+            <Form>employe</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrEmployeMaquette.pas">
+            <Form>employeMaquette</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrEmployeClick.pas">
+            <Form>employeClick</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrEmployeClickInformation.pas">
+            <Form>employeClickInformation</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrEmployeClickInformationElement.pas">
+            <Form>employeClickInformationElement</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrEmployeClickDocument.pas">
+            <Form>employeClickDocument</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrEmployeClickDocumentElement.pas">
+            <Form>employeClickDocumentElement</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <RcItem Include="asset\login\bgLogin2.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>bground</ResourceId>

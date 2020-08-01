@@ -1,0 +1,63 @@
+object employeClickInformationElement: TemployeClickInformationElement
+  Size.Width = 128.000000000000000000
+  Size.Height = 50.000000000000000000
+  Size.PlatformDefault = False
+  object container: TLayout
+    Size.Width = 129.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      StyledSettings = [Style, FontColor]
+      Position.X = 5.000000000000000000
+      Position.Y = 1.000000000000000000
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.Size = 14.000000000000000000
+      Text = 'Nom et pr'#233'nom'
+      TabOrder = 0
+    end
+    object Rectangle1: TRectangle
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFF95979B
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFFB9B9C1
+          Offset = 0.149068325757980300
+        end
+        item
+          Color = xFFDBDBDC
+          Offset = 0.795031070709228500
+        end
+        item
+          Color = xFFE2E1E5
+          Offset = 0.993788838386535600
+        end>
+      Fill.Gradient.StartPosition.X = 0.500000000000000000
+      Fill.Gradient.StopPosition.X = 0.499999970197677600
+      Position.X = 4.000000000000000000
+      Position.Y = 20.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      StyleLookup = 'transparentedit'
+      TabOrder = 2
+      Text = 'Mott Laulha'
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.Size = 13.000000000000000000
+      Position.X = 4.000000000000000000
+      Position.Y = 20.000000000000000000
+      Padding.Left = 3.000000000000000000
+      Size.Width = 121.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Style]
+    end
+  end
+end

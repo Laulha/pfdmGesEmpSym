@@ -1,0 +1,67 @@
+object employeClickDocument: TemployeClickDocument
+  Align = Top
+  Size.Width = 297.000000000000000000
+  Size.Height = 140.000000000000000000
+  Size.PlatformDefault = False
+  object FlowLayout1: TFlowLayout
+    Size.Width = 297.000000000000000000
+    Size.Height = 137.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Justify = Left
+    JustifyLastLine = Left
+    FlowDirection = LeftToRight
+    HorizontalGap = 5.000000000000000000
+    VerticalGap = 3.000000000000000000
+    inline employeClickDocumentElement1: TemployeClickDocumentElement
+      Size.Width = 145.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickDocumentElement2: TemployeClickDocumentElement
+      Position.X = 150.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickDocumentElement3: TemployeClickDocumentElement
+      Position.Y = 30.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickDocumentElement4: TemployeClickDocumentElement
+      Position.X = 150.000000000000000000
+      Position.Y = 30.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickDocumentElement5: TemployeClickDocumentElement
+      Position.Y = 60.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickDocumentElement6: TemployeClickDocumentElement
+      Position.X = 150.000000000000000000
+      Position.Y = 60.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickDocumentElement7: TemployeClickDocumentElement
+      Position.Y = 90.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline employeClickDocumentElement8: TemployeClickDocumentElement
+      Position.X = 150.000000000000000000
+      Position.Y = 90.000000000000000000
+      Size.Width = 145.000000000000000000
+      Size.Height = 27.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end
