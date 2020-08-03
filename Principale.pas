@@ -65,6 +65,9 @@ type
     Label9: TLabel;
     containeTopElement: TLayout;
     employeTopElemnt1: TemployeTopElemnt;
+    Layout2: TLayout;
+    VertScrollBox1: TVertScrollBox;
+    employe1: Temploye;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);
@@ -89,6 +92,12 @@ procedure TPprincipale.FormCreate(Sender: TObject);
 begin
   tailleEcran := 604;
   toggleMenu := True;
+
+  //Pour initialiser la taille de la frame de façon dynamique
+  Pprincipale.employe1.Height := employe1.topListeEmploye.Height +
+  employe1.titreListeEmploye.Height + (employe1.employeMaquette1.Height * 12);
+  Pprincipale.employe1.VertScrollBox1.Height := employe1.employeMaquette1.Height * 12;
+  Pprincipale.Layout1.Height := Pprincipale.employe1.Height + 2;
 end;
 
 procedure TPprincipale.FormResize(Sender: TObject);
