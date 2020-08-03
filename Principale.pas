@@ -6,7 +6,8 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
   FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Effects, FMX.Layouts,
-  FrNavElement, FMX.Ani, FrEmploye, FrEmployeTopElement, FrEmployeClick;
+  FrNavElement, FMX.Ani, FrEmploye, FrEmployeTopElement, FrEmployeClick,
+  FrEvaluationTopElement, FrEvaluation;
 
 type
   TPprincipale = class(TForm)
@@ -64,10 +65,10 @@ type
     Label8: TLabel;
     Label9: TLabel;
     containeTopElement: TLayout;
-    employeTopElemnt1: TemployeTopElemnt;
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
-    employe1: Temploye;
+    evaluationTopElement1: TevaluationTopElement;
+    evaluation1: Tevaluation;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);
@@ -94,10 +95,10 @@ begin
   toggleMenu := True;
 
   //Pour initialiser la taille de la frame de façon dynamique
-  Pprincipale.employe1.Height := employe1.topListeEmploye.Height +
-  employe1.titreListeEmploye.Height + (employe1.employeMaquette1.Height * 12);
-  Pprincipale.employe1.VertScrollBox1.Height := employe1.employeMaquette1.Height * 12;
-  Pprincipale.Layout1.Height := Pprincipale.employe1.Height + 2;
+//  Pprincipale.employe1.Height := employe1.topListeEmploye.Height +
+//  employe1.titreListeEmploye.Height + (employe1.employeMaquette1.Height * 12);
+//  Pprincipale.employe1.VertScrollBox1.Height := employe1.employeMaquette1.Height * 12;
+//  Pprincipale.Layout1.Height := Pprincipale.employe1.Height + 2;
 end;
 
 procedure TPprincipale.FormResize(Sender: TObject);

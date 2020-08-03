@@ -1293,15 +1293,13 @@ object Pprincipale: TPprincipale
         Size.Height = 72.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 6
-        inline employeTopElemnt1: TemployeTopElemnt
-          Align = Client
+        inline evaluationTopElement1: TevaluationTopElement
+          Align = Top
           Size.Width = 553.000000000000000000
           Size.Height = 72.000000000000000000
           Size.PlatformDefault = False
-          inherited Rectangle8: TRectangle
-            inherited Label12: TLabel
-              TextSettings.Font.StyleExt = {00050000000000000004000000}
-            end
+          inherited Label4: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
           end
         end
       end
@@ -1329,7 +1327,7 @@ object Pprincipale: TPprincipale
         Text = 'Label3'
         TabOrder = 0
       end
-      inline employe1: Temploye
+      inline evaluation1: Tevaluation
         Align = Top
         Size.Width = 782.000000000000000000
         Size.Height = 376.000000000000000000
@@ -1359,7 +1357,7 @@ object Pprincipale: TPprincipale
         inherited VertScrollBox1: TVertScrollBox
           Viewport.Width = 766.000000000000000000
           Viewport.Height = 312.000000000000000000
-          inherited employeMaquette1: TemployeMaquette
+          inherited employeMaquetteEval1: TemployeMaquetteEval
             inherited elementEmploye: TRectangle
               inherited nomEmploye: TLabel
                 TextSettings.Font.StyleExt = {00050000000000000004000000}
@@ -1372,7 +1370,7 @@ object Pprincipale: TPprincipale
               end
             end
           end
-          inherited employeMaquette2: TemployeMaquette
+          inherited employeMaquetteEval2: TemployeMaquetteEval
             inherited elementEmploye: TRectangle
               inherited nomEmploye: TLabel
                 TextSettings.Font.StyleExt = {00050000000000000004000000}
@@ -1385,7 +1383,7 @@ object Pprincipale: TPprincipale
               end
             end
           end
-          inherited employeMaquette3: TemployeMaquette
+          inherited employeMaquetteEval3: TemployeMaquetteEval
             inherited elementEmploye: TRectangle
               inherited nomEmploye: TLabel
                 TextSettings.Font.StyleExt = {00050000000000000004000000}
@@ -1398,7 +1396,7 @@ object Pprincipale: TPprincipale
               end
             end
           end
-          inherited employeMaquette4: TemployeMaquette
+          inherited employeMaquetteEval4: TemployeMaquetteEval
             inherited elementEmploye: TRectangle
               inherited nomEmploye: TLabel
                 TextSettings.Font.StyleExt = {00050000000000000004000000}
@@ -1411,7 +1409,7 @@ object Pprincipale: TPprincipale
               end
             end
           end
-          inherited employeMaquette5: TemployeMaquette
+          inherited employeMaquetteEval5: TemployeMaquetteEval
             inherited elementEmploye: TRectangle
               inherited nomEmploye: TLabel
                 TextSettings.Font.StyleExt = {00050000000000000004000000}
@@ -1424,7 +1422,7 @@ object Pprincipale: TPprincipale
               end
             end
           end
-          inherited employeMaquette6: TemployeMaquette
+          inherited employeMaquetteEval6: TemployeMaquetteEval
             inherited elementEmploye: TRectangle
               inherited nomEmploye: TLabel
                 TextSettings.Font.StyleExt = {00050000000000000004000000}
@@ -1437,7 +1435,7 @@ object Pprincipale: TPprincipale
               end
             end
           end
-          inherited employeMaquette7: TemployeMaquette
+          inherited employeMaquetteEval7: TemployeMaquetteEval
             inherited elementEmploye: TRectangle
               inherited nomEmploye: TLabel
                 TextSettings.Font.StyleExt = {00050000000000000004000000}
@@ -1450,7 +1448,7 @@ object Pprincipale: TPprincipale
               end
             end
           end
-          inherited employeMaquette8: TemployeMaquette
+          inherited employeMaquetteEval8: TemployeMaquetteEval
             inherited elementEmploye: TRectangle
               inherited nomEmploye: TLabel
                 TextSettings.Font.StyleExt = {00050000000000000004000000}
@@ -1463,46 +1461,7 @@ object Pprincipale: TPprincipale
               end
             end
           end
-          inherited employeMaquette9: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette10: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette11: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette12: TemployeMaquette
+          inherited employeMaquetteEval9: TemployeMaquetteEval
             inherited elementEmploye: TRectangle
               inherited nomEmploye: TLabel
                 TextSettings.Font.StyleExt = {00050000000000000004000000}
