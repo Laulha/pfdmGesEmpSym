@@ -1,0 +1,63 @@
+object Frame2: TFrame2
+  Size.Width = 753.000000000000000000
+  Size.Height = 531.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Size.Width = 342.000000000000000000
+    Size.Height = 336.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 342.000000000000000000
+      Size.Height = 205.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+    end
+    object Rectangle2: TRectangle
+      Align = Top
+      Size.Width = 342.000000000000000000
+      Size.Height = 81.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      object Circle1: TCircle
+        Position.X = 18.000000000000000000
+        Position.Y = 14.000000000000000000
+        Size.Width = 57.000000000000000000
+        Size.Height = 57.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Rectangle5: TRectangle
+      Align = Top
+      Position.Y = 81.000000000000000000
+      Size.Width = 342.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      object Rectangle4: TRectangle
+        Position.X = 144.000000000000000000
+        Position.Y = 9.000000000000000000
+        Size.Width = 97.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle3: TRectangle
+        Position.X = 256.000000000000000000
+        Position.Y = 9.000000000000000000
+        Size.Width = 73.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object VertScrollBox1: TVertScrollBox
+      Align = Client
+      Size.Width = 342.000000000000000000
+      Size.Height = 205.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Viewport.Width = 342.000000000000000000
+      Viewport.Height = 205.000000000000000000
+    end
+  end
+end

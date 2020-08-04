@@ -25,7 +25,10 @@ uses
   FrEvaluationClick in 'FrEvaluationClick.pas' {evaluationClick: TFrame},
   FrConge in 'FrConge.pas' {conge: TFrame},
   FrEmployeMaquetteConge in 'FrEmployeMaquetteConge.pas' {employeMaquetteConge: TFrame},
-  FrCongeTopElement in 'FrCongeTopElement.pas' {congeTopElement: TFrame};
+  FrCongeTopElement in 'FrCongeTopElement.pas' {congeTopElement: TFrame},
+  FrCongeClick in 'FrCongeClick.pas' {congeClick: TFrame},
+  FrCongeClickElement in 'FrCongeClickElement.pas' {congeClickElement: TFrame},
+  FrCongeClickInformation in 'FrCongeClickInformation.pas' {congeClickInformation: TFrame};
 
 {$R *.res}
 

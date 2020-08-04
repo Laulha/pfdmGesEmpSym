@@ -5,7 +5,8 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Objects, FMX.Controls.Presentation, FMX.Layouts, FrEmployeMaquetteConge;
+  FMX.Objects, FMX.Controls.Presentation, FMX.Layouts, FrEmployeMaquetteConge,
+  FrCongeClick;
 
 type
   Tconge = class(TFrame)
@@ -32,6 +33,8 @@ type
     employeMaquetteConge10: TemployeMaquetteConge;
     employeMaquetteConge11: TemployeMaquetteConge;
     employeMaquetteConge12: TemployeMaquetteConge;
+    Layout1: TLayout;
+    congeClick1: TcongeClick;
   private
     { Déclarations privées }
   public

@@ -1,0 +1,111 @@
+object congeClickElement: TcongeClickElement
+  Align = Scale
+  Size.Width = 342.000000000000000000
+  Size.Height = 145.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 342.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Label1: TLabel
+      StyledSettings = [Style, FontColor]
+      Position.X = 9.000000000000000000
+      Position.Y = 13.000000000000000000
+      Size.Width = 96.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.Size = 14.000000000000000000
+      Text = 'Decembre'
+      TabOrder = 0
+    end
+    object Line1: TLine
+      LineType = Diagonal
+      Position.X = 8.000000000000000000
+      Position.Y = 34.000000000000000000
+      Size.Width = 321.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  inline congeClickInformation1: TcongeClickInformation
+    Align = Top
+    Position.Y = 41.000000000000000000
+    Size.Width = 342.000000000000000000
+    Size.Height = 34.000000000000000000
+    Size.PlatformDefault = False
+    inherited Layout2: TLayout
+      inherited typeConge: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited dateDebConge: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited dateFinConge: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited Label2: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited Circle1: TCircle
+        inherited nbrJourConge: TLabel
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+        end
+      end
+    end
+  end
+  inline congeClickInformation2: TcongeClickInformation
+    Align = Top
+    Position.Y = 75.000000000000000000
+    Size.Width = 342.000000000000000000
+    Size.Height = 34.000000000000000000
+    Size.PlatformDefault = False
+    inherited Layout2: TLayout
+      inherited typeConge: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited dateDebConge: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited dateFinConge: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited Label2: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited Circle1: TCircle
+        inherited nbrJourConge: TLabel
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+        end
+      end
+    end
+  end
+  inline congeClickInformation3: TcongeClickInformation
+    Align = Top
+    Position.Y = 109.000000000000000000
+    Size.Width = 342.000000000000000000
+    Size.Height = 34.000000000000000000
+    Size.PlatformDefault = False
+    inherited Layout2: TLayout
+      inherited typeConge: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited dateDebConge: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited dateFinConge: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited Label2: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited Circle1: TCircle
+        inherited nbrJourConge: TLabel
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+        end
+      end
+    end
+  end
+end
