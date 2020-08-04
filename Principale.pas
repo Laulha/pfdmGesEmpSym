@@ -7,7 +7,7 @@ uses
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
   FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Effects, FMX.Layouts,
   FrNavElement, FMX.Ani, FrEmploye, FrEmployeTopElement, FrEmployeClick,
-  FrEvaluationTopElement, FrEvaluation;
+  FrEvaluationTopElement, FrEvaluation, FrConge;
 
 type
   TPprincipale = class(TForm)
@@ -68,7 +68,7 @@ type
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
     evaluationTopElement1: TevaluationTopElement;
-    evaluation1: Tevaluation;
+    conge1: Tconge;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);

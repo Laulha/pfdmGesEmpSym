@@ -22,7 +22,9 @@ uses
   FrEvaluation in 'FrEvaluation.pas' {evaluation: TFrame},
   FrEmployeMaquetteEval in 'FrEmployeMaquetteEval.pas' {employeMaquetteEval: TFrame},
   FrEvaluationTopElement in 'FrEvaluationTopElement.pas' {evaluationTopElement: TFrame},
-  FrEvaluationClick in 'FrEvaluationClick.pas' {evaluationClick: TFrame};
+  FrEvaluationClick in 'FrEvaluationClick.pas' {evaluationClick: TFrame},
+  FrConge in 'FrConge.pas' {conge: TFrame},
+  FrEmployeMaquetteConge in 'FrEmployeMaquetteConge.pas' {employeMaquetteConge: TFrame};
 
 {$R *.res}
 
