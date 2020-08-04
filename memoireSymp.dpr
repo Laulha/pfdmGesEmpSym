@@ -18,7 +18,11 @@ uses
   FrEmployeClickInformation in 'FrEmployeClickInformation.pas' {employeClickInformation: TFrame},
   FrEmployeClickInformationElement in 'FrEmployeClickInformationElement.pas' {employeClickInformationElement: TFrame},
   FrEmployeClickDocument in 'FrEmployeClickDocument.pas' {employeClickDocument: TFrame},
-  FrEmployeClickDocumentElement in 'FrEmployeClickDocumentElement.pas' {employeClickDocumentElement: TFrame};
+  FrEmployeClickDocumentElement in 'FrEmployeClickDocumentElement.pas' {employeClickDocumentElement: TFrame},
+  FrEvaluation in 'FrEvaluation.pas' {evaluation: TFrame},
+  FrEmployeMaquetteEval in 'FrEmployeMaquetteEval.pas' {employeMaquetteEval: TFrame},
+  FrEvaluationTopElement in 'FrEvaluationTopElement.pas' {evaluationTopElement: TFrame},
+  FrEvaluationClick in 'FrEvaluationClick.pas' {evaluationClick: TFrame};
 
 {$R *.res}
 
