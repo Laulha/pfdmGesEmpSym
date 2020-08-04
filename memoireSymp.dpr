@@ -24,7 +24,8 @@ uses
   FrEvaluationTopElement in 'FrEvaluationTopElement.pas' {evaluationTopElement: TFrame},
   FrEvaluationClick in 'FrEvaluationClick.pas' {evaluationClick: TFrame},
   FrConge in 'FrConge.pas' {conge: TFrame},
-  FrEmployeMaquetteConge in 'FrEmployeMaquetteConge.pas' {employeMaquetteConge: TFrame};
+  FrEmployeMaquetteConge in 'FrEmployeMaquetteConge.pas' {employeMaquetteConge: TFrame},
+  FrCongeTopElement in 'FrCongeTopElement.pas' {congeTopElement: TFrame};
 
 {$R *.res}
 
