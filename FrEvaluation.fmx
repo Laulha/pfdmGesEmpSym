@@ -303,4 +303,60 @@ object evaluation: Tevaluation
       end
     end
   end
+  object Layout1: TLayout
+    Position.X = 332.000000000000000000
+    Position.Y = 38.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 339.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    inline evaluationClick1: TevaluationClick
+      Align = Top
+      Size.Width = 450.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline evaluationClick2: TevaluationClick
+      Align = Top
+      Position.Y = 49.000000000000000000
+      Size.Width = 450.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline evaluationClick3: TevaluationClick
+      Align = Top
+      Position.Y = 98.000000000000000000
+      Size.Width = 450.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline evaluationClick4: TevaluationClick
+      Align = Top
+      Position.Y = 147.000000000000000000
+      Size.Width = 450.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline evaluationClick5: TevaluationClick
+      Align = Top
+      Position.Y = 196.000000000000000000
+      Size.Width = 450.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline evaluationClick6: TevaluationClick
+      Align = Top
+      Position.Y = 245.000000000000000000
+      Size.Width = 450.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline evaluationClick7: TevaluationClick
+      Align = Top
+      Position.Y = 294.000000000000000000
+      Size.Width = 450.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
 end

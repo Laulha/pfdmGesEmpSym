@@ -21,7 +21,8 @@ uses
   FrEmployeClickDocumentElement in 'FrEmployeClickDocumentElement.pas' {employeClickDocumentElement: TFrame},
   FrEvaluation in 'FrEvaluation.pas' {evaluation: TFrame},
   FrEmployeMaquetteEval in 'FrEmployeMaquetteEval.pas' {employeMaquetteEval: TFrame},
-  FrEvaluationTopElement in 'FrEvaluationTopElement.pas' {evaluationTopElement: TFrame};
+  FrEvaluationTopElement in 'FrEvaluationTopElement.pas' {evaluationTopElement: TFrame},
+  FrEvaluationClick in 'FrEvaluationClick.pas' {evaluationClick: TFrame};
 
 {$R *.res}
 
