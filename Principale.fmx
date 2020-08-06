@@ -1330,12 +1330,9 @@ object Pprincipale: TPprincipale
       inline congeAjouter1: TcongeAjouter
         Align = Top
         Size.Width = 782.000000000000000000
-        Size.Height = 225.000000000000000000
+        Size.Height = 180.000000000000000000
         Size.PlatformDefault = False
         inherited Layout1: TLayout
-          inherited textes: TLabel
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
-          end
           inherited Label1: TLabel
             TextSettings.Font.StyleExt = {00050000000000000004000000}
           end
@@ -1349,26 +1346,51 @@ object Pprincipale: TPprincipale
               TextSettings.Font.StyleExt = {00050000000000000004000000}
             end
           end
-          inherited employe: TEdit
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          inherited input1: Tinput
+            inherited textes: TLabel
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
+            inherited Edit1: TEdit
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
           end
-          inherited typeEmploye: TEdit
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          inherited input2: Tinput
+            inherited textes: TLabel
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
+            inherited Edit1: TEdit
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
           end
-          inherited dateDC: TEdit
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          inherited input3: Tinput
+            inherited textes: TLabel
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
+            inherited Edit1: TEdit
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
           end
-          inherited dateFC: TEdit
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          inherited input4: Tinput
+            inherited textes: TLabel
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
+            inherited Edit1: TEdit
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
           end
-          inherited dateEC: TEdit
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
+          inherited input5: Tinput
+            inherited textes: TLabel
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
+            inherited Edit1: TEdit
+              TextSettings.Font.StyleExt = {00050000000000000004000000}
+            end
           end
         end
       end
       inline employe1: Temploye
         Align = Top
-        Position.Y = 225.000000000000000000
+        Position.Y = 180.000000000000000000
         Size.Width = 782.000000000000000000
         Size.Height = 376.000000000000000000
         Size.PlatformDefault = False

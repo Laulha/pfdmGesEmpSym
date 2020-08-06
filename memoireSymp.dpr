@@ -29,7 +29,8 @@ uses
   FrCongeClick in 'FrCongeClick.pas' {congeClick: TFrame},
   FrCongeClickElement in 'FrCongeClickElement.pas' {congeClickElement: TFrame},
   FrCongeClickInformation in 'FrCongeClickInformation.pas' {congeClickInformation: TFrame},
-  FrCongeAjouter in 'FrCongeAjouter.pas' {congeAjouter: TFrame};
+  FrCongeAjouter in 'FrCongeAjouter.pas' {congeAjouter: TFrame},
+  FrInput in 'FrInput.pas' {input: TFrame};
 
 {$R *.res}
 
