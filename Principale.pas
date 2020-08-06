@@ -22,6 +22,7 @@ type
     nomAdmin : TLabel;
     ShadowEffect1: TShadowEffect;
     task: TLayout;
+    containTask : TLayout;
     Layout1: TLayout;
     adminContainer: TLayout;
     Label2: TLabel;
@@ -68,6 +69,7 @@ type
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
     congeTopElement1: TcongeTopElement;
+    employe1: Temploye;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);
@@ -94,10 +96,18 @@ begin
   toggleMenu := True;
 
   //Pour initialiser la taille de la frame de façon dynamique
-//  Pprincipale.employe1.Height := employe1.topListeEmploye.Height +
-//  employe1.titreListeEmploye.Height + (employe1.employeMaquette1.Height * 12);
-//  Pprincipale.employe1.VertScrollBox1.Height := employe1.employeMaquette1.Height * 12;
-//  Pprincipale.Layout1.Height := Pprincipale.employe1.Height + 2;
+  {
+  Cette partie augment la dynamiquement la taille de la frame employé
+  en prenant en compte la taille tous les éléments qui constitut la
+  frame. Pour que le compte soit bon, il faut prendre en compte la
+  maquetteEmploye et on le multitplie par le nombre d'employé dans
+  la base de données. 12 ici représente un nombre fictif d'employé.
+  }
+  Pprincipale.employe1.Height := employe1.topListeEmploye.Height +
+  employe1.titreListeEmploye.Height + (employe1.employeMaquette1.Height * 12);
+  Pprincipale.employe1.VertScrollBox1.Height := employe1.employeMaquette1.Height * 12;
+  // Ceci permet d'avoir une marge.
+  Pprincipale.Layout1.Height := Pprincipale.employe1.Height + 2;
 end;
 
 procedure TPprincipale.FormResize(Sender: TObject);
@@ -184,6 +194,13 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
 
 
   // Gestion de la barre de recherche
+  {
+  On pouvait utiliser une méthode un peu plus approprié, mais vu ce que nous voulons
+  faire cela ne va pas nous aider. Ce que nous ne voulons pas du tout c'est que les
+  élément scale (grossisse) sans notre controlé or c'est exactement ce que fait les
+  éléments de layout. Pour avoir un peu plus de contrôle, on vérifé la taille et
+  on agit on changeant les dimensions.
+  }
   if Pprincipale.Width < 702 then
     begin
       layRecherche.Width := 384;
@@ -198,6 +215,12 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
     end;
 
   // Fin de redimensionnement
+  {
+  Nous faisons ceci pour avoir une sorte de minWidth, afin d'éviter
+  de gérer les tailles d'écran en dessous de "tailleEcran" qui est de 604;
+  Pour ce que cela fonctionne, il faut vérifer la taille actuelle de l'écran
+  qui est Pprincipale.Width selon la taille définie
+  }
   if Pprincipale.Width < tailleEcran then
     begin
           label4.Text := FloatToStr(tailleEcran);
@@ -209,10 +232,22 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
 
     end;
   // Ceci permet de toujours ramener la valeur de tailleEcran à 604
+
   if Pprincipale.Width >= 604 then
     begin
       tailleEcran := 604;
     end;
+
+  // Pour centrer artificiellement la liste des employés
+  {
+  On pouvait centrer directement l'élément avec la propriété "center"
+  mais le problème qui se pose est que ça donne un comportement bizarre,
+  alors, vu que la propriété center de Align calcul directement les positions
+  et qu'il y a des éléments qui sont centrés au même que celui de la liste des
+  employés, il nous suffit qu'attribué à la liste la propriété position d'un élément déjà
+  centé pour que ce dernier le soit aussi, à l'occurent ici "containTask"
+  }
+  Layout1.Position.X := containTask.Position.X;
 
 
 end;
