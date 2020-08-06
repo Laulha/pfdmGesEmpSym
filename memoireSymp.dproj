@@ -303,6 +303,11 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
+        <DCCReference Include="FrCongeAjouter.pas">
+            <Form>congeAjouter</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <RcItem Include="asset\login\bgLogin2.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>bground</ResourceId>
@@ -399,7 +404,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\login\utilisateur.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -504,7 +509,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\login\utilisateur.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>

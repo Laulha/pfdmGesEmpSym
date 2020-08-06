@@ -7,7 +7,8 @@ uses
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
   FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Effects, FMX.Layouts,
   FrNavElement, FMX.Ani, FrEmploye, FrEmployeTopElement, FrEmployeClick,
-  FrEvaluationTopElement, FrEvaluation, FrConge, FrCongeTopElement;
+  FrEvaluationTopElement, FrEvaluation, FrConge, FrCongeTopElement,
+  FrCongeAjouter;
 
 type
   TPprincipale = class(TForm)
@@ -69,6 +70,7 @@ type
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
     congeTopElement1: TcongeTopElement;
+    congeAjouter1: TcongeAjouter;
     employe1: Temploye;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -107,7 +109,7 @@ begin
   employe1.titreListeEmploye.Height + (employe1.employeMaquette1.Height * 12);
   Pprincipale.employe1.VertScrollBox1.Height := employe1.employeMaquette1.Height * 12;
   // Ceci permet d'avoir une marge.
-  Pprincipale.Layout1.Height := Pprincipale.employe1.Height + 2;
+  Pprincipale.Layout1.Height := (Pprincipale.employe1.Height + 2) + congeAjouter1.Height;
 end;
 
 procedure TPprincipale.FormResize(Sender: TObject);
