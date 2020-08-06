@@ -70,7 +70,6 @@ type
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
     congeTopElement1: TcongeTopElement;
-    congeAjouter1: TcongeAjouter;
     employe1: Temploye;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -94,6 +93,7 @@ implementation
 
 procedure TPprincipale.FormCreate(Sender: TObject);
 begin
+  // 604 est la taille minimum que l'on peut prendre charge pour le responsive
   tailleEcran := 604;
   toggleMenu := True;
 
@@ -105,11 +105,17 @@ begin
   maquetteEmploye et on le multitplie par le nombre d'employé dans
   la base de données. 12 ici représente un nombre fictif d'employé.
   }
+  {
   Pprincipale.employe1.Height := employe1.topListeEmploye.Height +
   employe1.titreListeEmploye.Height + (employe1.employeMaquette1.Height * 12);
   Pprincipale.employe1.VertScrollBox1.Height := employe1.employeMaquette1.Height * 12;
+  }
   // Ceci permet d'avoir une marge.
-  Pprincipale.Layout1.Height := (Pprincipale.employe1.Height + 2) + congeAjouter1.Height;
+  {
+   la dernière partie permet "congeAjouter1.Heigth" permet de perndre
+   en compte la taille de cet élément afin que tout soit bien affiché
+  }
+//  Pprincipale.Layout1.Height := (Pprincipale.employe1.Height + 2) + congeAjouter1.Height;
 end;
 
 procedure TPprincipale.FormResize(Sender: TObject);
