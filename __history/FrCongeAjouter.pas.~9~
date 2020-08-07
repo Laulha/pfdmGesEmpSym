@@ -1,0 +1,49 @@
+unit FrCongeAjouter;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Controls.Presentation, FMX.Ani, FMX.Edit, FMX.Objects, FMX.Layouts;
+
+type
+  TcongeAjouter = class(TFrame)
+    ColorAnimation1: TColorAnimation;
+    ColorAnimation2: TColorAnimation;
+    Label4: TLabel;
+    procedure ColorAnimation1Finish(Sender: TObject);
+    procedure ColorAnimation2Finish(Sender: TObject);
+    procedure Edit1Enter(Sender: TObject);
+    procedure Edit1Exit(Sender: TObject);
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+procedure TcongeAjouter.ColorAnimation1Finish(Sender: TObject);
+begin
+ColorAnimation1.Enabled := False;
+end;
+
+procedure TcongeAjouter.ColorAnimation2Finish(Sender: TObject);
+begin
+ColorAnimation2.Enabled := False;
+end;
+
+procedure TcongeAjouter.Edit1Enter(Sender: TObject);
+begin
+ColorAnimation1.Enabled := True;
+end;
+
+procedure TcongeAjouter.Edit1Exit(Sender: TObject);
+begin
+ColorAnimation2.Enabled := True;
+end;
+
+end.

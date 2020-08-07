@@ -1,0 +1,177 @@
+object congeAjouter: TcongeAjouter
+  Align = Top
+  Size.Width = 782.000000000000000000
+  Size.Height = 189.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 782.000000000000000000
+    Size.Height = 189.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object bgColor: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 782.000000000000000000
+      Size.Height = 189.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+    end
+    object Label1: TLabel
+      StyledSettings = [FontColor]
+      Position.X = 25.000000000000000000
+      Position.Y = 19.000000000000000000
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      Text = 'Ajouter Cong'#233
+      TabOrder = 0
+    end
+    object fermerCa: TRectangle
+      Position.X = 702.000000000000000000
+      Position.Y = 11.000000000000000000
+      Size.Width = 57.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      object Line7: TLine
+        Align = Center
+        LineType = Diagonal
+        Size.Width = 25.000000000000000000
+        Size.Height = 1.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 2.000000000000000000
+      end
+    end
+    object resetCA: TRectangle
+      Fill.Color = xFFC63939
+      Position.X = 564.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 90.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      object Label3: TLabel
+        Align = Center
+        StyledSettings = [Size]
+        Size.Width = 34.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'A z'#233'ro'
+        TabOrder = 0
+      end
+    end
+    object validerCA: TRectangle
+      Fill.Color = xFF60B959
+      Position.X = 464.000000000000000000
+      Position.Y = 12.000000000000000000
+      Size.Width = 90.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      XRadius = 3.000000000000000000
+      YRadius = 3.000000000000000000
+      object Label2: TLabel
+        Align = Center
+        StyledSettings = [Size]
+        Size.Width = 44.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'Valider'
+        TabOrder = 0
+      end
+    end
+    object Line1: TLine
+      LineType = Diagonal
+      Position.X = 16.000000000000000000
+      Position.Y = 45.000000000000000000
+      Size.Width = 745.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inline input1: Tinput
+      Position.X = 40.000000000000000000
+      Position.Y = 54.000000000000000000
+      Size.Width = 154.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      inherited textes: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+      inherited Edit1: TEdit
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+    end
+    inline input2: Tinput
+      Position.X = 272.000000000000000000
+      Position.Y = 53.000000000000000000
+      Size.Width = 154.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      inherited textes: TLabel
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        Text = 'Type Cong'#233
+      end
+      inherited Edit1: TEdit
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+    end
+    inline input3: Tinput
+      Position.X = 272.000000000000000000
+      Position.Y = 117.000000000000000000
+      Size.Width = 154.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      inherited textes: TLabel
+        Size.Width = 111.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        Text = 'Date Fin Cong'#233
+      end
+      inherited Edit1: TEdit
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+    end
+    inline input4: Tinput
+      Position.X = 472.000000000000000000
+      Position.Y = 53.000000000000000000
+      Size.Width = 154.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      inherited textes: TLabel
+        Size.Width = 111.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        Text = 'Date Deb Cong'#233
+      end
+      inherited Edit1: TEdit
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+    end
+    inline input5: Tinput
+      Position.X = 472.000000000000000000
+      Position.Y = 117.000000000000000000
+      Size.Width = 154.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      inherited textes: TLabel
+        Size.Width = 111.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        Text = 'Date EtabCong'#233
+      end
+      inherited Edit1: TEdit
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+      end
+    end
+  end
+end
