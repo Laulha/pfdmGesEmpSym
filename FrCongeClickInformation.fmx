@@ -1,0 +1,87 @@
+object congeClickInformation: TcongeClickInformation
+  Align = Top
+  Size.Width = 342.000000000000000000
+  Size.Height = 34.000000000000000000
+  Size.PlatformDefault = False
+  object Layout2: TLayout
+    Position.Y = 2.000000000000000000
+    Size.Width = 342.000000000000000000
+    Size.Height = 32.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object typeConge: TLabel
+      StyledSettings = []
+      Position.X = 8.000000000000000000
+      Position.Y = 7.000000000000000000
+      Size.Width = 81.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 10.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      Text = 'Cong'#233' Maladie'
+      TabOrder = 2
+    end
+    object dateDebConge: TLabel
+      StyledSettings = []
+      Position.X = 90.000000000000000000
+      Position.Y = 7.000000000000000000
+      Size.Width = 63.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 10.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      Text = '12/02/2020'
+      TabOrder = 3
+    end
+    object dateFinConge: TLabel
+      StyledSettings = []
+      Position.X = 151.000000000000000000
+      Position.Y = 7.000000000000000000
+      Size.Width = 67.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 10.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      Text = '12/02/2020'
+      TabOrder = 5
+    end
+    object Label2: TLabel
+      StyledSettings = []
+      Position.X = 213.000000000000000000
+      Position.Y = 7.000000000000000000
+      Size.Width = 67.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 10.000000000000000000
+      TextSettings.Font.StyleExt = {00050000000000000004000000}
+      Text = '12/02/2020'
+      TabOrder = 4
+    end
+    object Circle1: TCircle
+      Fill.Color = xFFE8E8E8
+      Position.X = 291.000000000000000000
+      Position.Y = 3.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      object nbrJourConge: TLabel
+        Align = Center
+        StyledSettings = []
+        Size.Width = 16.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.Font.StyleExt = {00050000000000000004000000}
+        TextSettings.FontColor = xFFC63939
+        Text = '13'
+        TabOrder = 0
+      end
+    end
+  end
+end

@@ -1,0 +1,48 @@
+object congeTopElement: TcongeTopElement
+  Align = Client
+  Size.Width = 553.000000000000000000
+  Size.Height = 72.000000000000000000
+  Size.PlatformDefault = False
+  object titreConge: TLabel
+    StyledSettings = []
+    Position.X = 426.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 112.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Roboto'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00050000000000000004000000}
+    Text = 'Ajouter Conge'
+    TabOrder = 1
+  end
+  object Rectangle1: TRectangle
+    Cursor = crHandPoint
+    Position.X = 443.000000000000000000
+    Position.Y = 31.000000000000000000
+    Size.Width = 62.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+  end
+  object Line1: TLine
+    LineType = Diagonal
+    Position.X = 460.000000000000000000
+    Position.Y = 45.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 2.000000000000000000
+  end
+  object Line2: TLine
+    LineType = Diagonal
+    Position.X = 472.000000000000000000
+    Position.Y = 35.000000000000000000
+    Size.Width = 1.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 2.000000000000000000
+  end
+end
