@@ -1,22 +1,17 @@
-unit FrCongeClick;
+unit FrCongeClickElement;
 
 interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Controls.Presentation, FMX.Objects, FMX.Layouts;
+  FMX.Objects, FMX.Layouts, FMX.Controls.Presentation, FrCongeClickInformation;
 
 type
-  TFrame2 = class(TFrame)
-    Layout1: TLayout;
-    Rectangle1: TRectangle;
-    Rectangle2: TRectangle;
-    Circle1: TCircle;
-    Rectangle3: TRectangle;
-    Rectangle4: TRectangle;
+  TcongeClickElement = class(TFrame)
     Line1: TLine;
-    Label3: TLabel;
+    moisConge: TLabel;
+    Layout1: TLayout;
   private
     { Déclarations privées }
   public

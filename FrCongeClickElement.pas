@@ -10,11 +10,9 @@ uses
 type
   TcongeClickElement = class(TFrame)
     Line1: TLine;
-    Label1: TLabel;
+    moisConge: TLabel;
     Layout1: TLayout;
     congeClickInformation1: TcongeClickInformation;
-    congeClickInformation2: TcongeClickInformation;
-    congeClickInformation3: TcongeClickInformation;
   private
     { Déclarations privées }
   public

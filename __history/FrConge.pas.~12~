@@ -1,0 +1,47 @@
+unit FrConge;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Controls.Presentation, FMX.Layouts, FrEmployeMaquetteConge,
+  FrCongeClick;
+
+type
+  Tconge = class(TFrame)
+    titreListeEmploye: TRectangle;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label16: TLabel;
+    Label17: TLabel;
+    topListeEmploye: TRectangle;
+    Label12: TLabel;
+    Image1: TImage;
+    Label1: TLabel;
+    Label2: TLabel;
+    VertScrollBox1: TVertScrollBox;
+    employeMaquetteConge1: TemployeMaquetteConge;
+    employeMaquetteConge2: TemployeMaquetteConge;
+    employeMaquetteConge3: TemployeMaquetteConge;
+    employeMaquetteConge4: TemployeMaquetteConge;
+    employeMaquetteConge5: TemployeMaquetteConge;
+    employeMaquetteConge6: TemployeMaquetteConge;
+    employeMaquetteConge7: TemployeMaquetteConge;
+    employeMaquetteConge8: TemployeMaquetteConge;
+    employeMaquetteConge9: TemployeMaquetteConge;
+    employeMaquetteConge10: TemployeMaquetteConge;
+    employeMaquetteConge11: TemployeMaquetteConge;
+    employeMaquetteConge12: TemployeMaquetteConge;
+    Layout1: TLayout;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.

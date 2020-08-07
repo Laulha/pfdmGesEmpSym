@@ -5,18 +5,25 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Controls.Presentation, FMX.Objects, FMX.Layouts;
+  FMX.Controls.Presentation, FMX.Objects, FMX.Layouts, FrCongeClickElement;
 
 type
-  TFrame2 = class(TFrame)
+  TcongeClick = class(TFrame)
     Layout1: TLayout;
     Rectangle1: TRectangle;
     Rectangle2: TRectangle;
-    Circle1: TCircle;
     Rectangle3: TRectangle;
     Rectangle4: TRectangle;
     Rectangle5: TRectangle;
     VertScrollBox1: TVertScrollBox;
+    Label1: TLabel;
+    Label2: TLabel;
+    Image1: TImage;
+    Label3: TLabel;
+    Label4: TLabel;
+    congeClickElement1: TcongeClickElement;
+    Rectangle6: TRectangle;
+    Label5: TLabel;
   private
     { Déclarations privées }
   public

@@ -69,7 +69,6 @@ type
     containeTopElement: TLayout;
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
-    congeTopElement1: TcongeTopElement;
     employe1: Temploye;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
