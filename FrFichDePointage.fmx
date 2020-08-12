@@ -35,28 +35,28 @@ object FicheDePointage: TFicheDePointage
       TabOrder = 0
       ColumnCollection = <
         item
-          Value = 6.760589219792672000
+          Value = 6.760620037959672000
         end
         item
-          Value = 26.495410894468820000
+          Value = 26.495531673881850000
         end
         item
-          Value = 7.002133585517694000
+          Value = 7.002165504765437000
         end
         item
-          Value = 7.002133585517694000
+          Value = 7.002165504765437000
         end
         item
-          Value = 14.171077287119660000
+          Value = 14.171141886019580000
         end
         item
-          Value = 14.866027212809240000
+          Value = 14.866094979640560000
         end
         item
-          Value = 10.702172366540970000
+          Value = 10.702221152427010000
         end
         item
-          Value = 13.000455848233240000
+          Value = 13.000059260540460000
         end>
       ControlCollection = <
         item
@@ -200,7 +200,7 @@ object FicheDePointage: TFicheDePointage
       object Label8: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 101.663635253906300000
+        Size.Width = 101.660461425781300000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'

@@ -8,9 +8,19 @@ object FicheDePointage: TFicheDePointage
     Size.Height = 348.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
+    object VertScrollBox1: TVertScrollBox
+      Align = Client
+      Size.Width = 782.000000000000000000
+      Size.Height = 348.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 782.000000000000000000
+      Viewport.Height = 348.000000000000000000
+    end
   end
   object Rectangle1: TRectangle
     Align = Top
+    Fill.Color = claWhite
     Size.Width = 782.000000000000000000
     Size.Height = 28.000000000000000000
     Size.PlatformDefault = False
@@ -25,22 +35,28 @@ object FicheDePointage: TFicheDePointage
       TabOrder = 0
       ColumnCollection = <
         item
-          Value = 11.625038199454130000
+          Value = 6.760589219792672000
         end
         item
-          Value = 26.737956602296170000
+          Value = 26.495410894468820000
         end
         item
-          Value = 15.101547506610930000
+          Value = 7.002133585517694000
         end
         item
-          Value = 15.292883472316800000
+          Value = 7.002133585517694000
         end
         item
-          Value = 15.504150777743790000
+          Value = 14.171077287119660000
         end
         item
-          Value = 15.738423441578190000
+          Value = 14.866027212809240000
+        end
+        item
+          Value = 10.702172366540970000
+        end
+        item
+          Value = 13.000455848233240000
         end>
       ControlCollection = <
         item
@@ -72,6 +88,16 @@ object FicheDePointage: TFicheDePointage
           Column = 5
           Control = Label6
           Row = 0
+        end
+        item
+          Column = 6
+          Control = Label7
+          Row = 0
+        end
+        item
+          Column = 7
+          Control = Label8
+          Row = 0
         end>
       RowCollection = <
         item
@@ -83,80 +109,106 @@ object FicheDePointage: TFicheDePointage
       object Label1: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 90.907798767089840000
+        Size.Width = 52.867809295654300000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
         TextSettings.FontColor = claGray
         TextSettings.HorzAlign = Center
-        Text = 'Label'
+        Text = 'Avatar'
         TabOrder = 5
       end
       object Label2: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 209.090820312500000000
+        Size.Width = 207.194107055664100000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
         TextSettings.FontColor = claGray
         TextSettings.HorzAlign = Center
-        Text = 'Label'
+        Text = 'Nom et pr'#233'nom'
         TabOrder = 4
       end
       object Label3: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 118.094085693359400000
+        Size.Width = 54.756683349609380000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
         TextSettings.FontColor = claGray
         TextSettings.HorzAlign = Center
-        Text = 'Label'
+        Text = 'Statut'
         TabOrder = 3
       end
       object Label4: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 119.590332031250000000
+        Size.Width = 54.756683349609380000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
         TextSettings.FontColor = claGray
         TextSettings.HorzAlign = Center
-        Text = 'Label'
+        Text = 'Retard'
         TabOrder = 2
       end
       object Label5: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 121.242492675781300000
+        Size.Width = 110.817840576171900000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
         TextSettings.FontColor = claGray
         TextSettings.HorzAlign = Center
-        Text = 'Label'
+        Text = 'Heure arriv'#233'e'
         TabOrder = 1
       end
       object Label6: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 123.074462890625000000
+        Size.Width = 116.252319335937500000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
         TextSettings.FontColor = claGray
         TextSettings.HorzAlign = Center
-        Text = 'Label'
+        Text = 'Heure d'#233'part'
         TabOrder = 0
+      end
+      object Label7: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 83.690979003906250000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Jr Complet'
+        TabOrder = 6
+      end
+      object Label8: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 101.663635253906300000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Heure Supp'
+        TabOrder = 7
       end
     end
   end
