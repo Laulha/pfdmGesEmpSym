@@ -30,7 +30,8 @@ uses
   FrCongeClickElement in 'FrCongeClickElement.pas' {congeClickElement: TFrame},
   FrCongeClickInformation in 'FrCongeClickInformation.pas' {congeClickInformation: TFrame},
   FrCongeAjouter in 'FrCongeAjouter.pas' {congeAjouter: TFrame},
-  FrInput in 'FrInput.pas' {input: TFrame};
+  FrInput in 'FrInput.pas' {input: TFrame},
+  FrFichDePointage in 'FrFichDePointage.pas' {FicheDePointage: TFrame};
 
 {$R *.res}
 
