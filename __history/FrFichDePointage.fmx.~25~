@@ -35,22 +35,28 @@ object FicheDePointage: TFicheDePointage
       TabOrder = 0
       ColumnCollection = <
         item
-          Value = 11.480206604078680000
+          Value = 6.760620037959672000
         end
         item
-          Value = 26.404839338907570000
+          Value = 26.495531673881850000
         end
         item
-          Value = 14.913403503942330000
+          Value = 7.002165504765437000
         end
         item
-          Value = 15.102355693122880000
+          Value = 7.002165504765437000
         end
         item
-          Value = 15.310990905616440000
+          Value = 14.171141886019580000
         end
         item
-          Value = 16.788203954332100000
+          Value = 14.866094979640560000
+        end
+        item
+          Value = 10.702221152427010000
+        end
+        item
+          Value = 13.000059260540460000
         end>
       ControlCollection = <
         item
@@ -82,6 +88,16 @@ object FicheDePointage: TFicheDePointage
           Column = 5
           Control = Label6
           Row = 0
+        end
+        item
+          Column = 6
+          Control = Label7
+          Row = 0
+        end
+        item
+          Column = 7
+          Control = Label8
+          Row = 0
         end>
       RowCollection = <
         item
@@ -93,7 +109,7 @@ object FicheDePointage: TFicheDePointage
       object Label1: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 89.775215148925780000
+        Size.Width = 52.867809295654300000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
@@ -106,7 +122,7 @@ object FicheDePointage: TFicheDePointage
       object Label2: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 206.485839843750000000
+        Size.Width = 207.194107055664100000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
@@ -119,54 +135,80 @@ object FicheDePointage: TFicheDePointage
       object Label3: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 116.622802734375000000
+        Size.Width = 54.756683349609380000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
         TextSettings.FontColor = claGray
         TextSettings.HorzAlign = Center
-        Text = 'Type de cong'#233
+        Text = 'Statut'
         TabOrder = 3
       end
       object Label4: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 118.100402832031300000
+        Size.Width = 54.756683349609380000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
         TextSettings.FontColor = claGray
         TextSettings.HorzAlign = Center
-        Text = 'Date d'#233'but'
+        Text = 'Retard'
         TabOrder = 2
       end
       object Label5: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 119.731933593750000000
+        Size.Width = 110.817840576171900000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
         TextSettings.FontColor = claGray
         TextSettings.HorzAlign = Center
-        Text = 'Date fin'
+        Text = 'Heure arriv'#233'e'
         TabOrder = 1
       end
       object Label6: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 131.283813476562500000
+        Size.Width = 116.252319335937500000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
         TextSettings.FontColor = claGray
         TextSettings.HorzAlign = Center
-        Text = 'Date etablissement'
+        Text = 'Heure d'#233'part'
         TabOrder = 0
+      end
+      object Label7: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 83.690979003906250000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Jr Complet'
+        TabOrder = 6
+      end
+      object Label8: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 101.660461425781300000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Heure Supp'
+        TabOrder = 7
       end
     end
   end

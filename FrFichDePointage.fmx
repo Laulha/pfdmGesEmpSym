@@ -35,28 +35,28 @@ object FicheDePointage: TFicheDePointage
       TabOrder = 0
       ColumnCollection = <
         item
-          Value = 6.760620037959672000
+          Value = 7.156323547415681000
         end
         item
-          Value = 26.495531673881850000
+          Value = 28.046332459814200000
         end
         item
-          Value = 7.002165504765437000
+          Value = 7.412006828263879000
         end
         item
-          Value = 7.002165504765437000
+          Value = 8.560135846684805000
         end
         item
-          Value = 14.171141886019580000
+          Value = 11.996961263235070000
         end
         item
-          Value = 14.866094979640560000
+          Value = 11.999043692317060000
         end
         item
-          Value = 10.702221152427010000
+          Value = 12.414867209161710000
         end
         item
-          Value = 13.000059260540460000
+          Value = 12.414329153107590000
         end>
       ControlCollection = <
         item
@@ -109,7 +109,7 @@ object FicheDePointage: TFicheDePointage
       object Label1: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 52.867809295654300000
+        Size.Width = 55.962451934814450000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
@@ -122,7 +122,7 @@ object FicheDePointage: TFicheDePointage
       object Label2: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 207.194107055664100000
+        Size.Width = 219.322341918945300000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
@@ -135,7 +135,7 @@ object FicheDePointage: TFicheDePointage
       object Label3: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 54.756683349609380000
+        Size.Width = 57.961883544921880000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
@@ -148,7 +148,7 @@ object FicheDePointage: TFicheDePointage
       object Label4: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 54.756683349609380000
+        Size.Width = 66.940277099609380000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
@@ -161,7 +161,7 @@ object FicheDePointage: TFicheDePointage
       object Label5: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 110.817840576171900000
+        Size.Width = 93.816223144531250000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
@@ -174,7 +174,7 @@ object FicheDePointage: TFicheDePointage
       object Label6: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 116.252319335937500000
+        Size.Width = 93.832519531250000000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
@@ -187,7 +187,7 @@ object FicheDePointage: TFicheDePointage
       object Label7: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 83.690979003906250000
+        Size.Width = 97.084228515625000000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
@@ -200,7 +200,7 @@ object FicheDePointage: TFicheDePointage
       object Label8: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 101.660461425781300000
+        Size.Width = 97.080078125000000000
         Size.Height = 28.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'

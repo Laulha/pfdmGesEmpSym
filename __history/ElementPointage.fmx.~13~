@@ -1,0 +1,174 @@
+object FrElementPointage: TFrElementPointage
+  Size.Width = 782.000000000000000000
+  Size.Height = 47.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 782.000000000000000000
+    Size.Height = 47.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    object GridPanelLayout1: TGridPanelLayout
+      Align = Client
+      Size.Width = 782.000000000000000000
+      Size.Height = 47.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          Value = 7.640922814719664000
+        end
+        item
+          Value = 29.945524422075040000
+        end
+        item
+          Value = 7.913920003993043000
+        end
+        item
+          Value = 8.896364819027722000
+        end
+        item
+          Value = 10.000269640731280000
+        end
+        item
+          Value = 10.000076881204360000
+        end
+        item
+          Value = 12.801668751982600000
+        end
+        item
+          Value = 12.801252666266300000
+        end>
+      ControlCollection = <
+        item
+          Column = 1
+          Control = Label2
+          Row = 0
+        end
+        item
+          Column = 0
+          Control = Button1
+          Row = 0
+        end
+        item
+          Column = 2
+          Control = Label1
+          Row = 0
+        end
+        item
+          Column = 4
+          Control = Edit1
+          Row = 0
+        end
+        item
+          Column = 5
+          Control = Edit2
+          Row = 0
+        end
+        item
+          Column = 6
+          Control = CheckBox1
+          Row = 0
+        end
+        item
+          Column = 7
+          Control = CheckBox2
+          Row = 0
+        end
+        item
+          Column = 3
+          Control = Retard
+          Row = 0
+        end>
+      RowCollection = <
+        item
+          Value = 100.000000000000000000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object Label2: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 234.174011230468800000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Nom et pr'#233'nom'
+        TabOrder = 0
+      end
+      object Button1: TButton
+        Align = Client
+        Size.Width = 59.751556396484380000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Text = 'Button1'
+      end
+      object Label1: TLabel
+        Align = Client
+        Size.Width = 61.886383056640630000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = 'Statut'
+        TabOrder = 2
+      end
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 3
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 7.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 7.000000000000000000
+        Size.Width = 68.201507568359380000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Client
+        TabOrder = 4
+        Margins.Left = 5.000000000000000000
+        Margins.Top = 7.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 7.000000000000000000
+        Size.Width = 68.200592041015630000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object CheckBox1: TCheckBox
+        Align = Client
+        Size.Width = 100.108276367187500000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 5
+        Text = 'Jour complet'
+      end
+      object CheckBox2: TCheckBox
+        Align = Client
+        Hint = 'Heure Suppl'#233'mentaire'
+        Size.Width = 100.105041503906300000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 6
+        Text = 'Heure Supp'
+        ParentShowHint = False
+        ShowHint = True
+      end
+      object Retard: TCheckBox
+        Align = Client
+        Size.Width = 69.569030761718750000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 7
+        Text = 'Retard'
+      end
+    end
+  end
+end
