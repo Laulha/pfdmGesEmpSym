@@ -32,7 +32,8 @@ uses
   FrCongeAjouter in 'FrCongeAjouter.pas' {congeAjouter: TFrame},
   FrInput in 'FrInput.pas' {input: TFrame},
   FrAbsenceTopElement in 'FrAbsenceTopElement.pas' {absenceTopElement: TFrame},
-  FrAbsenceClickInformation in 'FrAbsenceClickInformation.pas' {absenceClickInformation: TFrame};
+  FrAbsenceClickInformation in 'FrAbsenceClickInformation.pas' {absenceClickInformation: TFrame},
+  FrAbsenceClickElement in 'FrAbsenceClickElement.pas' {absenceClickElement: TFrame};
 
 {$R *.res}
 
