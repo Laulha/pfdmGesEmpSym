@@ -34,7 +34,9 @@ uses
   FrFichDePointage in 'FrFichDePointage.pas' {FicheDePointage: TFrame},
   FrElementConge in 'FrElementConge.pas' {ElementConge: TFrame},
   ElementPointage in 'ElementPointage.pas' {FrElementPointage: TFrame},
-  FicheDePointageTopElement in 'FicheDePointageTopElement.pas' {FrFicheDePointageTopElement: TFrame};
+  FicheDePointageTopElement in 'FicheDePointageTopElement.pas' {FrFicheDePointageTopElement: TFrame},
+  FrEmployeMaquetteB in 'FrEmployeMaquetteB.pas' {EmployeMaquetteB: TFrame},
+  FrMenuBouton in 'FrMenuBouton.pas' {MenuBouton: TFrame};
 
 {$R *.res}
 

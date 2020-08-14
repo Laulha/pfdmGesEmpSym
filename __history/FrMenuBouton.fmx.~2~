@@ -1,0 +1,5 @@
+object MenuBouton: TMenuBouton
+  Size.Width = 105.000000000000000000
+  Size.Height = 35.000000000000000000
+  Size.PlatformDefault = False
+end

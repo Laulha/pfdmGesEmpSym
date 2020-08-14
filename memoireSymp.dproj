@@ -281,6 +281,16 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
+        <DCCReference Include="FrEmployeMaquetteB.pas">
+            <Form>EmployeMaquetteB</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrMenuBouton.pas">
+            <Form>MenuBouton</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <RcItem Include="asset\login\bgLogin2.png">
             <ResourceType>RCDATA</ResourceType>
             <ResourceId>bground</ResourceId>

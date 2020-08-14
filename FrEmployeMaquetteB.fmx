@@ -4,7 +4,7 @@ object EmployeMaquetteB: TEmployeMaquetteB
   Size.PlatformDefault = False
   object Rectangle1: TRectangle
     Align = Client
-    Fill.Color = xFFECF0F1
+    Fill.Color = claWhite
     Size.Width = 782.000000000000000000
     Size.Height = 49.000000000000000000
     Size.PlatformDefault = False
