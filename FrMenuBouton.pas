@@ -22,5 +22,4 @@ type
 implementation
 
 {$R *.fmx}
-
 end.
