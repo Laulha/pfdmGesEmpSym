@@ -1,44 +1,37 @@
-object FrElementPointage: TFrElementPointage
+object EmployeMaquetteB: TEmployeMaquetteB
   Size.Width = 782.000000000000000000
-  Size.Height = 47.000000000000000000
+  Size.Height = 49.000000000000000000
   Size.PlatformDefault = False
   object Rectangle1: TRectangle
     Align = Client
     Fill.Color = claWhite
     Size.Width = 782.000000000000000000
-    Size.Height = 47.000000000000000000
+    Size.Height = 49.000000000000000000
     Size.PlatformDefault = False
     Stroke.Thickness = 0.000000000000000000
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
     object GridPanelLayout1: TGridPanelLayout
       Align = Client
       Size.Width = 782.000000000000000000
-      Size.Height = 47.000000000000000000
+      Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
       ColumnCollection = <
         item
-          Value = 7.536875543443561000
+          Value = 6.772189580582017000
         end
         item
-          Value = 29.537752981556540000
+          Value = 12.028127514297540000
         end
         item
-          Value = 7.806155300503749000
+          Value = 24.055332459816140000
         end
         item
-          Value = 8.775222058376691000
+          Value = 27.129575895038260000
         end
         item
-          Value = 11.129482313495890000
-        end
-        item
-          Value = 11.128836464684560000
-        end
-        item
-          Value = 12.957128421204960000
-        end
-        item
-          Value = 11.128546916734040000
+          Value = 30.014774550266050000
         end>
       ControlCollection = <
         item
@@ -48,37 +41,22 @@ object FrElementPointage: TFrElementPointage
         end
         item
           Column = 2
-          Control = Label1
-          Row = 0
-        end
-        item
-          Column = 4
-          Control = Edit1
-          Row = 0
-        end
-        item
-          Column = 5
-          Control = Edit2
-          Row = 0
-        end
-        item
-          Column = 6
-          Control = CheckBox1
-          Row = 0
-        end
-        item
-          Column = 7
-          Control = CheckBox2
+          Control = Label3
           Row = 0
         end
         item
           Column = 3
-          Control = Retard
+          Control = Label4
           Row = 0
         end
         item
           Column = 0
           Control = Image1
+          Row = 0
+        end
+        item
+          Column = 4
+          Control = Layout1
           Row = 0
         end>
       RowCollection = <
@@ -90,91 +68,41 @@ object FrElementPointage: TFrElementPointage
         end>
       object Label2: TLabel
         Align = Client
-        StyledSettings = [Style]
-        Margins.Left = 3.000000000000000000
-        Size.Width = 227.985214233398400000
-        Size.Height = 47.000000000000000000
+        StyledSettings = []
+        Size.Width = 94.059951782226560000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.StyleExt = {04040000000000000004000000}
+        TextSettings.FontColor = claCadetblue
+        TextSettings.HorzAlign = Center
+        Text = 'ABCDEF165'
+        TabOrder = 0
+      end
+      object Label3: TLabel
+        Align = Client
+        StyledSettings = [FontColor]
+        Size.Width = 188.112686157226600000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
-        Text = 'Nom et pr'#233'nom'
-        TabOrder = 0
-      end
-      object Label1: TLabel
-        Align = Client
-        StyledSettings = [Style]
-        Margins.Left = 3.000000000000000000
-        Size.Width = 58.044128417968750000
-        Size.Height = 47.000000000000000000
-        Size.PlatformDefault = False
-        TextSettings.Font.Family = 'Roboto'
-        TextSettings.Font.Size = 13.000000000000000000
+        TextSettings.Font.StyleExt = {04040000000000000004000000}
         TextSettings.HorzAlign = Center
-        Text = 'Statut'
+        Text = 'Nom & Pr'#233'nom'
         TabOrder = 1
       end
-      object Edit1: TEdit
-        Touch.InteractiveGestures = [LongTap, DoubleTap]
+      object Label4: TLabel
         Align = Client
+        StyledSettings = [Style, FontColor]
+        Size.Width = 212.153259277343800000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Poste Occup'#233
         TabOrder = 2
-        Margins.Left = 3.000000000000000000
-        Margins.Top = 7.000000000000000000
-        Margins.Right = 5.000000000000000000
-        Margins.Bottom = 7.000000000000000000
-        Size.Width = 79.032562255859380000
-        Size.Height = 33.000000000000000000
-        Size.PlatformDefault = False
-      end
-      object Edit2: TEdit
-        Touch.InteractiveGestures = [LongTap, DoubleTap]
-        Align = Client
-        TabOrder = 3
-        Margins.Left = 3.000000000000000000
-        Margins.Top = 7.000000000000000000
-        Margins.Right = 5.000000000000000000
-        Margins.Bottom = 7.000000000000000000
-        Size.Width = 79.027496337890630000
-        Size.Height = 33.000000000000000000
-        Size.PlatformDefault = False
-      end
-      object CheckBox1: TCheckBox
-        Align = Client
-        StyledSettings = [Style]
-        Margins.Left = 3.000000000000000000
-        Size.Width = 98.324768066406250000
-        Size.Height = 47.000000000000000000
-        Size.PlatformDefault = False
-        TabOrder = 4
-        Text = 'Jour complet'
-        TextSettings.Font.Family = 'Roboto'
-        TextSettings.Font.Size = 13.000000000000000000
-      end
-      object CheckBox2: TCheckBox
-        Align = Client
-        StyledSettings = [Style]
-        Hint = 'Heure Suppl'#233'mentaire'
-        Margins.Left = 3.000000000000000000
-        Size.Width = 84.025207519531250000
-        Size.Height = 47.000000000000000000
-        Size.PlatformDefault = False
-        TabOrder = 5
-        Text = 'Heure Supp'
-        TextSettings.Font.Family = 'Roboto'
-        TextSettings.Font.Size = 13.000000000000000000
-        ParentShowHint = False
-        ShowHint = True
-      end
-      object Retard: TCheckBox
-        Align = Client
-        StyledSettings = [Style]
-        Margins.Left = 3.000000000000000000
-        Size.Width = 65.622253417968750000
-        Size.Height = 47.000000000000000000
-        Size.PlatformDefault = False
-        TabOrder = 6
-        Text = 'Retard'
-        TextSettings.Font.Family = 'Roboto'
-        TextSettings.Font.Size = 13.000000000000000000
       end
       object Image1: TImage
         MultiResBitmap = <
@@ -5195,9 +5123,101 @@ object FrElementPointage: TFrElementPointage
               DE56AFAB596CDBFE0FF7969D5EFAB4C30E0000000049454E44AE426082}
           end>
         Align = Client
-        Size.Width = 58.938365936279300000
-        Size.Height = 47.000000000000000000
+        Size.Width = 52.958522796630860000
+        Size.Height = 49.000000000000000000
         Size.PlatformDefault = False
+      end
+      object Layout1: TLayout
+        Align = Client
+        Size.Width = 234.715576171875000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 4
+        object ComboBox1: TComboBox
+          Align = Left
+          Items.Strings = (
+            'Inefficace'
+            'Tout juste'
+            'Bon travail'
+            'Productif'
+            'Fait avancer le travail')
+          ItemIndex = 2
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 161.000000000000000000
+          Size.Height = 29.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+        end
+        object Rectangle2: TRectangle
+          Align = FitRight
+          Fill.Color = claWhite
+          Position.X = 180.715576171875000000
+          Size.Width = 54.000015258789060000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Thickness = 0.000000000000000000
+          object Image3: TImage
+            MultiResBitmap.Height = 10
+            MultiResBitmap.Width = 10
+            MultiResBitmap = <
+              item
+                Width = 25
+                Height = 29
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000190000001D08060000005F78C7
+                  75000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  015749444154484BED96ED31C540188543039440074AA0023AA0033A4005A880
+                  0E50012A713BA003CEB3C9313B49F673C62F9E9933BB7B73EF9EBC1FD9DCE19F
+                  BFC9D6349E4B27E3B49A67E9769C86DFB3DE84D50A07D257A3DEA55D0918F9EC
+                  25AC127037F34D4ADA930003E6DEE3425AE541E20BF761D5C68DE4081893D1D8
+                  E42AACEAA10E8E8C0888C8112EE83161B30FC926C8355AB03D8DAD909678D36B
+                  E9739C2EE931A10E715A68DB6C165A4DCEA4B88330381AA7695A4CB8FBCB71FA
+                  03694A3E80A6C5E4518AD37427D134456A4D888093C170F74E5BB26D4DADC9FE
+                  34025DE43A60507C886B4C3838B96BE73EAEC3BCD392941E46AE9D4AA4CBA72E
+                  1C4A5CE3B0CC528AC4756073D2943C0073D498BC4AD927BA44C9E449A2C88EA4
+                  8B9249F7C631BC7E293C85755A6A3996DC75718BAF4257F9B8EE51F6B56BE8F3
+                  F9BBA1451C9A59FC6F052342DF09AB7ADEA4AAF3EB9719866F3A42783F744076
+                  520000000049454E44AE426082}
+              end>
+            Align = Left
+            Size.Width = 25.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+          end
+          object Image2: TImage
+            MultiResBitmap = <
+              item
+              end
+              item
+                Scale = 2.000000000000000000
+                Width = 25
+                Height = 29
+                PNG = {
+                  89504E470D0A1A0A0000000D49484452000000190000001D08060000005F78C7
+                  75000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                  015749444154484BED95B151033110450F68809090909012A0042A002A002A80
+                  0EB02B002A800E1832329312414A04A133F3DF58EBD168F674DA33647E336F74
+                  73A3D3B7B47BE76E4384AD34B670287797972B3E93A361C1FDE4B55C38CE24E1
+                  36AFFC112E2C86C0431FD25BBCCF3B59855F64934FB921B8F72DF3856ABA2165
+                  4D2EE5ADFC91C7F24DDA51B4E0D6C82BFC8DE4C8984C10233BBA90355EE4FDF2
+                  B20D26B37D6A62C59CC8F2787207EB51C2C2740E0F3F7323F128CBC5CD70089C
+                  495B803A411E5EDA1BB29DC6216808EA44439CC8D00BD81A023404AD4D004104
+                  361109018A4FA7D1DAE7DC68211A424D283EEFCD93BC9283444380003A8E4076
+                  369555C6840041EC08680A76D5CBD8103892D6DAD4873A85C9DF939AF6D51E45
+                  6B08DA57DB659DE3CAB1D676F9AB90BCB543F060E40F0BF3AFF68A9D347ACCE5
+                  BBDC937C4A6A3E48163F905FF255FE0B1C15B5D9B00E5DF70B5D208C3595AEC7
+                  3B0000000049454E44AE426082}
+              end>
+            Align = Right
+            Position.X = 27.000015258789060000
+            Size.Width = 27.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
       end
     end
   end

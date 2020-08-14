@@ -17,28 +17,28 @@ object FrElementPointage: TFrElementPointage
       TabOrder = 0
       ColumnCollection = <
         item
-          Value = 6.871456254550483000
+          Value = 7.536875543443561000
         end
         item
-          Value = 26.929909655606330000
+          Value = 29.537752981556540000
         end
         item
-          Value = 7.116961711050254000
+          Value = 7.806155300503748000
         end
         item
-          Value = 8.000471037438919000
+          Value = 8.775222058376691000
         end
         item
-          Value = 12.016509326659260000
+          Value = 11.129482313495890000
         end
         item
-          Value = 12.016507188035640000
+          Value = 11.128836464684560000
         end
         item
-          Value = 12.675714762160860000
+          Value = 12.957128421204960000
         end
         item
-          Value = 14.372470064498250000
+          Value = 11.128546916734040000
         end>
       ControlCollection = <
         item
@@ -91,19 +91,18 @@ object FrElementPointage: TFrElementPointage
       object Label2: TLabel
         Align = Client
         StyledSettings = [Style]
-        Size.Width = 210.591873168945300000
+        Margins.Left = 3.000000000000000000
+        Size.Width = 227.985214233398400000
         Size.Height = 47.000000000000000000
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 14.000000000000000000
-        TextSettings.FontColor = claGray
-        TextSettings.HorzAlign = Center
         Text = 'Nom et pr'#233'nom'
         TabOrder = 0
       end
       object Button1: TButton
         Align = Client
-        Size.Width = 53.734786987304690000
+        Size.Width = 58.938365936279300000
         Size.Height = 47.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 1
@@ -111,10 +110,13 @@ object FrElementPointage: TFrElementPointage
       end
       object Label1: TLabel
         Align = Client
-        Size.Width = 55.654632568359380000
+        StyledSettings = [Style]
+        Margins.Left = 3.000000000000000000
+        Size.Width = 58.044128417968750000
         Size.Height = 47.000000000000000000
         Size.PlatformDefault = False
-        TextSettings.HorzAlign = Center
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 13.000000000000000000
         Text = 'Statut'
         TabOrder = 2
       end
@@ -122,11 +124,11 @@ object FrElementPointage: TFrElementPointage
         Touch.InteractiveGestures = [LongTap, DoubleTap]
         Align = Client
         TabOrder = 3
-        Margins.Left = 5.000000000000000000
+        Margins.Left = 3.000000000000000000
         Margins.Top = 7.000000000000000000
         Margins.Right = 5.000000000000000000
         Margins.Bottom = 7.000000000000000000
-        Size.Width = 83.969116210937500000
+        Size.Width = 79.032562255859380000
         Size.Height = 33.000000000000000000
         Size.PlatformDefault = False
       end
@@ -134,40 +136,52 @@ object FrElementPointage: TFrElementPointage
         Touch.InteractiveGestures = [LongTap, DoubleTap]
         Align = Client
         TabOrder = 4
-        Margins.Left = 5.000000000000000000
+        Margins.Left = 3.000000000000000000
         Margins.Top = 7.000000000000000000
         Margins.Right = 5.000000000000000000
         Margins.Bottom = 7.000000000000000000
-        Size.Width = 83.969055175781250000
+        Size.Width = 79.027496337890630000
         Size.Height = 33.000000000000000000
         Size.PlatformDefault = False
       end
       object CheckBox1: TCheckBox
         Align = Client
-        Size.Width = 99.124084472656250000
+        StyledSettings = [Style]
+        Margins.Left = 3.000000000000000000
+        Size.Width = 98.324768066406250000
         Size.Height = 47.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 5
         Text = 'Jour complet'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 13.000000000000000000
       end
       object CheckBox2: TCheckBox
         Align = Client
+        StyledSettings = [Style]
         Hint = 'Heure Suppl'#233'mentaire'
-        Size.Width = 112.392700195312500000
+        Margins.Left = 3.000000000000000000
+        Size.Width = 84.025207519531250000
         Size.Height = 47.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 6
         Text = 'Heure Supp'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 13.000000000000000000
         ParentShowHint = False
         ShowHint = True
       end
       object Retard: TCheckBox
         Align = Client
-        Size.Width = 62.563690185546880000
+        StyledSettings = [Style]
+        Margins.Left = 3.000000000000000000
+        Size.Width = 65.622253417968750000
         Size.Height = 47.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 7
         Text = 'Retard'
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 13.000000000000000000
       end
     end
   end

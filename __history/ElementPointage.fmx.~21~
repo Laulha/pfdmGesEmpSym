@@ -109,7 +109,6 @@ object FrElementPointage: TFrElementPointage
         Size.PlatformDefault = False
         TextSettings.Font.Family = 'Roboto'
         TextSettings.Font.Size = 13.000000000000000000
-        TextSettings.HorzAlign = Center
         Text = 'Statut'
         TabOrder = 1
       end
