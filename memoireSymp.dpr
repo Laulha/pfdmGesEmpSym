@@ -33,7 +33,9 @@ uses
   FrInput in 'FrInput.pas' {input: TFrame},
   FrAbsenceTopElement in 'FrAbsenceTopElement.pas' {absenceTopElement: TFrame},
   FrAbsenceClickInformation in 'FrAbsenceClickInformation.pas' {absenceClickInformation: TFrame},
-  FrAbsenceClickElement in 'FrAbsenceClickElement.pas' {absenceClickElement: TFrame};
+  FrAbsenceClickElement in 'FrAbsenceClickElement.pas' {absenceClickElement: TFrame},
+  FrEmployeMaquetteAbsence in 'FrEmployeMaquetteAbsence.pas' {employeMaquetteAbsence: TFrame},
+  FrAbsence in 'FrAbsence.pas' {absence: TFrame};
 
 {$R *.res}
 
