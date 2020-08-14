@@ -140,7 +140,7 @@ object employe: Temploye
     Size.Height = 312.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
-    Viewport.Width = 766.000000000000000000
+    Viewport.Width = 782.000000000000000000
     Viewport.Height = 312.000000000000000000
     inline employeMaquette1: TemployeMaquette
       Align = Top

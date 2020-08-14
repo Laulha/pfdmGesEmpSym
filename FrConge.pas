@@ -34,7 +34,6 @@ type
     employeMaquetteConge11: TemployeMaquetteConge;
     employeMaquetteConge12: TemployeMaquetteConge;
     Layout1: TLayout;
-    congeClick1: TcongeClick;
   private
     { Déclarations privées }
   public

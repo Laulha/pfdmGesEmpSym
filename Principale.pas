@@ -70,6 +70,7 @@ type
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
     employe1: Temploye;
+    employeTopElemnt1: TemployeTopElemnt;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);

@@ -30,7 +30,9 @@ uses
   FrCongeClickElement in 'FrCongeClickElement.pas' {congeClickElement: TFrame},
   FrCongeClickInformation in 'FrCongeClickInformation.pas' {congeClickInformation: TFrame},
   FrCongeAjouter in 'FrCongeAjouter.pas' {congeAjouter: TFrame},
-  FrInput in 'FrInput.pas' {input: TFrame};
+  FrInput in 'FrInput.pas' {input: TFrame},
+  FrAbsenceTopElement in 'FrAbsenceTopElement.pas' {absenceTopElement: TFrame},
+  FrAbsenceClickInformation in 'FrAbsenceClickInformation.pas' {absenceClickInformation: TFrame};
 
 {$R *.res}
 

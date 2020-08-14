@@ -12,6 +12,8 @@ type
     Line1: TLine;
     moisConge: TLabel;
     Layout1: TLayout;
+    congeClickInformation4: TcongeClickInformation;
+    congeClickInformation5: TcongeClickInformation;
     congeClickInformation1: TcongeClickInformation;
   private
     { Déclarations privées }
@@ -20,6 +22,8 @@ type
   end;
 
 implementation
+
+
 
 {$R *.fmx}
 
