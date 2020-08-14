@@ -1,0 +1,15 @@
+object FrHeaderFicheDePointage: TFrHeaderFicheDePointage
+  Size.Width = 782.000000000000000000
+  Size.Height = 72.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 782.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+  end
+end

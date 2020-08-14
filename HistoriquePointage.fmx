@@ -1,0 +1,353 @@
+object FrHistoriquePointage: TFrHistoriquePointage
+  Margins.Left = 2.000000000000000000
+  Margins.Right = 2.000000000000000000
+  Size.Width = 782.000000000000000000
+  Size.Height = 330.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 782.000000000000000000
+    Size.Height = 28.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle2: TRectangle
+      Align = Client
+      Size.Width = 782.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      object GridPanelLayout1: TGridPanelLayout
+        Align = Client
+        Size.Width = 782.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 20.055940951502200000
+          end
+          item
+            Value = 9.711976693066514000
+          end
+          item
+            Value = 10.739500679437880000
+          end
+          item
+            Value = 16.183375531437030000
+          end
+          item
+            Value = 17.034769621785170000
+          end
+          item
+            Value = 13.073571119462890000
+          end
+          item
+            Value = 13.200865403308330000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Label1
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Label2
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = Label3
+            Row = 0
+          end
+          item
+            Column = 3
+            Control = Label4
+            Row = 0
+          end
+          item
+            Column = 4
+            Control = Label5
+            Row = 0
+          end
+          item
+            Column = 5
+            Control = Label6
+            Row = 0
+          end
+          item
+            Column = 6
+            Control = Label7
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end
+          item
+            SizeStyle = Auto
+          end>
+        object Label1: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 156.837463378906300000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Date'
+          TabOrder = 2
+        end
+        object Label2: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 75.947662353515630000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Statut'
+          TabOrder = 3
+        end
+        object Label3: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 83.982879638671880000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Retard'
+          TabOrder = 4
+        end
+        object Label4: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 126.553985595703100000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Heure arriv'#233'e'
+          TabOrder = 5
+        end
+        object Label5: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 133.211883544921900000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Heure d'#233'part'
+          TabOrder = 6
+        end
+        object Label6: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 102.235351562500000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Jour complet'
+          TabOrder = 0
+        end
+        object Label7: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 103.230773925781300000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Heure supp'
+          TabOrder = 1
+        end
+      end
+    end
+  end
+  object Layout2: TLayout
+    Align = Client
+    Size.Width = 782.000000000000000000
+    Size.Height = 302.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 782.000000000000000000
+      Size.Height = 302.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      object VertScrollBox1: TVertScrollBox
+        Align = Client
+        Size.Width = 782.000000000000000000
+        Size.Height = 302.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 782.000000000000000000
+        Viewport.Height = 302.000000000000000000
+        object GridPanelLayout2: TGridPanelLayout
+          Align = Top
+          Margins.Top = 2.000000000000000000
+          Margins.Bottom = 2.000000000000000000
+          Position.Y = 2.000000000000000000
+          Size.Width = 782.000000000000000000
+          Size.Height = 35.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          ColumnCollection = <
+            item
+              Value = 20.055940951502200000
+            end
+            item
+              Value = 9.711976693066514000
+            end
+            item
+              Value = 10.739500679437880000
+            end
+            item
+              Value = 16.183375531437030000
+            end
+            item
+              Value = 17.034769621785170000
+            end
+            item
+              Value = 13.073571119462890000
+            end
+            item
+              Value = 13.200865403308330000
+            end>
+          ControlCollection = <
+            item
+              Column = 0
+              Control = DateEdit1
+              Row = 0
+            end
+            item
+              Column = 1
+              Control = ComboBox1
+              Row = 0
+            end
+            item
+              Column = 2
+              Control = CheckBox1
+              Row = 0
+            end
+            item
+              Column = 3
+              Control = TimeEdit1
+              Row = 0
+            end
+            item
+              Column = 4
+              Control = TimeEdit2
+              Row = 0
+            end
+            item
+              Column = 5
+              Control = CheckBox2
+              Row = 0
+            end
+            item
+              Column = 6
+              Control = CheckBox3
+              Row = 0
+            end>
+          RowCollection = <
+            item
+              Value = 100.000000000000000000
+            end
+            item
+              SizeStyle = Auto
+            end>
+          object DateEdit1: TDateEdit
+            Date = 44058.000000000000000000
+            Align = Client
+            Margins.Left = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Size.Width = 152.837463378906300000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Style, FontColor]
+            TabOrder = 0
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.HorzAlign = Center
+          end
+          object ComboBox1: TComboBox
+            Align = Client
+            Items.Strings = (
+              'Retard'
+              'Non-pr'#233'sent(e)'
+              'Cong'#233)
+            Margins.Left = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Size.Width = 71.947662353515630000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 1
+          end
+          object CheckBox1: TCheckBox
+            Align = Client
+            Margins.Left = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Size.Width = 79.982879638671880000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'checkboxstyle'
+            TabOrder = 2
+            Text = 'Retard'
+          end
+          object TimeEdit1: TTimeEdit
+            Time = 0.018950706018518520
+            Align = Client
+            Margins.Left = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Size.Width = 122.553985595703100000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+          end
+          object TimeEdit2: TTimeEdit
+            Time = 0.019166180555555550
+            Align = Client
+            Margins.Left = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Size.Width = 129.211883544921900000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+          end
+          object CheckBox2: TCheckBox
+            Align = Client
+            Margins.Left = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Size.Width = 98.235351562500000000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            Text = 'Complet'
+          end
+          object CheckBox3: TCheckBox
+            Align = Client
+            Margins.Left = 2.000000000000000000
+            Margins.Right = 2.000000000000000000
+            Size.Width = 99.230773925781250000
+            Size.Height = 35.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 6
+            Text = 'Heure Supp'
+          end
+        end
+      end
+    end
+  end
+end

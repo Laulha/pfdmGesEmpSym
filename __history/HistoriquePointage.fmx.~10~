@@ -1,0 +1,194 @@
+object FrHistoriquePointage: TFrHistoriquePointage
+  Margins.Left = 2.000000000000000000
+  Margins.Right = 2.000000000000000000
+  Size.Width = 782.000000000000000000
+  Size.Height = 330.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 782.000000000000000000
+    Size.Height = 302.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    object VertScrollBox1: TVertScrollBox
+      Align = Client
+      Size.Width = 782.000000000000000000
+      Size.Height = 302.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 782.000000000000000000
+      Viewport.Height = 302.000000000000000000
+    end
+  end
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 782.000000000000000000
+    Size.Height = 28.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Rectangle2: TRectangle
+      Align = Client
+      Size.Width = 782.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      object GridPanelLayout1: TGridPanelLayout
+        Align = Client
+        Size.Width = 782.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 20.055940951502200000
+          end
+          item
+            Value = 9.711976693066514000
+          end
+          item
+            Value = 10.739500679437880000
+          end
+          item
+            Value = 16.183375531437030000
+          end
+          item
+            Value = 17.034769621785170000
+          end
+          item
+            Value = 13.073571119462890000
+          end
+          item
+            Value = 13.200865403308330000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Label1
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Label2
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = Label3
+            Row = 0
+          end
+          item
+            Column = 3
+            Control = Label4
+            Row = 0
+          end
+          item
+            Column = 4
+            Control = Label5
+            Row = 0
+          end
+          item
+            Column = 5
+            Control = Label6
+            Row = 0
+          end
+          item
+            Column = 6
+            Control = Label7
+            Row = 0
+          end>
+        RowCollection = <
+          item
+            Value = 100.000000000000000000
+          end
+          item
+            SizeStyle = Auto
+          end>
+        object Label1: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 156.837463378906300000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Date'
+          TabOrder = 0
+        end
+        object Label2: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 75.947662353515630000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Statut'
+          TabOrder = 1
+        end
+        object Label3: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 83.982879638671880000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Retard'
+          TabOrder = 2
+        end
+        object Label4: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 126.553985595703100000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Heure arriv'#233'e'
+          TabOrder = 3
+        end
+        object Label5: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 133.211883544921900000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Heure d'#233'part'
+          TabOrder = 4
+        end
+        object Label6: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 102.235351562500000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Jour Complet'
+          TabOrder = 5
+        end
+        object Label7: TLabel
+          Align = Client
+          StyledSettings = [Style, FontColor]
+          Size.Width = 103.230773925781300000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = 'Heure supp'
+          TabOrder = 6
+        end
+      end
+    end
+  end
+end
