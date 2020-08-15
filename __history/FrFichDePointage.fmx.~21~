@@ -1,0 +1,215 @@
+object FicheDePointage: TFicheDePointage
+  Size.Width = 782.000000000000000000
+  Size.Height = 376.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 782.000000000000000000
+    Size.Height = 348.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object VertScrollBox1: TVertScrollBox
+      Align = Client
+      Size.Width = 782.000000000000000000
+      Size.Height = 348.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 782.000000000000000000
+      Viewport.Height = 348.000000000000000000
+    end
+  end
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = claWhite
+    Size.Width = 782.000000000000000000
+    Size.Height = 28.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+    object GridPanelLayout1: TGridPanelLayout
+      Align = Client
+      Size.Width = 782.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      ColumnCollection = <
+        item
+          Value = 6.379766549297140000
+        end
+        item
+          Value = 25.002929572993500000
+        end
+        item
+          Value = 5.880101913994245000
+        end
+        item
+          Value = 12.939525221129130000
+        end
+        item
+          Value = 13.372823270963800000
+        end
+        item
+          Value = 14.028626803054000000
+        end
+        item
+          Value = 10.099321087129170000
+        end
+        item
+          Value = 12.296905581439020000
+        end>
+      ControlCollection = <
+        item
+          Column = 0
+          Control = Label1
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = Label2
+          Row = 0
+        end
+        item
+          Column = 2
+          Control = Label3
+          Row = 0
+        end
+        item
+          Column = 3
+          Control = Label4
+          Row = 0
+        end
+        item
+          Column = 4
+          Control = Label5
+          Row = 0
+        end
+        item
+          Column = 5
+          Control = Label6
+          Row = 0
+        end
+        item
+          Column = 6
+          Control = Label7
+          Row = 0
+        end
+        item
+          Column = 7
+          Control = Label8
+          Row = 0
+        end>
+      RowCollection = <
+        item
+          Value = 100.000000000000000000
+        end
+        item
+          SizeStyle = Auto
+        end>
+      object Label1: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 49.889774322509770000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Avatar'
+        TabOrder = 5
+      end
+      object Label2: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 195.522903442382800000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Nom et pr'#233'nom'
+        TabOrder = 4
+      end
+      object Label3: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 45.982406616210940000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Statut'
+        TabOrder = 3
+      end
+      object Label4: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 101.187072753906300000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Retard'
+        TabOrder = 2
+      end
+      object Label5: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 104.575469970703100000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Heure arriv'#233'e'
+        TabOrder = 1
+      end
+      object Label6: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 109.703887939453100000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Heure d'#233'part'
+        TabOrder = 0
+      end
+      object Label7: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 78.976684570312500000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Jr Complet'
+        TabOrder = 6
+      end
+      object Label8: TLabel
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 96.161804199218750000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.FontColor = claGray
+        TextSettings.HorzAlign = Center
+        Text = 'Heure Supp'
+        TabOrder = 7
+      end
+    end
+  end
+end

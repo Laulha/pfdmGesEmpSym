@@ -1,0 +1,33 @@
+unit FicheDePointageTopElement;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Objects, FMX.Controls.Presentation, FMX.DateTimeCtrls,
+  FMX.ListBox, FMX.Edit, FMX.Effects;
+
+type
+  TFrFicheDePointageTopElement = class(TFrame)
+    Layout1: TLayout;
+    Rectangle1: TRectangle;
+    FlowLayout1: TFlowLayout;
+    ShadowEffect1: TShadowEffect;
+    Layout2: TLayout;
+    Layout3: TLayout;
+    Layout4: TLayout;
+    ComboBox1: TComboBox;
+    Rectangle2: TRectangle;
+    DateEdit1: TDateEdit;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.

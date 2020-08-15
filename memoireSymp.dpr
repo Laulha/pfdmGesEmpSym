@@ -30,7 +30,18 @@ uses
   FrCongeClickElement in 'FrCongeClickElement.pas' {congeClickElement: TFrame},
   FrCongeClickInformation in 'FrCongeClickInformation.pas' {congeClickInformation: TFrame},
   FrCongeAjouter in 'FrCongeAjouter.pas' {congeAjouter: TFrame},
-  FrInput in 'FrInput.pas' {input: TFrame};
+  FrInput in 'FrInput.pas' {input: TFrame},
+  FrFichDePointage in 'FrFichDePointage.pas' {FicheDePointage: TFrame},
+  FrElementConge in 'FrElementConge.pas' {ElementConge: TFrame},
+  ElementPointage in 'ElementPointage.pas' {FrElementPointage: TFrame},
+  FicheDePointageTopElement in 'FicheDePointageTopElement.pas' {FrFicheDePointageTopElement: TFrame},
+  FrEmployeMaquetteB in 'FrEmployeMaquetteB.pas' {EmployeMaquetteB: TFrame},
+  FrMenuBouton in 'FrMenuBouton.pas' {MenuBouton: TFrame},
+  FDPElementEmployeClick in 'FDPElementEmployeClick.pas' {FrElementEmployéClick: TFrame},
+  HeaderFicheDePointage in 'HeaderFicheDePointage.pas' {FrHeaderFicheDePointage: TFrame},
+  HistoriquePointage in 'HistoriquePointage.pas' {FrHistoriquePointageElement: TFrame},
+  FDPBodyFiltreClick in 'FDPBodyFiltreClick.pas' {FrFDPBodyFiltreClick: TFrame},
+  HistoriquePointageTopElement in 'HistoriquePointageTopElement.pas' {FrHistoriquePointageTopElement: TFrame};
 
 {$R *.res}
 

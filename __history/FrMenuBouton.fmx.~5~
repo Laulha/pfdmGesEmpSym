@@ -1,0 +1,40 @@
+object MenuBouton: TMenuBouton
+  Size.Width = 105.000000000000000000
+  Size.Height = 35.000000000000000000
+  Size.PlatformDefault = False
+  object menu: TRectangle
+    Align = Client
+    Cursor = crHandPoint
+    Fill.Color = xFF34495E
+    Size.Width = 105.000000000000000000
+    Size.Height = 35.000000000000000000
+    Size.PlatformDefault = False
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Style]
+      Size.Width = 65.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'MENU'
+      TabOrder = 3
+    end
+    object Button1: TButton
+      Align = Left
+      HitTest = False
+      Size.Width = 40.000000000000000000
+      Size.Height = 35.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'detailstoolbutton'
+      TabOrder = 4
+      Text = 'Button1'
+      object InvertEffect1: TInvertEffect
+      end
+    end
+  end
+end
