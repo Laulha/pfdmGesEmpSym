@@ -36,7 +36,12 @@ uses
   ElementPointage in 'ElementPointage.pas' {FrElementPointage: TFrame},
   FicheDePointageTopElement in 'FicheDePointageTopElement.pas' {FrFicheDePointageTopElement: TFrame},
   FrEmployeMaquetteB in 'FrEmployeMaquetteB.pas' {EmployeMaquetteB: TFrame},
-  FrMenuBouton in 'FrMenuBouton.pas' {MenuBouton: TFrame};
+  FrMenuBouton in 'FrMenuBouton.pas' {MenuBouton: TFrame},
+  FDPElementEmployeClick in 'FDPElementEmployeClick.pas' {FrElementEmployéClick: TFrame},
+  HeaderFicheDePointage in 'HeaderFicheDePointage.pas' {FrHeaderFicheDePointage: TFrame},
+  HistoriquePointage in 'HistoriquePointage.pas' {FrHistoriquePointageElement: TFrame},
+  FDPBodyFiltreClick in 'FDPBodyFiltreClick.pas' {FrFDPBodyFiltreClick: TFrame},
+  HistoriquePointageTopElement in 'HistoriquePointageTopElement.pas' {FrHistoriquePointageTopElement: TFrame};
 
 {$R *.res}
 

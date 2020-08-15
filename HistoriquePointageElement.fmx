@@ -1,0 +1,5 @@
+object FrHistoriquePointageElement: TFrHistoriquePointageElement
+  Size.Width = 782.000000000000000000
+  Size.Height = 35.000000000000000000
+  Size.PlatformDefault = False
+end

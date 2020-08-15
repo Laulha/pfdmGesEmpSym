@@ -1,0 +1,31 @@
+unit HistoriquePointageElement;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Objects, FMX.DateTimeCtrls, FMX.Controls.Presentation;
+
+type
+  TFrHistoriquePointageElement = class(TFrame)
+    GridPanelLayout2: TGridPanelLayout;
+    CheckBox1: TCheckBox;
+    TimeEdit1: TTimeEdit;
+    TimeEdit2: TTimeEdit;
+    CheckBox2: TCheckBox;
+    CheckBox3: TCheckBox;
+    Rectangle3: TRectangle;
+    Label8: TLabel;
+    Layout1: TLayout;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.

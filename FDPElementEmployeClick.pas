@@ -11,12 +11,13 @@ type
   TFrElementEmployéClick = class(TFrame)
     Rectangle1: TRectangle;
     GridPanelLayout1: TGridPanelLayout;
-    Image1: TImage;
     Label1: TLabel;
     Layout1: TLayout;
     Label2: TLabel;
     Circle1: TCircle;
     Label3: TLabel;
+    CircleImage: TCircle;
+    Image1: TImage;
   private
     { Déclarations privées }
   public

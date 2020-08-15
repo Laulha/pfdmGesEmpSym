@@ -1,0 +1,36 @@
+unit ElementPointage;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Layouts, FMX.Controls.Presentation, FMX.Edit,
+  FMX.DateTimeCtrls;
+
+type
+  TFrElementPointage = class(TFrame)
+    Rectangle1: TRectangle;
+    GridPanelLayout1: TGridPanelLayout;
+    Label2: TLabel;
+    Edit2: TEdit;
+    CheckBox3: TCheckBox;
+    Image1: TImage;
+    Rectangle2: TRectangle;
+    Rectangle3: TRectangle;
+    TimeEdit1: TTimeEdit;
+    Label1: TLabel;
+    CBLayout: TLayout;
+    Layout1: TLayout;
+    CheckBox1: TCheckBox;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.

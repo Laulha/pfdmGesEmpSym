@@ -1,0 +1,152 @@
+object FrHeaderFicheDePointage: TFrHeaderFicheDePointage
+  Size.Width = 249.000000000000000000
+  Size.Height = 72.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 249.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+    object Layout1: TLayout
+      Align = Top
+      Size.Width = 249.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label1: TLabel
+        Align = Left
+        StyledSettings = [FontColor]
+        Size.Width = 120.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'Periode : '
+        TabOrder = 1
+      end
+      object Label5: TLabel
+        Align = Left
+        StyledSettings = [FontColor]
+        Position.X = 120.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        Text = 'Semaine'
+        TabOrder = 0
+      end
+    end
+    object Layout3: TLayout
+      Align = Top
+      Position.Y = 48.000000000000000000
+      Size.Width = 249.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Label3: TLabel
+        Align = Left
+        StyledSettings = [FontColor]
+        Size.Width = 120.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'Retard(s) : '
+        TabOrder = 0
+      end
+      object Rectangle2: TRectangle
+        Align = Left
+        Fill.Color = claRed
+        Margins.Left = -15.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Position.X = 105.000000000000000000
+        Position.Y = 2.000000000000000000
+        Size.Width = 37.000000000000000000
+        Size.Height = 20.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
+        XRadius = 9.000000000000000000
+        YRadius = 9.000000000000000000
+        object Label4: TLabel
+          Align = Client
+          StyledSettings = []
+          Size.Width = 37.000000000000000000
+          Size.Height = 20.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = '12'
+          TabOrder = 0
+        end
+      end
+    end
+    object Layout2: TLayout
+      Align = Top
+      Position.Y = 24.000000000000000000
+      Size.Width = 249.000000000000000000
+      Size.Height = 24.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object Label2: TLabel
+        Align = Left
+        StyledSettings = [FontColor]
+        Size.Width = 120.000000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        Text = 'Date :'
+        TabOrder = 0
+      end
+      object Layout4: TLayout
+        Align = Right
+        Position.X = 124.500000000000000000
+        Size.Width = 124.500000000000000000
+        Size.Height = 24.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Label6: TLabel
+          Align = Left
+          StyledSettings = [FontColor]
+          Size.Width = 62.250000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Du : '
+          TabOrder = 1
+        end
+        object Label7: TLabel
+          Align = Right
+          StyledSettings = [FontColor]
+          Position.X = 62.250000000000000000
+          Size.Width = 62.250000000000000000
+          Size.Height = 24.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Roboto'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          Text = 'Au :'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+end

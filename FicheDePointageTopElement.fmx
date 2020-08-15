@@ -28,15 +28,15 @@ object FrFicheDePointageTopElement: TFrFicheDePointageTopElement
           Margins.Left = 10.000000000000000000
           Margins.Top = 19.000000000000000000
           Margins.Right = 10.000000000000000000
-          Position.X = 44.000000000000000000
+          Position.X = 14.000000000000000000
           Position.Y = 19.000000000000000000
-          Size.Width = 100.000000000000000000
+          Size.Width = 120.000000000000000000
           Size.Height = 33.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 0
           object ComboBox1: TComboBox
             Align = Client
-            Size.Width = 100.000000000000000000
+            Size.Width = 120.000000000000000000
             Size.Height = 33.000000000000000000
             Size.PlatformDefault = False
             StyleLookup = 'comboboxstyle'
@@ -86,9 +86,9 @@ object FrFicheDePointageTopElement: TFrFicheDePointageTopElement
           Margins.Left = 10.000000000000000000
           Margins.Top = 19.000000000000000000
           Margins.Right = 10.000000000000000000
-          Position.X = 164.000000000000000000
+          Position.X = 154.000000000000000000
           Position.Y = 19.000000000000000000
-          Size.Width = 100.000000000000000000
+          Size.Width = 120.000000000000000000
           Size.Height = 33.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 1
@@ -96,7 +96,7 @@ object FrFicheDePointageTopElement: TFrFicheDePointageTopElement
             Date = 44056.000000000000000000
             Format = 'MM'
             Align = Client
-            Size.Width = 100.000000000000000000
+            Size.Width = 120.000000000000000000
             Size.Height = 33.000000000000000000
             Size.PlatformDefault = False
             TabOrder = 0
@@ -106,9 +106,9 @@ object FrFicheDePointageTopElement: TFrFicheDePointageTopElement
           Margins.Left = 10.000000000000000000
           Margins.Top = 19.000000000000000000
           Margins.Right = 10.000000000000000000
-          Position.X = 284.000000000000000000
+          Position.X = 294.000000000000000000
           Position.Y = 19.000000000000000000
-          Size.Width = 100.000000000000000000
+          Size.Width = 120.000000000000000000
           Size.Height = 33.000000000000000000
           Size.PlatformDefault = False
           TabOrder = 2
@@ -117,7 +117,7 @@ object FrFicheDePointageTopElement: TFrFicheDePointageTopElement
             Format = 'DD'
             DateFormatKind = Long
             Align = Client
-            Size.Width = 100.000000000000000000
+            Size.Width = 120.000000000000000000
             Size.Height = 33.000000000000000000
             Size.PlatformDefault = False
             StyleLookup = 'dateeditstyle'
