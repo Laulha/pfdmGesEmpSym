@@ -1,0 +1,5 @@
+object employeMaquetteAbsence: TemployeMaquetteAbsence
+  Size.Width = 782.000000000000000000
+  Size.Height = 49.000000000000000000
+  Size.PlatformDefault = False
+end

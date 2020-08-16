@@ -31,6 +31,7 @@ uses
   FrCongeClickInformation in 'FrCongeClickInformation.pas' {congeClickInformation: TFrame},
   FrCongeAjouter in 'FrCongeAjouter.pas' {congeAjouter: TFrame},
   FrInput in 'FrInput.pas' {input: TFrame},
+<<<<<<< HEAD
   FrFichDePointage in 'FrFichDePointage.pas' {FicheDePointage: TFrame},
   FrElementConge in 'FrElementConge.pas' {ElementConge: TFrame},
   ElementPointage in 'ElementPointage.pas' {FrElementPointage: TFrame},
@@ -42,6 +43,13 @@ uses
   HistoriquePointage in 'HistoriquePointage.pas' {FrHistoriquePointageElement: TFrame},
   FDPBodyFiltreClick in 'FDPBodyFiltreClick.pas' {FrFDPBodyFiltreClick: TFrame},
   HistoriquePointageTopElement in 'HistoriquePointageTopElement.pas' {FrHistoriquePointageTopElement: TFrame};
+=======
+  FrAbsenceTopElement in 'FrAbsenceTopElement.pas' {absenceTopElement: TFrame},
+  FrAbsenceClickInformation in 'FrAbsenceClickInformation.pas' {absenceClickInformation: TFrame},
+  FrAbsenceClickElement in 'FrAbsenceClickElement.pas' {absenceClickElement: TFrame},
+  FrEmployeMaquetteAbsence in 'FrEmployeMaquetteAbsence.pas' {employeMaquetteAbsence: TFrame},
+  FrAbsence in 'FrAbsence.pas' {absence: TFrame};
+>>>>>>> absence
 
 {$R *.res}
 

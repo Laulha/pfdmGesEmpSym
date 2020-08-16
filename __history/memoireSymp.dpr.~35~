@@ -31,7 +31,12 @@ uses
   FrCongeClickInformation in 'FrCongeClickInformation.pas' {congeClickInformation: TFrame},
   FrCongeAjouter in 'FrCongeAjouter.pas' {congeAjouter: TFrame},
   FrInput in 'FrInput.pas' {input: TFrame},
+<<<<<<< HEAD
   FrFichDePointage in 'FrFichDePointage.pas' {FicheDePointage: TFrame};
+=======
+  FrAbsenceTopElement in 'FrAbsenceTopElement.pas' {absenceTopElement: TFrame},
+  FrAbsenceClickInformation in 'FrAbsenceClickInformation.pas' {absenceClickInformation: TFrame};
+>>>>>>> absence
 
 {$R *.res}
 

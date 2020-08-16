@@ -9,7 +9,7 @@ object congeClickElement: TcongeClickElement
     Size.Height = 41.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
-    object Label1: TLabel
+    object moisConge: TLabel
       StyledSettings = [Style, FontColor]
       Position.X = 9.000000000000000000
       Position.Y = 13.000000000000000000
@@ -30,7 +30,7 @@ object congeClickElement: TcongeClickElement
       Size.PlatformDefault = False
     end
   end
-  inline congeClickInformation1: TcongeClickInformation
+  inline congeClickInformation4: TcongeClickInformation
     Align = Top
     Position.Y = 41.000000000000000000
     Size.Width = 342.000000000000000000
@@ -56,7 +56,7 @@ object congeClickElement: TcongeClickElement
       end
     end
   end
-  inline congeClickInformation2: TcongeClickInformation
+  inline congeClickInformation5: TcongeClickInformation
     Align = Top
     Position.Y = 75.000000000000000000
     Size.Width = 342.000000000000000000
@@ -82,7 +82,7 @@ object congeClickElement: TcongeClickElement
       end
     end
   end
-  inline congeClickInformation3: TcongeClickInformation
+  inline congeClickInformation1: TcongeClickInformation
     Align = Top
     Position.Y = 109.000000000000000000
     Size.Width = 342.000000000000000000

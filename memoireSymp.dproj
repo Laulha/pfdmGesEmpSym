@@ -261,6 +261,7 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
+<<<<<<< HEAD
         <DCCReference Include="FrFichDePointage.pas">
             <Form>FicheDePointage</Form>
             <FormType>fmx</FormType>
@@ -313,6 +314,30 @@
         </DCCReference>
         <DCCReference Include="HistoriquePointageTopElement.pas">
             <Form>FrHistoriquePointageTopElement</Form>
+=======
+        <DCCReference Include="FrAbsenceTopElement.pas">
+            <Form>absenceTopElement</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrAbsenceClickInformation.pas">
+            <Form>absenceClickInformation</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrAbsenceClickElement.pas">
+            <Form>absenceClickElement</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrEmployeMaquetteAbsence.pas">
+            <Form>employeMaquetteAbsence</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrAbsence.pas">
+            <Form>absence</Form>
+>>>>>>> absence
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>

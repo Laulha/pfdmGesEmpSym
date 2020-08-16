@@ -10,11 +10,11 @@ uses
 type
   TcongeClickElement = class(TFrame)
     Line1: TLine;
-    Label1: TLabel;
+    moisConge: TLabel;
     Layout1: TLayout;
+    congeClickInformation4: TcongeClickInformation;
+    congeClickInformation5: TcongeClickInformation;
     congeClickInformation1: TcongeClickInformation;
-    congeClickInformation2: TcongeClickInformation;
-    congeClickInformation3: TcongeClickInformation;
   private
     { Déclarations privées }
   public
@@ -22,6 +22,8 @@ type
   end;
 
 implementation
+
+
 
 {$R *.fmx}
 

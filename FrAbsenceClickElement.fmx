@@ -1,0 +1,32 @@
+object absenceClickElement: TabsenceClickElement
+  Size.Width = 342.000000000000000000
+  Size.Height = 145.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 342.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Line1: TLine
+      LineType = Diagonal
+      Position.X = 8.000000000000000000
+      Position.Y = 34.000000000000000000
+      Size.Width = 321.000000000000000000
+      Size.Height = 1.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object moisConge: TLabel
+      StyledSettings = [Style, FontColor]
+      Position.X = 9.000000000000000000
+      Position.Y = 13.000000000000000000
+      Size.Width = 96.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Tahoma'
+      TextSettings.Font.Size = 14.000000000000000000
+      Text = 'Decembre'
+      TabOrder = 1
+    end
+  end
+end
