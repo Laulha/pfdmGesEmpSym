@@ -261,84 +261,68 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-<<<<<<< HEAD
         <DCCReference Include="FrFichDePointage.pas">
             <Form>FicheDePointage</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FrElementConge.pas">
             <Form>ElementConge</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="ElementPointage.pas">
             <Form>FrElementPointage</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FicheDePointageTopElement.pas">
             <Form>FrFicheDePointageTopElement</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FrEmployeMaquetteB.pas">
             <Form>EmployeMaquetteB</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FrMenuBouton.pas">
             <Form>MenuBouton</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FDPElementEmployeClick.pas">
             <Form>FrElementEmployéClick</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="HeaderFicheDePointage.pas">
             <Form>FrHeaderFicheDePointage</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="HistoriquePointage.pas">
             <Form>FrHistoriquePointageElement</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FDPBodyFiltreClick.pas">
             <Form>FrFDPBodyFiltreClick</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="HistoriquePointageTopElement.pas">
             <Form>FrHistoriquePointageTopElement</Form>
-=======
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
         <DCCReference Include="FrAbsenceTopElement.pas">
             <Form>absenceTopElement</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FrAbsenceClickInformation.pas">
             <Form>absenceClickInformation</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FrAbsenceClickElement.pas">
             <Form>absenceClickElement</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FrEmployeMaquetteAbsence.pas">
             <Form>employeMaquetteAbsence</Form>
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FrAbsence.pas">
             <Form>absence</Form>
->>>>>>> absence
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <RcItem Include="asset\login\bgLogin2.png">
@@ -437,7 +421,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\login\utilisateur.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -542,7 +526,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\login\utilisateur.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
