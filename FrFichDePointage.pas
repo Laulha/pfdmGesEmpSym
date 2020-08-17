@@ -5,12 +5,11 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Layouts, FMX.Objects, FMX.Controls.Presentation;
+  FMX.Layouts, FMX.Objects, FMX.Controls.Presentation, ElementPointage;
 
 type
   TFicheDePointage = class(TFrame)
     Layout1: TLayout;
-    GridPanelLayout1: TGridPanelLayout;
     Rectangle1: TRectangle;
     Label1: TLabel;
     Label2: TLabel;
@@ -21,6 +20,9 @@ type
     VertScrollBox1: TVertScrollBox;
     Label7: TLabel;
     Label8: TLabel;
+    FrElementPointage1: TFrElementPointage;
+    FrElementPointage2: TFrElementPointage;
+    FrElementPointage3: TFrElementPointage;
   private
     { Déclarations privées }
   public

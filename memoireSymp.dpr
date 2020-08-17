@@ -39,7 +39,7 @@ uses
   FrMenuBouton in 'FrMenuBouton.pas' {MenuBouton: TFrame},
   FDPElementEmployeClick in 'FDPElementEmployeClick.pas' {FrElementEmployéClick: TFrame},
   HeaderFicheDePointage in 'HeaderFicheDePointage.pas' {FrHeaderFicheDePointage: TFrame},
-  HistoriquePointage in 'HistoriquePointage.pas' {FrHistoriquePointageElement: TFrame},
+  HistoriquePointage in 'HistoriquePointage.pas' {FrHistoriquePointage: TFrame},
   FDPBodyFiltreClick in 'FDPBodyFiltreClick.pas' {FrFDPBodyFiltreClick: TFrame},
   HistoriquePointageTopElement in 'HistoriquePointageTopElement.pas' {FrHistoriquePointageTopElement: TFrame};
 
