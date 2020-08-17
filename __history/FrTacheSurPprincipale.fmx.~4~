@@ -1,0 +1,15 @@
+object tacheSurPprincipale: TtacheSurPprincipale
+  Size.Width = 676.000000000000000000
+  Size.Height = 105.000000000000000000
+  Size.PlatformDefault = False
+  object FlowLayout1: TFlowLayout
+    Align = Client
+    Size.Width = 676.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Justify = Left
+    JustifyLastLine = Left
+    FlowDirection = LeftToRight
+  end
+end

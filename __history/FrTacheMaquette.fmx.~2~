@@ -1,5 +1,0 @@
-object tache: Ttache
-  Size.Width = 320.000000000000000000
-  Size.Height = 240.000000000000000000
-  Size.PlatformDefault = False
-end

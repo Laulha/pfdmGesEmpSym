@@ -1,0 +1,191 @@
+object tachePage: TtachePage
+  Align = Top
+  Size.Width = 782.000000000000000000
+  Size.Height = 376.000000000000000000
+  Size.PlatformDefault = False
+  object bgColor: TRectangle
+    Align = Client
+    Fill.Color = claWhite
+    Size.Width = 782.000000000000000000
+    Size.Height = 376.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 5.000000000000000000
+    YRadius = 5.000000000000000000
+    object tacheEnCour: TLayout
+      Align = Top
+      Size.Width = 782.000000000000000000
+      Size.Height = 188.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object titre: TLayout
+        Align = Top
+        Size.Width = 782.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Line1: TLine
+          LineType = Diagonal
+          Position.X = 8.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 753.000000000000000000
+          Size.Height = 1.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label1: TLabel
+          StyledSettings = []
+          Position.X = 16.000000000000000000
+          Position.Y = 8.000000000000000000
+          TextSettings.Font.Family = 'Rockwell'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claCrimson
+          Text = 'T'#226'ches en Cours'
+          TabOrder = 1
+        end
+      end
+      object VertScrollBox1: TVertScrollBox
+        Align = Client
+        Size.Width = 782.000000000000000000
+        Size.Height = 155.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 782.000000000000000000
+        Viewport.Height = 155.000000000000000000
+        inline tacheSurPprincipale1: TtacheSurPprincipale
+          Position.X = 44.000000000000000000
+          Position.Y = 6.000000000000000000
+          Size.Width = 676.000000000000000000
+          Size.Height = 105.000000000000000000
+          Size.PlatformDefault = False
+          inherited FlowLayout1: TFlowLayout
+            inherited tacheMaquette1: TtacheMaquette
+              inherited tache: TRectangle
+                inherited Label1: TLabel
+                  TextSettings.Font.StyleExt = {00050000000000000004000000}
+                end
+                inherited Circle1: TCircle
+                  inherited Label2: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+            end
+            inherited tacheMaquette2: TtacheMaquette
+              inherited tache: TRectangle
+                inherited Label1: TLabel
+                  TextSettings.Font.StyleExt = {00050000000000000004000000}
+                end
+                inherited Circle1: TCircle
+                  inherited Label2: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+            end
+            inherited tacheMaquette3: TtacheMaquette
+              inherited tache: TRectangle
+                inherited Label1: TLabel
+                  TextSettings.Font.StyleExt = {00050000000000000004000000}
+                end
+                inherited Circle1: TCircle
+                  inherited Label2: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+    object tacheFait: TLayout
+      Align = Top
+      Position.Y = 188.000000000000000000
+      Size.Width = 782.000000000000000000
+      Size.Height = 188.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Layout1: TLayout
+        Align = Top
+        Size.Width = 782.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Line2: TLine
+          LineType = Diagonal
+          Position.X = 8.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 753.000000000000000000
+          Size.Height = 1.000000000000000000
+          Size.PlatformDefault = False
+        end
+        object Label2: TLabel
+          StyledSettings = []
+          Position.X = 16.000000000000000000
+          Position.Y = 8.000000000000000000
+          TextSettings.Font.Family = 'Rockwell'
+          TextSettings.Font.Size = 14.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claGreen
+          Text = 'T'#226'ches Faites'
+          TabOrder = 1
+        end
+      end
+      object VertScrollBox2: TVertScrollBox
+        Align = Client
+        Size.Width = 782.000000000000000000
+        Size.Height = 155.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        Viewport.Width = 782.000000000000000000
+        Viewport.Height = 155.000000000000000000
+        inline tacheSurPprincipale2: TtacheSurPprincipale
+          Position.X = 38.000000000000000000
+          Position.Y = 6.000000000000000000
+          Size.Width = 676.000000000000000000
+          Size.Height = 105.000000000000000000
+          Size.PlatformDefault = False
+          inherited FlowLayout1: TFlowLayout
+            inherited tacheMaquette1: TtacheMaquette
+              inherited tache: TRectangle
+                inherited Label1: TLabel
+                  TextSettings.Font.StyleExt = {00050000000000000004000000}
+                end
+                inherited Circle1: TCircle
+                  inherited Label2: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+            end
+            inherited tacheMaquette2: TtacheMaquette
+              inherited tache: TRectangle
+                inherited Label1: TLabel
+                  TextSettings.Font.StyleExt = {00050000000000000004000000}
+                end
+                inherited Circle1: TCircle
+                  inherited Label2: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+            end
+            inherited tacheMaquette3: TtacheMaquette
+              inherited tache: TRectangle
+                inherited Label1: TLabel
+                  TextSettings.Font.StyleExt = {00050000000000000004000000}
+                end
+                inherited Circle1: TCircle
+                  inherited Label2: TLabel
+                    TextSettings.Font.StyleExt = {00070000000000000004000000}
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end

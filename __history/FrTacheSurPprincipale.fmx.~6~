@@ -1,0 +1,126 @@
+object tacheSurPprincipale: TtacheSurPprincipale
+  Size.Width = 676.000000000000000000
+  Size.Height = 221.000000000000000000
+  Size.PlatformDefault = False
+  object FlowLayout1: TFlowLayout
+    Align = Client
+    Size.Width = 676.000000000000000000
+    Size.Height = 221.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Justify = Left
+    JustifyLastLine = Left
+    FlowDirection = LeftToRight
+    inline tacheMaquette1: TtacheMaquette
+      Margins.Left = 18.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 18.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      inherited tache: TRectangle
+        inherited Label1: TLabel
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+        end
+        inherited Circle1: TCircle
+          inherited Label2: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+    inline tacheMaquette2: TtacheMaquette
+      Margins.Left = 18.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 237.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      inherited tache: TRectangle
+        inherited Label1: TLabel
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+        end
+        inherited Circle1: TCircle
+          inherited Label2: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+    inline tacheMaquette3: TtacheMaquette
+      Margins.Left = 18.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 456.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      inherited tache: TRectangle
+        inherited Label1: TLabel
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+        end
+        inherited Circle1: TCircle
+          inherited Label2: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+    inline tacheMaquette4: TtacheMaquette
+      Margins.Left = 18.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 18.000000000000000000
+      Position.Y = 115.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      inherited tache: TRectangle
+        inherited Label1: TLabel
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+        end
+        inherited Circle1: TCircle
+          inherited Label2: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+    inline tacheMaquette5: TtacheMaquette
+      Margins.Left = 18.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 237.000000000000000000
+      Position.Y = 115.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      inherited tache: TRectangle
+        inherited Label1: TLabel
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+        end
+        inherited Circle1: TCircle
+          inherited Label2: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+    inline tacheMaquette6: TtacheMaquette
+      Margins.Left = 18.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 456.000000000000000000
+      Position.Y = 115.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 105.000000000000000000
+      Size.PlatformDefault = False
+      inherited tache: TRectangle
+        inherited Label1: TLabel
+          TextSettings.Font.StyleExt = {00050000000000000004000000}
+        end
+        inherited Circle1: TCircle
+          inherited Label2: TLabel
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+          end
+        end
+      end
+    end
+  end
+end

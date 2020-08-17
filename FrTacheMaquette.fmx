@@ -1,11 +1,11 @@
 object tacheMaquette: TtacheMaquette
-  Size.Width = 690.000000000000000000
-  Size.Height = 445.000000000000000000
+  Margins.Left = 18.000000000000000000
+  Margins.Bottom = 10.000000000000000000
+  Size.Width = 201.000000000000000000
+  Size.Height = 105.000000000000000000
   Size.PlatformDefault = False
-  object Rectangle2: TRectangle
+  object tache: TRectangle
     Fill.Color = claWhite
-    Position.X = 48.000000000000000000
-    Position.Y = 72.000000000000000000
     Size.Width = 201.000000000000000000
     Size.Height = 105.000000000000000000
     Size.PlatformDefault = False
