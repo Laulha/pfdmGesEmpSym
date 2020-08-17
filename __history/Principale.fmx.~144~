@@ -1353,7 +1353,7 @@ object Pprincipale: TPprincipale
           end
         end
         inherited VertScrollBox1: TVertScrollBox
-          Viewport.Width = 766.000000000000000000
+          Viewport.Width = 782.000000000000000000
           Viewport.Height = 312.000000000000000000
           inherited employeMaquette1: TemployeMaquette
             inherited elementEmploye: TRectangle

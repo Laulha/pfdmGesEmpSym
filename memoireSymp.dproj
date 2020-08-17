@@ -326,7 +326,7 @@
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FrTacheMaquette.pas">
-            <Form>tache</Form>
+            <Form>tacheMaquette</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -426,7 +426,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\login\utilisateur.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -531,7 +531,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\login\utilisateur.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>

@@ -5,10 +5,10 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Objects, FMX.Controls.Presentation, FMX.Layouts;
+  FMX.Objects, FMX.Controls.Presentation;
 
 type
-  TtacheMaquette = class(TFrame)
+  Ttache = class(TFrame)
     Rectangle2: TRectangle;
     Label1: TLabel;
     barreProgression: TRectangle;
@@ -19,8 +19,7 @@ type
     Image2: TImage;
     Image3: TImage;
     Circle2: TCircle;
-    Label4: TLabel;
-    progressItem: TRectangle;
+    Image4: TImage;
   private
     { Déclarations privées }
   public

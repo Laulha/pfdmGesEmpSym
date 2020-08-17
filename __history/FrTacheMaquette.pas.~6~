@@ -20,7 +20,9 @@ type
     Image3: TImage;
     Circle2: TCircle;
     Label4: TLabel;
-    progressItem: TRectangle;
+    Rectangle1: TRectangle;
+    Rectangle3: TRectangle;
+    Layout1: TLayout;
   private
     { Déclarations privées }
   public
