@@ -1,0 +1,33 @@
+unit FrTacheMaquette;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Objects, FMX.Controls.Presentation;
+
+type
+  Ttache = class(TFrame)
+    Rectangle2: TRectangle;
+    Label1: TLabel;
+    barreProgression: TRectangle;
+    Circle1: TCircle;
+    Label2: TLabel;
+    Label3: TLabel;
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Circle2: TCircle;
+    Image4: TImage;
+  private
+    { Déclarations privées }
+  public
+    { Déclarations publiques }
+  end;
+
+implementation
+
+{$R *.fmx}
+
+end.

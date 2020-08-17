@@ -46,8 +46,8 @@ uses
   FrAbsenceClickInformation in 'FrAbsenceClickInformation.pas' {absenceClickInformation: TFrame},
   FrAbsenceClickElement in 'FrAbsenceClickElement.pas' {absenceClickElement: TFrame},
   FrEmployeMaquetteAbsence in 'FrEmployeMaquetteAbsence.pas' {employeMaquetteAbsence: TFrame},
-  FrAbsence in 'FrAbsence.pas' {absence: TFrame};
-
+  FrAbsence in 'FrAbsence.pas' {absence: TFrame},
+  FrTacheMaquette in 'FrTacheMaquette.pas' {tache: TFrame};
 
 {$R *.res}
 
