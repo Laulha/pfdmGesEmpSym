@@ -37,11 +37,11 @@ uses
   FicheDePointageTopElement in 'FicheDePointageTopElement.pas' {FrFicheDePointageTopElement: TFrame},
   FrEmployeMaquetteB in 'FrEmployeMaquetteB.pas' {EmployeMaquetteB: TFrame},
   FrMenuBouton in 'FrMenuBouton.pas' {MenuBouton: TFrame},
-  FDPElementEmployeClick in 'FDPElementEmployeClick.pas' {FrElementEmployéClick: TFrame},
+  FDPElementEmployeClick in 'FDPElementEmployeClick.pas' {FrElementEmployeClick: TFrame},
   HeaderFicheDePointage in 'HeaderFicheDePointage.pas' {FrHeaderFicheDePointage: TFrame},
   HistoriquePointage in 'HistoriquePointage.pas' {FrHistoriquePointage: TFrame},
-  FDPBodyFiltreClick in 'FDPBodyFiltreClick.pas' {FrFDPBodyFiltreClick: TFrame},
-  HistoriquePointageTopElement in 'HistoriquePointageTopElement.pas' {FrHistoriquePointageTopElement: TFrame};
+  HistoriquePointageTopElement in 'HistoriquePointageTopElement.pas' {FrHistoriquePointageTopElement: TFrame},
+  FrHistoriquePointageConteneur in 'FrHistoriquePointageConteneur.pas' {HistoriquePointageConteneur: TFrame};
 
 {$R *.res}
 

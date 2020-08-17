@@ -5,11 +5,11 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Controls.Presentation, FMX.Layouts, FMX.Objects, FMX.DateTimeCtrls;
+  FMX.Controls.Presentation, FMX.Layouts, FMX.Objects, FMX.DateTimeCtrls,
+  HistoriquePointage;
 
 type
   TFrFDPBodyFiltreClick = class(TFrame)
-    VertScrollBox1: TVertScrollBox;
     Rectangle2: TRectangle;
     GridPanelLayout1: TGridPanelLayout;
     Label2: TLabel;

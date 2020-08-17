@@ -1,0 +1,45 @@
+object HistoriquePointageConteneur: THistoriquePointageConteneur
+  Align = Client
+  Size.Width = 782.000000000000000000
+  Size.Height = 240.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = xFFC4C4C4
+    Size.Width = 782.000000000000000000
+    Size.Height = 28.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Thickness = 0.000000000000000000
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    object Label1: TLabel
+      Align = Left
+      StyledSettings = [Style, FontColor]
+      Size.Width = 156.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Roboto'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'Avatar'
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      Align = Client
+      Size.Width = 626.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Nom et Pr'#233'nom'
+      TabOrder = 1
+    end
+  end
+  object VertScrollBox1: TVertScrollBox
+    Align = Client
+    Size.Width = 782.000000000000000000
+    Size.Height = 212.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 782.000000000000000000
+    Viewport.Height = 212.000000000000000000
+  end
+end

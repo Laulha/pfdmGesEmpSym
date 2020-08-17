@@ -292,7 +292,7 @@
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FDPElementEmployeClick.pas">
-            <Form>FrElementEmployéClick</Form>
+            <Form>FrElementEmployeClick</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -306,13 +306,13 @@
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="FDPBodyFiltreClick.pas">
-            <Form>FrFDPBodyFiltreClick</Form>
+        <DCCReference Include="HistoriquePointageTopElement.pas">
+            <Form>FrHistoriquePointageTopElement</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
-        <DCCReference Include="HistoriquePointageTopElement.pas">
-            <Form>FrHistoriquePointageTopElement</Form>
+        <DCCReference Include="FrHistoriquePointageConteneur.pas">
+            <Form>HistoriquePointageConteneur</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>

@@ -5,18 +5,22 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
   FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
-  FMX.Objects, FMX.Layouts, FMX.Controls.Presentation;
+  FMX.Objects, FMX.Layouts, FMX.Controls.Presentation, FMX.Ani,
+  HistoriquePointageTopElement, FDPBodyFiltreClick, HistoriquePointage;
 
 type
-  TFrElementEmployéClick = class(TFrame)
+  TFrElementEmployeClick = class(TFrame)
     Rectangle1: TRectangle;
-    GridPanelLayout1: TGridPanelLayout;
+    Image1: TImage;
     Label1: TLabel;
     Layout1: TLayout;
     Label2: TLabel;
     Circle1: TCircle;
     Label3: TLabel;
-    Image1: TImage;
+    Rectangle2: TRectangle;
+    ColorAnimation1: TColorAnimation;
+    FloatAnimation1: TFloatAnimation;
+    Layout2: TLayout;
   private
     { Déclarations privées }
   public
