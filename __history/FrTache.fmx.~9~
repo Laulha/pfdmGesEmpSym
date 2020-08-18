@@ -24,6 +24,14 @@ object tachePage: TtachePage
         Size.Height = 33.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
+        object Line1: TLine
+          LineType = Diagonal
+          Position.X = 8.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 753.000000000000000000
+          Size.Height = 1.000000000000000000
+          Size.PlatformDefault = False
+        end
         object Rectangle1: TRectangle
           Size.Width = 782.000000000000000000
           Size.Height = 28.000000000000000000
@@ -112,6 +120,14 @@ object tachePage: TtachePage
         Size.Height = 33.000000000000000000
         Size.PlatformDefault = False
         TabOrder = 0
+        object Line2: TLine
+          LineType = Diagonal
+          Position.X = 8.000000000000000000
+          Position.Y = 30.000000000000000000
+          Size.Width = 753.000000000000000000
+          Size.Height = 1.000000000000000000
+          Size.PlatformDefault = False
+        end
         object Rectangle2: TRectangle
           Size.Width = 782.000000000000000000
           Size.Height = 28.000000000000000000

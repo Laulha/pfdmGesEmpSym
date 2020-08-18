@@ -12,16 +12,16 @@ type
     bgColor: TRectangle;
     tacheEnCour: TLayout;
     tacheFait: TLayout;
+    Line1: TLine;
     Label1: TLabel;
     titre: TLayout;
     Layout1: TLayout;
+    Line2: TLine;
     Label2: TLabel;
     VertScrollBox1: TVertScrollBox;
     VertScrollBox2: TVertScrollBox;
     tacheSurPprincipale1: TtacheSurPprincipale;
     tacheSurPprincipale2: TtacheSurPprincipale;
-    Rectangle1: TRectangle;
-    Rectangle2: TRectangle;
   private
     { Déclarations privées }
   public

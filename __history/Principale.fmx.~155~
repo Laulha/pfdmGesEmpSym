@@ -806,51 +806,26 @@ object Pprincipale: TPprincipale
   end
   object task: TLayout
     Anchors = [akLeft, akTop, akRight]
-    Position.Y = 134.000000000000000000
+    Position.Y = 125.000000000000000000
     Size.Width = 1100.000000000000000000
-    Size.Height = 100.000000000000000000
+    Size.Height = 115.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
     object containTask: TLayout
       Align = Center
       Size.Width = 782.000000000000000000
-      Size.Height = 100.000000000000000000
+      Size.Height = 115.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
       object Rectangle6: TRectangle
+        Align = Client
         Fill.Color = claWhite
         Size.Width = 782.000000000000000000
-        Size.Height = 100.000000000000000000
+        Size.Height = 115.000000000000000000
         Size.PlatformDefault = False
+        Stroke.Thickness = 0.000000000000000000
         XRadius = 7.000000000000000000
         YRadius = 7.000000000000000000
-      end
-      object Rectangle2: TRectangle
-        Position.X = 31.000000000000000000
-        Position.Y = 8.000000000000000000
-        Size.Width = 201.000000000000000000
-        Size.Height = 85.000000000000000000
-        Size.PlatformDefault = False
-        XRadius = 10.000000000000000000
-        YRadius = 10.000000000000000000
-      end
-      object Rectangle3: TRectangle
-        Position.X = 273.000000000000000000
-        Position.Y = 8.000000000000000000
-        Size.Width = 201.000000000000000000
-        Size.Height = 85.000000000000000000
-        Size.PlatformDefault = False
-        XRadius = 10.000000000000000000
-        YRadius = 10.000000000000000000
-      end
-      object Rectangle4: TRectangle
-        Position.X = 513.000000000000000000
-        Position.Y = 8.000000000000000000
-        Size.Width = 201.000000000000000000
-        Size.Height = 85.000000000000000000
-        Size.PlatformDefault = False
-        XRadius = 10.000000000000000000
-        YRadius = 10.000000000000000000
       end
       object Circle1: TCircle
         Position.X = 736.000000000000000000
@@ -865,6 +840,51 @@ object Pprincipale: TPprincipale
         Softness = 0.300000011920929000
         Opacity = 0.600000023841857900
         ShadowColor = claBlack
+      end
+      inline tacheSurPprincipale1: TtacheSurPprincipale
+        Position.X = 35.000000000000000000
+        Position.Y = 5.000000000000000000
+        Size.Width = 676.000000000000000000
+        Size.Height = 105.000000000000000000
+        Size.PlatformDefault = False
+        inherited FlowLayout1: TFlowLayout
+          inherited tacheMaquette1: TtacheMaquette
+            inherited tache: TRectangle
+              inherited Label1: TLabel
+                TextSettings.Font.StyleExt = {00050000000000000004000000}
+              end
+              inherited Circle1: TCircle
+                inherited Label2: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+            end
+          end
+          inherited tacheMaquette2: TtacheMaquette
+            inherited tache: TRectangle
+              inherited Label1: TLabel
+                TextSettings.Font.StyleExt = {00050000000000000004000000}
+              end
+              inherited Circle1: TCircle
+                inherited Label2: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+            end
+          end
+          inherited tacheMaquette3: TtacheMaquette
+            inherited tache: TRectangle
+              inherited Label1: TLabel
+                TextSettings.Font.StyleExt = {00050000000000000004000000}
+              end
+              inherited Circle1: TCircle
+                inherited Label2: TLabel
+                  TextSettings.Font.StyleExt = {00070000000000000004000000}
+                end
+              end
+            end
+          end
+        end
       end
     end
   end
@@ -1197,7 +1217,7 @@ object Pprincipale: TPprincipale
   end
   object Layout2: TLayout
     Anchors = [akLeft, akTop, akRight]
-    Position.Y = 240.000000000000000000
+    Position.Y = 244.000000000000000000
     Size.Width = 1100.000000000000000000
     Size.Height = 81.000000000000000000
     Size.PlatformDefault = False
@@ -1208,6 +1228,7 @@ object Pprincipale: TPprincipale
       Size.Width = 782.000000000000000000
       Size.Height = 72.000000000000000000
       Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
       XRadius = 5.000000000000000000
       YRadius = 5.000000000000000000
       object Label10: TLabel
@@ -1324,194 +1345,6 @@ object Pprincipale: TPprincipale
         Position.Y = 24.000000000000000000
         Text = 'Label3'
         TabOrder = 0
-      end
-      inline employe1: Temploye
-        Align = Top
-        Size.Width = 782.000000000000000000
-        Size.Height = 376.000000000000000000
-        Size.PlatformDefault = False
-        inherited topListeEmploye: TRectangle
-          inherited Label12: TLabel
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
-          end
-        end
-        inherited titreListeEmploye: TRectangle
-          inherited Label13: TLabel
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
-          end
-          inherited Label14: TLabel
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
-          end
-          inherited Label16: TLabel
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
-          end
-          inherited Label17: TLabel
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
-          end
-          inherited Label15: TLabel
-            TextSettings.Font.StyleExt = {00050000000000000004000000}
-          end
-        end
-        inherited VertScrollBox1: TVertScrollBox
-          Viewport.Width = 766.000000000000000000
-          Viewport.Height = 312.000000000000000000
-          inherited employeMaquette1: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette2: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette3: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette4: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette5: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette6: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette7: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette8: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette9: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette10: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette11: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-          inherited employeMaquette12: TemployeMaquette
-            inherited elementEmploye: TRectangle
-              inherited nomEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited posteEmploye: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-              inherited identifiant: TLabel
-                TextSettings.Font.StyleExt = {00050000000000000004000000}
-              end
-            end
-          end
-        end
       end
     end
   end

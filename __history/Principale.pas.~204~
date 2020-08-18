@@ -8,7 +8,7 @@ uses
   FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Effects, FMX.Layouts,
   FrNavElement, FMX.Ani, FrEmploye, FrEmployeTopElement, FrEmployeClick,
   FrEvaluationTopElement, FrEvaluation, FrConge, FrCongeTopElement,
-  FrCongeAjouter;
+  FrCongeAjouter, FrTacheMaquette, FrTacheSurPprincipale, FrTache;
 
 type
   TPprincipale = class(TForm)
@@ -69,8 +69,8 @@ type
     containeTopElement: TLayout;
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
-    employe1: Temploye;
     employeTopElemnt1: TemployeTopElemnt;
+    tacheSurPprincipale1: TtacheSurPprincipale;
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);
