@@ -18,7 +18,6 @@ type
     Label6: TLabel;
     Label7: TLabel;
     DateEdit1: TDateEdit;
-    Line1: TLine;
   private
     { Déclarations privées }
   public

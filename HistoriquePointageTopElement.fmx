@@ -6,7 +6,7 @@ object FrHistoriquePointageTopElement: TFrHistoriquePointageTopElement
   object Layout1: TLayout
     Align = Client
     Size.Width = 782.000000000000000000
-    Size.Height = 29.000000000000000000
+    Size.Height = 32.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
     object Rectangle2: TRectangle
@@ -112,19 +112,5 @@ object FrHistoriquePointageTopElement: TFrHistoriquePointageTopElement
         TabOrder = 6
       end
     end
-  end
-  object Line1: TLine
-    Align = Bottom
-    LineType = Diagonal
-    Margins.Left = 10.000000000000000000
-    Margins.Top = 2.000000000000000000
-    Margins.Right = 10.000000000000000000
-    Position.X = 10.000000000000000000
-    Position.Y = 31.000000000000000000
-    RotationAngle = 180.000000000000000000
-    Size.Width = 762.000000000000000000
-    Size.Height = 1.000000000000000000
-    Size.PlatformDefault = False
-    Stroke.Thickness = 0.100000001490116100
   end
 end

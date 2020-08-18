@@ -10,17 +10,17 @@ uses
 
 type
   TFrElementEmployeClick = class(TFrame)
-    Rectangle1: TRectangle;
     Image1: TImage;
     Label1: TLabel;
     Layout1: TLayout;
     Label2: TLabel;
     Circle1: TCircle;
     Label3: TLabel;
-    Rectangle2: TRectangle;
-    ColorAnimation1: TColorAnimation;
-    FloatAnimation1: TFloatAnimation;
     Layout2: TLayout;
+    VertScrollBox1: TVertScrollBox;
+    FrHistoriquePointageTopElement1: TFrHistoriquePointageTopElement;
+    FrHistoriquePointage1: TFrHistoriquePointage;
+    procedure AnimRotFinish(Sender: TObject);
   private
     { Déclarations privées }
   public
@@ -30,5 +30,11 @@ type
 implementation
 
 {$R *.fmx}
+
+procedure TFrElementEmployeClick.AnimRotFinish(Sender: TObject);
+var Button1: TButton;
+begin
+
+end;
 
 end.

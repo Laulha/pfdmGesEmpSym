@@ -10,14 +10,8 @@ uses
 
 type
   TFrHistoriquePointage = class(TFrame)
-    Rectangle1: TRectangle;
     Layout2: TLayout;
-    GridPanelLayout2: TGridPanelLayout;
-    Rectangle3: TRectangle;
     Label8: TLabel;
-    CBLayout1: TLayout;
-    CheckBox4: TCheckBox;
-    CBLayout2: TLayout;
     CheckBox3: TCheckBox;
     Layout3: TLayout;
     Rectangle5: TRectangle;
@@ -25,7 +19,11 @@ type
     Label1: TLabel;
     Label9: TLabel;
     Image1: TImage;
-    Edit1: TEdit;
+    Layout1: TLayout;
+    Rectangle1: TRectangle;
+    CBLayout: TLayout;
+    Layout4: TLayout;
+    CheckBox4: TCheckBox;
   private
     { Déclarations privées }
   public

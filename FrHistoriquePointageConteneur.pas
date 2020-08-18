@@ -14,6 +14,7 @@ type
     Label1: TLabel;
     Label2: TLabel;
     VertScrollBox1: TVertScrollBox;
+    FrElementEmployeClick1: TFrElementEmployeClick;
   private
     { Déclarations privées }
   public
