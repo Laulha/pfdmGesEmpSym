@@ -286,12 +286,8 @@
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FDPElementEmployeClick.pas">
-<<<<<<< HEAD
-            <Form>FrElementEmployéClick</Form>
-=======
             <Form>FrElementEmployeClick</Form>
             <FormType>fmx</FormType>
->>>>>>> routage
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="HeaderFicheDePointage.pas">
@@ -299,7 +295,6 @@
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="HistoriquePointage.pas">
-<<<<<<< HEAD
             <Form>FrHistoriquePointageElement</Form>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -343,20 +338,11 @@
         </DCCReference>
         <DCCReference Include="FrTacheSurPprincipale.pas">
             <Form>tacheSurPprincipale</Form>
-=======
-            <Form>FrHistoriquePointage</Form>
-            <FormType>fmx</FormType>
-            <DesignClass>TFrame</DesignClass>
-        </DCCReference>
-        <DCCReference Include="HistoriquePointageTopElement.pas">
-            <Form>FrHistoriquePointageTopElement</Form>
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FrHistoriquePointageConteneur.pas">
             <Form>HistoriquePointageConteneur</Form>
->>>>>>> routage
-            <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <RcItem Include="asset\login\bgLogin2.png">
@@ -455,7 +441,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\login\utilisateur.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
@@ -560,7 +546,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="asset\login\utilisateur.png" Configuration="Debug" Class="ProjectFile">
+                <DeployFile LocalName="asset\headerProgramme\empl3.png" Configuration="Debug" Class="ProjectFile">
                     <Platform Name="Win32">
                         <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>

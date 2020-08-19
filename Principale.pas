@@ -8,12 +8,9 @@ uses
   FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Effects, FMX.Layouts,
   FrNavElement, FMX.Ani, FrEmploye, FrEmployeTopElement, FrEmployeClick,
   FrEvaluationTopElement, FrEvaluation, FrConge, FrCongeTopElement,
-<<<<<<< HEAD
-  FrCongeAjouter, FrTacheMaquette, FrTacheSurPprincipale, FrTache;
-=======
-  FrCongeAjouter, FicheDePointageTopElement, HeaderFicheDePointage,
+  FrCongeAjouter, FrTacheMaquette, FrTacheSurPprincipale, FrTache,
+  FicheDePointageTopElement, HeaderFicheDePointage,
   FrFichDePointage, FDPElementEmployeClick, FrHistoriquePointageConteneur;
->>>>>>> routage
 
 type
   TPprincipale = class(TForm)
@@ -68,22 +65,19 @@ type
     containeTopElement: TLayout;
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
-<<<<<<< HEAD
     employeTopElemnt1: TemployeTopElemnt;
     tacheSurPprincipale1: TtacheSurPprincipale;
-=======
     FrHeaderFicheDePointage1: TFrHeaderFicheDePointage;
     FrFicheDePointageTopElement1: TFrFicheDePointageTopElement;
     HistoriquePointageConteneur1: THistoriquePointageConteneur;
->>>>>>> routage
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);
     procedure Label7Click(Sender: TObject);
   private
-    { Déclarations privées }
+    { Dï¿½clarations privï¿½es }
   public
-    { Déclarations publiques }
+    { Dï¿½clarations publiques }
   end;
 
 var
@@ -102,13 +96,13 @@ begin
   tailleEcran := 604;
   toggleMenu := True;
 
-  //Pour initialiser la taille de la frame de façon dynamique
+  //Pour initialiser la taille de la frame de faï¿½on dynamique
   {
-  Cette partie augment la dynamiquement la taille de la frame employé
-  en prenant en compte la taille tous les éléments qui constitut la
+  Cette partie augment la dynamiquement la taille de la frame employï¿½
+  en prenant en compte la taille tous les ï¿½lï¿½ments qui constitut la
   frame. Pour que le compte soit bon, il faut prendre en compte la
-  maquetteEmploye et on le multitplie par le nombre d'employé dans
-  la base de données. 12 ici représente un nombre fictif d'employé.
+  maquetteEmploye et on le multitplie par le nombre d'employï¿½ dans
+  la base de donnï¿½es. 12 ici reprï¿½sente un nombre fictif d'employï¿½.
   }
   {
   Pprincipale.employe1.Height := employe1.topListeEmploye.Height +
@@ -117,8 +111,8 @@ begin
   }
   // Ceci permet d'avoir une marge.
   {
-   la dernière partie permet "congeAjouter1.Heigth" permet de perndre
-   en compte la taille de cet élément afin que tout soit bien affiché
+   la derniï¿½re partie permet "congeAjouter1.Heigth" permet de perndre
+   en compte la taille de cet ï¿½lï¿½ment afin que tout soit bien affichï¿½
   }
 //  Pprincipale.Layout1.Height := (Pprincipale.employe1.Height + 2) + congeAjouter1.Height;
 end;
@@ -127,7 +121,7 @@ procedure TPprincipale.FormResize(Sender: TObject);
 
 begin
 Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
-  // Gestion du logo et de la partie administration (inclu le if qui vient juste après)
+  // Gestion du logo et de la partie administration (inclu le if qui vient juste aprï¿½s)
   if Pprincipale.Width < 1115 then
     begin
        // Gestion de la partie administrateur
@@ -154,7 +148,7 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
       Pprincipale.logo_ss.Position.Y := 8;
     end;
 
-  // Gestion du la partie recherche (inclu le if qui vient juste après)
+  // Gestion du la partie recherche (inclu le if qui vient juste aprï¿½s)
   if Pprincipale.Width < 988 then
     begin
        Pprincipale.layRecherche.Parent := Pprincipale;
@@ -180,7 +174,7 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
       nomAdmin.Visible := True;
     end;
 
-  // Gestion des Tâches
+  // Gestion des Tï¿½ches
   if Pprincipale.Width < 809 then
     begin
       task.Visible := False;
@@ -208,10 +202,10 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
 
   // Gestion de la barre de recherche
   {
-  On pouvait utiliser une méthode un peu plus approprié, mais vu ce que nous voulons
+  On pouvait utiliser une mï¿½thode un peu plus appropriï¿½, mais vu ce que nous voulons
   faire cela ne va pas nous aider. Ce que nous ne voulons pas du tout c'est que les
-  élément scale (grossisse) sans notre controlé or c'est exactement ce que fait les
-  éléments de layout. Pour avoir un peu plus de contrôle, on vérifé la taille et
+  ï¿½lï¿½ment scale (grossisse) sans notre controlï¿½ or c'est exactement ce que fait les
+  ï¿½lï¿½ments de layout. Pour avoir un peu plus de contrï¿½le, on vï¿½rifï¿½ la taille et
   on agit on changeant les dimensions.
   }
   if Pprincipale.Width < 702 then
@@ -229,36 +223,36 @@ Pprincipale.Label2.Text := IntToStr(Pprincipale.Width);
 
   // Fin de redimensionnement
   {
-  Nous faisons ceci pour avoir une sorte de minWidth, afin d'éviter
-  de gérer les tailles d'écran en dessous de "tailleEcran" qui est de 604;
-  Pour ce que cela fonctionne, il faut vérifer la taille actuelle de l'écran
-  qui est Pprincipale.Width selon la taille définie
+  Nous faisons ceci pour avoir une sorte de minWidth, afin d'ï¿½viter
+  de gï¿½rer les tailles d'ï¿½cran en dessous de "tailleEcran" qui est de 604;
+  Pour ce que cela fonctionne, il faut vï¿½rifer la taille actuelle de l'ï¿½cran
+  qui est Pprincipale.Width selon la taille dï¿½finie
   }
   if Pprincipale.Width < tailleEcran then
     begin
           label4.Text := FloatToStr(tailleEcran);
-          ShowMessage('arréter de redimensionner');
+          ShowMessage('arrï¿½ter de redimensionner');
           tailleEcran := Pprincipale.Width;
 
             // Pour le debogage
            label1.Text := FloatToStr(tailleEcran);
 
     end;
-  // Ceci permet de toujours ramener la valeur de tailleEcran à 604
+  // Ceci permet de toujours ramener la valeur de tailleEcran ï¿½ 604
 
   if Pprincipale.Width >= 604 then
     begin
       tailleEcran := 604;
     end;
 
-  // Pour centrer artificiellement la liste des employés
+  // Pour centrer artificiellement la liste des employï¿½s
   {
-  On pouvait centrer directement l'élément avec la propriété "center"
-  mais le problème qui se pose est que ça donne un comportement bizarre,
-  alors, vu que la propriété center de Align calcul directement les positions
-  et qu'il y a des éléments qui sont centrés au même que celui de la liste des
-  employés, il nous suffit qu'attribué à la liste la propriété position d'un élément déjà
-  centé pour que ce dernier le soit aussi, à l'occurent ici "containTask"
+  On pouvait centrer directement l'ï¿½lï¿½ment avec la propriï¿½tï¿½ "center"
+  mais le problï¿½me qui se pose est que ï¿½a donne un comportement bizarre,
+  alors, vu que la propriï¿½tï¿½ center de Align calcul directement les positions
+  et qu'il y a des ï¿½lï¿½ments qui sont centrï¿½s au mï¿½me que celui de la liste des
+  employï¿½s, il nous suffit qu'attribuï¿½ ï¿½ la liste la propriï¿½tï¿½ position d'un ï¿½lï¿½ment dï¿½jï¿½
+  centï¿½ pour que ce dernier le soit aussi, ï¿½ l'occurent ici "containTask"
   }
   Layout1.Position.X := containTask.Position.X;
 
@@ -270,14 +264,14 @@ begin
 
 end;
 
-// Pour gérer l'apparition du menu verticale
+// Pour gï¿½rer l'apparition du menu verticale
 procedure TPprincipale.menuClick(Sender: TObject);
 begin
   if toggleMenu then
     begin
       menuContainer.Visible := True;
-      // 80 est la différencce de distance qu'il y a entre le menu
-      // et le menuContainer afin que ça soit bien fixé.
+      // 80 est la diffï¿½rencce de distance qu'il y a entre le menu
+      // et le menuContainer afin que ï¿½a soit bien fixï¿½.
       menuContainer.Position.X := menu.Position.X - 80;
     end
   else
