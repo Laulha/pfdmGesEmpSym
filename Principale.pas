@@ -8,7 +8,12 @@ uses
   FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Effects, FMX.Layouts,
   FrNavElement, FMX.Ani, FrEmploye, FrEmployeTopElement, FrEmployeClick,
   FrEvaluationTopElement, FrEvaluation, FrConge, FrCongeTopElement,
+<<<<<<< HEAD
   FrCongeAjouter, FrTacheMaquette, FrTacheSurPprincipale, FrTache;
+=======
+  FrCongeAjouter, FicheDePointageTopElement, HeaderFicheDePointage,
+  FrFichDePointage, FDPElementEmployeClick, FrHistoriquePointageConteneur;
+>>>>>>> routage
 
 type
   TPprincipale = class(TForm)
@@ -60,17 +65,17 @@ type
     FlowLayoutBreak6: TFlowLayoutBreak;
     elementNav14: TelementNav;
     topElement: TRectangle;
-    Label10: TLabel;
-    Label11: TLabel;
-    Label6: TLabel;
-    Label7: TLabel;
-    Label8: TLabel;
-    Label9: TLabel;
     containeTopElement: TLayout;
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
+<<<<<<< HEAD
     employeTopElemnt1: TemployeTopElemnt;
     tacheSurPprincipale1: TtacheSurPprincipale;
+=======
+    FrHeaderFicheDePointage1: TFrHeaderFicheDePointage;
+    FrFicheDePointageTopElement1: TFrFicheDePointageTopElement;
+    HistoriquePointageConteneur1: THistoriquePointageConteneur;
+>>>>>>> routage
     procedure FormResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure menuClick(Sender: TObject);

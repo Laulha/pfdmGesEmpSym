@@ -46,14 +46,24 @@
     <Transaction>2020/07/29 15:42:36.000.053,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmployeTopElement.fmx</Transaction>
     <Transaction>2020/07/29 15:42:36.000.053,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmployeTopElement.pas</Transaction>
     <Transaction>2020/07/29 16:21:25.000.350,=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>2020/07/29 16:22:02.000.035,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmploye.pas=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas</Transaction>
     <Transaction>2020/07/29 16:22:02.000.035,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmploye.fmx=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.fmx</Transaction>
+=======
+    <Transaction>2020/07/29 16:22:02.000.035,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmploye.pas</Transaction>
+    <Transaction>2020/07/29 16:22:02.000.035,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmploye.fmx</Transaction>
+>>>>>>> routage
     <Transaction>2020/07/30 16:27:07.000.614,=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas</Transaction>
     <Transaction>2020/07/30 16:27:44.000.906,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmployeMaquette.fmx</Transaction>
     <Transaction>2020/07/30 16:27:44.000.906,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmployeMaquette.pas</Transaction>
     <Transaction>2020/07/30 18:19:04.000.565,=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>2020/07/30 18:19:45.000.642,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmployeClick.pas</Transaction>
     <Transaction>2020/07/30 18:19:45.000.642,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmployeClick.fmx</Transaction>
+=======
+    <Transaction>2020/07/30 18:19:45.000.642,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmployeClick.pas=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas</Transaction>
+    <Transaction>2020/07/30 18:19:45.000.642,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmployeClick.fmx=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.fmx</Transaction>
+>>>>>>> routage
     <Transaction>2020/07/30 21:10:47.000.835,=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas</Transaction>
     <Transaction>2020/07/30 21:11:38.000.809,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmployeClickInformation.fmx</Transaction>
     <Transaction>2020/07/30 21:11:38.000.809,M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\mdfgestsymp\FrEmployeClickInformation.pas</Transaction>
@@ -73,18 +83,29 @@
     <Transaction>2020/08/03 23:59:29.000.786,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit3.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrEmployeMaquetteEval.fmx</Transaction>
     <Transaction>2020/08/03 23:59:29.000.786,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit3.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrEmployeMaquetteEval.pas</Transaction>
     <Transaction>2020/08/04 00:19:43.000.179,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>2020/08/04 00:20:10.000.126,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrEvaluationTopElement.pas</Transaction>
     <Transaction>2020/08/04 00:20:10.000.126,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrEvaluationTopElement.fmx</Transaction>
+=======
+    <Transaction>2020/08/04 00:20:10.000.126,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrEvaluationTopElement.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx</Transaction>
+    <Transaction>2020/08/04 00:20:10.000.126,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrEvaluationTopElement.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
+>>>>>>> routage
     <Transaction>2020/08/04 01:24:13.000.721,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
     <Transaction>2020/08/04 01:25:07.000.887,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrEvaluationClick.pas</Transaction>
     <Transaction>2020/08/04 01:25:07.000.887,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrEvaluationClick.fmx</Transaction>
     <Transaction>2020/08/04 19:56:38.000.384,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>2020/08/04 20:14:55.000.645,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrConge.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
     <Transaction>2020/08/04 20:14:55.000.645,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrConge.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx</Transaction>
+=======
+    <Transaction>2020/08/04 20:14:55.000.645,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrConge.pas</Transaction>
+    <Transaction>2020/08/04 20:14:55.000.645,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrConge.fmx</Transaction>
+>>>>>>> routage
     <Transaction>2020/08/04 20:28:35.000.930,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
     <Transaction>2020/08/04 20:28:57.000.818,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrEmployeMaquetteConge.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx</Transaction>
     <Transaction>2020/08/04 20:28:57.000.818,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrEmployeMaquetteConge.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
     <Transaction>2020/08/04 21:21:08.000.020,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>2020/08/04 21:22:09.000.462,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeTopElement.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
     <Transaction>2020/08/04 21:22:09.000.462,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeTopElement.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx</Transaction>
     <Transaction>2020/08/04 23:52:48.000.170,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
@@ -93,35 +114,70 @@
     <Transaction>2020/08/05 00:12:15.000.296,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit3.pas</Transaction>
     <Transaction>2020/08/05 00:13:20.000.834,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeClickElement.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit3.pas</Transaction>
     <Transaction>2020/08/05 00:13:20.000.834,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeClickElement.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit3.fmx</Transaction>
+=======
+    <Transaction>2020/08/04 21:22:09.000.462,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeTopElement.fmx</Transaction>
+    <Transaction>2020/08/04 21:22:09.000.462,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeTopElement.pas</Transaction>
+    <Transaction>2020/08/04 23:52:48.000.170,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
+    <Transaction>2020/08/04 23:53:12.000.822,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeClick.fmx</Transaction>
+    <Transaction>2020/08/04 23:53:12.000.770,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeClick.pas</Transaction>
+    <Transaction>2020/08/05 00:12:15.000.296,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit3.pas</Transaction>
+    <Transaction>2020/08/05 00:13:20.000.834,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit3.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeClickElement.fmx</Transaction>
+    <Transaction>2020/08/05 00:13:20.000.834,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit3.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeClickElement.pas</Transaction>
+>>>>>>> routage
     <Transaction>2020/08/05 00:34:09.000.671,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit4.pas</Transaction>
     <Transaction>2020/08/05 00:34:23.000.362,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeClickInformation.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit4.fmx</Transaction>
     <Transaction>2020/08/05 00:34:23.000.362,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeClickInformation.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit4.pas</Transaction>
     <Transaction>2020/08/06 22:18:07.000.200,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>2020/08/06 22:18:56.000.556,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrMoi.pas</Transaction>
     <Transaction>2020/08/06 22:18:56.000.556,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrMoi.fmx</Transaction>
     <Transaction>2020/08/06 22:23:14.000.905,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrMoi.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeAjouter.pas</Transaction>
     <Transaction>2020/08/06 22:23:14.000.905,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrMoi.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeAjouter.fmx</Transaction>
+=======
+    <Transaction>2020/08/06 22:18:56.000.556,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrMoi.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
+    <Transaction>2020/08/06 22:18:56.000.556,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrMoi.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx</Transaction>
+    <Transaction>2020/08/06 22:23:14.000.905,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeAjouter.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrMoi.fmx</Transaction>
+    <Transaction>2020/08/06 22:23:14.000.905,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrCongeAjouter.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrMoi.pas</Transaction>
+>>>>>>> routage
     <Transaction>2020/08/06 22:37:02.000.835,=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas</Transaction>
     <Transaction>2020/08/06 22:37:20.000.283,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrInput.fmx</Transaction>
     <Transaction>2020/08/06 22:37:20.000.283,M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\applicationMemoire\projetMemoire\mdfgestsymp\FrInput.pas</Transaction>
     <Transaction>2020/08/12 17:07:47.000.576,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>2020/08/12 17:09:59.000.840,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrFichDePointage.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx</Transaction>
     <Transaction>2020/08/12 17:09:59.000.840,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrFichDePointage.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+=======
+    <Transaction>2020/08/12 17:09:59.000.840,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrFichDePointage.fmx</Transaction>
+    <Transaction>2020/08/12 17:09:59.000.840,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrFichDePointage.pas</Transaction>
+>>>>>>> routage
     <Transaction>2020/08/12 17:28:01.000.425,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
     <Transaction>2020/08/12 17:29:30.000.566,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrElementConge.pas</Transaction>
     <Transaction>2020/08/12 17:29:30.000.566,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrElementConge.fmx</Transaction>
     <Transaction>2020/08/12 18:41:22.000.077,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>2020/08/12 18:42:55.000.553,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\ElementPointage.pas</Transaction>
     <Transaction>2020/08/12 18:42:55.000.553,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\ElementPointage.fmx</Transaction>
     <Transaction>2020/08/12 19:13:36.000.828,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
     <Transaction>2020/08/12 19:14:52.000.224,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FicheDePointageTopElement.fmx</Transaction>
     <Transaction>2020/08/12 19:14:52.000.224,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FicheDePointageTopElement.pas</Transaction>
+=======
+    <Transaction>2020/08/12 18:42:55.000.553,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\ElementPointage.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx</Transaction>
+    <Transaction>2020/08/12 18:42:55.000.553,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\ElementPointage.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+    <Transaction>2020/08/12 19:13:36.000.828,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+    <Transaction>2020/08/12 19:14:52.000.224,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FicheDePointageTopElement.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx</Transaction>
+    <Transaction>2020/08/12 19:14:52.000.224,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FicheDePointageTopElement.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+>>>>>>> routage
     <Transaction>2020/08/14 10:55:04.000.348,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
     <Transaction>2020/08/14 10:56:57.000.072,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrEmployeMaquetteB.pas</Transaction>
     <Transaction>2020/08/14 10:56:57.000.072,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrEmployeMaquetteB.fmx</Transaction>
     <Transaction>2020/08/14 11:27:14.000.985,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>2020/08/14 11:27:59.000.068,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrMenuBouton.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx</Transaction>
     <Transaction>2020/08/14 11:27:59.000.068,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrMenuBouton.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+=======
+    <Transaction>2020/08/14 11:27:59.000.068,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrMenuBouton.fmx</Transaction>
+    <Transaction>2020/08/14 11:27:59.000.068,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrMenuBouton.pas</Transaction>
+>>>>>>> routage
     <Transaction>2020/08/15 10:15:01.000.108,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FDPElementEmployeClick.pas</Transaction>
     <Transaction>2020/08/15 10:15:34.000.683,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\HeaderFicheDePointage.pas</Transaction>
     <Transaction>2020/08/15 10:16:12.000.267,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\HistoriquePointage.pas</Transaction>
@@ -130,6 +186,7 @@
     <Transaction>2020/08/15 10:58:38.000.676,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\HistoriquePointageElement.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
     <Transaction>2020/08/15 11:03:25.000.402,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\HistoriquePointageElement.pas=</Transaction>
     <Transaction>2020/08/15 12:35:11.000.284,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+<<<<<<< HEAD
     <Transaction>2020/08/15 12:35:42.000.687,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FDPBodyFiltreClick.pas</Transaction>
     <Transaction>2020/08/15 12:35:42.000.687,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FDPBodyFiltreClick.fmx</Transaction>
     <Transaction>2020/08/15 12:48:16.000.407,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
@@ -146,6 +203,15 @@
     <Transaction>2020/08/17 17:49:48.000.500,=M:\dbMemoryApplication\teste\copieProjet\essaie\mdfgestsymp\Unit2.pas</Transaction>
     <Transaction>2020/08/17 17:50:15.000.450,M:\dbMemoryApplication\teste\copieProjet\essaie\mdfgestsymp\Unit2.fmx=M:\dbMemoryApplication\teste\copieProjet\essaie\mdfgestsymp\FrTacheSurPprincipale.fmx</Transaction>
     <Transaction>2020/08/17 17:50:15.000.450,M:\dbMemoryApplication\teste\copieProjet\essaie\mdfgestsymp\Unit2.pas=M:\dbMemoryApplication\teste\copieProjet\essaie\mdfgestsymp\FrTacheSurPprincipale.pas</Transaction>
+=======
+    <Transaction>2020/08/15 12:35:42.000.687,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FDPBodyFiltreClick.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+    <Transaction>2020/08/15 12:35:42.000.687,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FDPBodyFiltreClick.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx</Transaction>
+    <Transaction>2020/08/15 12:48:16.000.407,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+    <Transaction>2020/08/15 12:48:51.000.237,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\HistoriquePointageTopElement.fmx=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.fmx</Transaction>
+    <Transaction>2020/08/15 12:48:51.000.237,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\HistoriquePointageTopElement.pas=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\Unit2.pas</Transaction>
+    <Transaction>2020/08/17 14:28:23.000.271,=C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FrHistoriquePointageConteneur.pas</Transaction>
+    <Transaction>2020/08/17 16:16:21.000.781,C:\Users\Hamz\Desktop\Delphi\Projet\pfdmGesEmpSym\FDPBodyFiltreClick.pas=</Transaction>
+>>>>>>> routage
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="asset"/>
@@ -250,11 +316,16 @@
     <File Path="HistoriquePointage.fmx"/>
     <File Path="HistoriquePointageTopElement.pas"/>
     <File Path="HistoriquePointageTopElement.fmx"/>
+<<<<<<< HEAD
     <File Path="FrTacheMaquette.pas"/>
     <File Path="FrTacheMaquette.fmx"/>
     <File Path="FrTache.pas"/>
     <File Path="FrTache.fmx"/>
     <File Path="FrTacheSurPprincipale.pas"/>
     <File Path="FrTacheSurPprincipale.fmx"/>
+=======
+    <File Path="FrHistoriquePointageConteneur.pas"/>
+    <File Path="FrHistoriquePointageConteneur.fmx"/>
+>>>>>>> routage
   </ProjectSortOrder>
 </BorlandProject>

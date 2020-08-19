@@ -1,0 +1,129 @@
+object FrHistoriquePointageTopElement: TFrHistoriquePointageTopElement
+  Align = Top
+  Size.Width = 782.000000000000000000
+  Size.Height = 32.000000000000000000
+  Size.PlatformDefault = False
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 782.000000000000000000
+    Size.Height = 29.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Rectangle2: TRectangle
+      Align = Top
+      Fill.Color = claWhite
+      Size.Width = 782.000000000000000000
+      Size.Height = 28.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Thickness = 0.000000000000000000
+      object DateEdit1: TDateEdit
+        IsChecked = False
+        Date = 44058.000000000000000000
+        WeekNumbers = True
+        DateFormatKind = Long
+        Align = Left
+        Cursor = crNo
+        FirstDayOfWeek = dowSunday
+        ReadOnly = True
+        Size.Width = 140.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'dateeditstyle'
+        TabOrder = 0
+        ParentShowHint = False
+        ShowHint = False
+      end
+      object Label2: TLabel
+        Align = Left
+        StyledSettings = [Style, FontColor]
+        Position.X = 140.000000000000000000
+        Size.Width = 60.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Statut'
+        TabOrder = 1
+      end
+      object Label3: TLabel
+        Align = Left
+        StyledSettings = [Style, FontColor]
+        Position.X = 200.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Retard'
+        TabOrder = 2
+      end
+      object Label4: TLabel
+        Align = Left
+        StyledSettings = [Style, FontColor]
+        Position.X = 310.000000000000000000
+        Size.Width = 115.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Heure arriv'#233'e'
+        TabOrder = 3
+      end
+      object Label5: TLabel
+        Align = Left
+        StyledSettings = [Style, FontColor]
+        Position.X = 425.000000000000000000
+        Size.Width = 115.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Heure d'#233'part'
+        TabOrder = 4
+      end
+      object Label6: TLabel
+        Align = Left
+        StyledSettings = [Style, FontColor]
+        Position.X = 540.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Jour complet'
+        TabOrder = 5
+      end
+      object Label7: TLabel
+        Align = Left
+        StyledSettings = [Style, FontColor]
+        Position.X = 650.000000000000000000
+        Size.Width = 110.000000000000000000
+        Size.Height = 28.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Roboto'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.HorzAlign = Center
+        Text = 'Heure supp'
+        TabOrder = 6
+      end
+    end
+  end
+  object Line1: TLine
+    Align = Bottom
+    LineType = Diagonal
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 2.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Position.X = 10.000000000000000000
+    Position.Y = 31.000000000000000000
+    RotationAngle = 180.000000000000000000
+    Size.Width = 762.000000000000000000
+    Size.Height = 1.000000000000000000
+    Size.PlatformDefault = False
+  end
+end

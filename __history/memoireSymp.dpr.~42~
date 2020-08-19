@@ -32,6 +32,9 @@ uses
   FrCongeAjouter in 'FrCongeAjouter.pas' {congeAjouter: TFrame},
   FrInput in 'FrInput.pas' {input: TFrame},
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> routage
   FrFichDePointage in 'FrFichDePointage.pas' {FicheDePointage: TFrame},
   FrElementConge in 'FrElementConge.pas' {ElementConge: TFrame},
   ElementPointage in 'ElementPointage.pas' {FrElementPointage: TFrame},
@@ -43,6 +46,7 @@ uses
   HistoriquePointage in 'HistoriquePointage.pas' {FrHistoriquePointageElement: TFrame},
   FDPBodyFiltreClick in 'FDPBodyFiltreClick.pas' {FrFDPBodyFiltreClick: TFrame},
   HistoriquePointageTopElement in 'HistoriquePointageTopElement.pas' {FrHistoriquePointageTopElement: TFrame};
+<<<<<<< HEAD
 =======
   FrAbsenceTopElement in 'FrAbsenceTopElement.pas' {absenceTopElement: TFrame},
   FrAbsenceClickInformation in 'FrAbsenceClickInformation.pas' {absenceClickInformation: TFrame},
@@ -50,6 +54,8 @@ uses
   FrEmployeMaquetteAbsence in 'FrEmployeMaquetteAbsence.pas' {employeMaquetteAbsence: TFrame},
   FrAbsence in 'FrAbsence.pas' {absence: TFrame};
 >>>>>>> absence
+=======
+>>>>>>> routage
 
 {$R *.res}
 

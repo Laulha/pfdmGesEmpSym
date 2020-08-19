@@ -13,7 +13,6 @@ type
     Layout1: TLayout;
     Rectangle1: TRectangle;
     FlowLayout1: TFlowLayout;
-    ShadowEffect1: TShadowEffect;
     Layout2: TLayout;
     Layout3: TLayout;
     Layout4: TLayout;

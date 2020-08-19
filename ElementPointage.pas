@@ -19,14 +19,13 @@ type
     CBLayout1: TLayout;
     CBLayout2: TLayout;
     CheckBox1: TCheckBox;
-    CircleImage: TCircle;
-    Image1: TImage;
     Rectangle5: TRectangle;
     Label3: TLabel;
     Rectangle3: TRectangle;
     Label4: TLabel;
     Layout3: TLayout;
     Image2: TImage;
+    Image1: TImage;
   private
     { Déclarations privées }
   public

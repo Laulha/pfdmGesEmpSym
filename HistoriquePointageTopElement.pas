@@ -11,7 +11,6 @@ type
   TFrHistoriquePointageTopElement = class(TFrame)
     Layout1: TLayout;
     Rectangle2: TRectangle;
-    GridPanelLayout1: TGridPanelLayout;
     Label2: TLabel;
     Label3: TLabel;
     Label4: TLabel;
@@ -19,7 +18,6 @@ type
     Label6: TLabel;
     Label7: TLabel;
     DateEdit1: TDateEdit;
-    Line1: TLine;
   private
     { Déclarations privées }
   public

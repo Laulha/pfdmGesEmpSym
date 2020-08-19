@@ -37,6 +37,7 @@ uses
   FicheDePointageTopElement in 'FicheDePointageTopElement.pas' {FrFicheDePointageTopElement: TFrame},
   FrEmployeMaquetteB in 'FrEmployeMaquetteB.pas' {EmployeMaquetteB: TFrame},
   FrMenuBouton in 'FrMenuBouton.pas' {MenuBouton: TFrame},
+<<<<<<< HEAD
   FDPElementEmployeClick in 'FDPElementEmployeClick.pas' {FrElementEmployéClick: TFrame},
   HeaderFicheDePointage in 'HeaderFicheDePointage.pas' {FrHeaderFicheDePointage: TFrame},
   HistoriquePointage in 'HistoriquePointage.pas' {FrHistoriquePointageElement: TFrame},
@@ -48,6 +49,14 @@ uses
   FrEmployeMaquetteAbsence in 'FrEmployeMaquetteAbsence.pas' {employeMaquetteAbsence: TFrame},
   FrAbsence in 'FrAbsence.pas' {absence: TFrame},
   FrTacheMaquette in 'FrTacheMaquette.pas' {tache: TFrame};
+=======
+  FDPElementEmployeClick in 'FDPElementEmployeClick.pas' {FrElementEmployeClick: TFrame},
+  HeaderFicheDePointage in 'HeaderFicheDePointage.pas' {FrHeaderFicheDePointage: TFrame},
+  HistoriquePointage in 'HistoriquePointage.pas' {FrHistoriquePointage: TFrame},
+  FDPBodyFiltreClick in 'FDPBodyFiltreClick.pas' {FrFDPBodyFiltreClick: TFrame},
+  HistoriquePointageTopElement in 'HistoriquePointageTopElement.pas' {FrHistoriquePointageTopElement: TFrame},
+  FrHistoriquePointageConteneur in 'FrHistoriquePointageConteneur.pas' {HistoriquePointageConteneur: TFrame};
+>>>>>>> routage
 
 {$R *.res}
 

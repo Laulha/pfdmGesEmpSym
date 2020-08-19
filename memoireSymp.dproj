@@ -286,7 +286,12 @@
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="FDPElementEmployeClick.pas">
+<<<<<<< HEAD
             <Form>FrElementEmployéClick</Form>
+=======
+            <Form>FrElementEmployeClick</Form>
+            <FormType>fmx</FormType>
+>>>>>>> routage
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="HeaderFicheDePointage.pas">
@@ -294,6 +299,7 @@
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
         <DCCReference Include="HistoriquePointage.pas">
+<<<<<<< HEAD
             <Form>FrHistoriquePointageElement</Form>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
@@ -337,6 +343,19 @@
         </DCCReference>
         <DCCReference Include="FrTacheSurPprincipale.pas">
             <Form>tacheSurPprincipale</Form>
+=======
+            <Form>FrHistoriquePointage</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="HistoriquePointageTopElement.pas">
+            <Form>FrHistoriquePointageTopElement</Form>
+            <FormType>fmx</FormType>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="FrHistoriquePointageConteneur.pas">
+            <Form>HistoriquePointageConteneur</Form>
+>>>>>>> routage
             <FormType>fmx</FormType>
             <DesignClass>TFrame</DesignClass>
         </DCCReference>
