@@ -1,4 +1,4 @@
-unit Principale;
+﻿unit Principale;
 
 interface
 
@@ -65,7 +65,6 @@ type
     containeTopElement: TLayout;
     Layout2: TLayout;
     VertScrollBox1: TVertScrollBox;
-    employeTopElemnt1: TemployeTopElemnt;
     tacheSurPprincipale1: TtacheSurPprincipale;
     FrHeaderFicheDePointage1: TFrHeaderFicheDePointage;
     FrFicheDePointageTopElement1: TFrFicheDePointageTopElement;
