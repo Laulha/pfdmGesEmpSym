@@ -41,7 +41,8 @@ uses
   HeaderFicheDePointage in 'HeaderFicheDePointage.pas' {FrHeaderFicheDePointage: TFrame},
   HistoriquePointage in 'HistoriquePointage.pas' {FrHistoriquePointageElement: TFrame},
   FDPBodyFiltreClick in 'FDPBodyFiltreClick.pas' {FrFDPBodyFiltreClick: TFrame},
-  HistoriquePointageTopElement in 'HistoriquePointageTopElement.pas' {FrHistoriquePointageTopElement: TFrame};
+  HistoriquePointageTopElement in 'HistoriquePointageTopElement.pas' {FrHistoriquePointageTopElement: TFrame},
+  DataModule in 'DataModule.pas' {DataModule1: TDataModule};
 
 {$R *.res}
 
@@ -49,5 +50,6 @@ begin
   Application.Initialize;
   Application.CreateForm(TPprincipale, Pprincipale);
   Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TDataModule1, DataModule1);
   Application.Run;
 end.
